@@ -9,7 +9,7 @@ Após baixar ou clonar repositório é necessário seguir algumas para funcionam
 # Database Config
 É necessário configurar seu banco de dados MySQLi. Para isso é necessário alguns passos. <br><br>
 
-1º Download do banco de dados: [arquivos](https://drive.google.com/drive/folders/1FdcJuJtq9bdy-UQhGkjSsz6Y0E0o73DJ?usp=sharing)<br>
+1º Download do banco de dados: [arquivos](https://drive.google.com/drive/folders/1FdcJuJtq9bdy-UQhGkjSsz6Y0E0o73DJ)<br>
 2º Subir os arquivos baixados para o banco mysql local;<br>
 3º Configurar o arquivo .env com os dados do seu banco: hostname, database (nome do database com os arquivos baixados), username, password;<br>
 4º Configurar o arquivo 'app/config/Database.php' com os dados do seu banco: hostname, database (nome do database com os arquivos baixados), username, password. <br>
