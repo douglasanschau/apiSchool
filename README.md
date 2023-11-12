@@ -1,3 +1,4 @@
+
 # Instalação
 Após baixar ou clonar repositório é necessário seguir algumas para funcionamento da School API:
 
@@ -22,3 +23,8 @@ A porta deve ser a <b>http://localhost:8080</b>, para rodar nesta porta especifi
 # Configurações de Desenvolvimento
 Versão do PHP: PHP 8.2.12
 Versão do Composer:  2.6.5
+
+# APP School
+O App School é o front end desta aplicação, para poder testar todas as funcionalidades dessa API é necessário fazer download e instalação do APP.
+O link de instalação segue ao lado: https://github.com/douglasanschau/appSchool
+
