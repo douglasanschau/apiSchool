@@ -1,0 +1,1148 @@
+CRITICAL - 2023-11-10 18:01:27 --> Object of class App\Models\Users could not be converted to string
+in APPPATH/Controllers/SchoolController.php on line 13.
+ 1 SYSTEMPATH/CodeIgniter.php(942): App\Controllers\SchoolController->index()
+ 2 SYSTEMPATH/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController()
+ 3 SYSTEMPATH/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest()
+ 4 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH/Commands/Server/rewrite.php(47): require_once('/var/www/html/faculdade/Projetos/project-delta/public/index.php')
+CRITICAL - 2023-11-10 18:01:57 --> Object of class App\Models\Users could not be converted to string
+in APPPATH/Controllers/SchoolController.php on line 16.
+ 1 SYSTEMPATH/CodeIgniter.php(942): App\Controllers\SchoolController->index()
+ 2 SYSTEMPATH/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController()
+ 3 SYSTEMPATH/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest()
+ 4 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH/Commands/Server/rewrite.php(47): require_once('/var/www/html/faculdade/Projetos/project-delta/public/index.php')
+CRITICAL - 2023-11-10 18:01:59 --> Object of class App\Models\Users could not be converted to string
+in APPPATH/Controllers/SchoolController.php on line 16.
+ 1 SYSTEMPATH/CodeIgniter.php(942): App\Controllers\SchoolController->index()
+ 2 SYSTEMPATH/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController()
+ 3 SYSTEMPATH/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest()
+ 4 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH/Commands/Server/rewrite.php(47): require_once('/var/www/html/faculdade/Projetos/project-delta/public/index.php')
+ERROR - 2023-11-10 18:06:09 --> Error connecting to the database: mysqli_sql_exception: Access denied for user ''@'localhost' (using password: NO) in /var/www/html/faculdade/Projetos/project-delta/vendor/codeigniter4/framework/system/Database/MySQLi/Connection.php:184
+Stack trace:
+#0 /var/www/html/faculdade/Projetos/project-delta/vendor/codeigniter4/framework/system/Database/MySQLi/Connection.php(184): mysqli->real_connect()
+#1 /var/www/html/faculdade/Projetos/project-delta/vendor/codeigniter4/framework/system/Database/BaseConnection.php(392): CodeIgniter\Database\MySQLi\Connection->connect()
+#2 /var/www/html/faculdade/Projetos/project-delta/vendor/codeigniter4/framework/system/Database/BaseConnection.php(575): CodeIgniter\Database\BaseConnection->initialize()
+#3 /var/www/html/faculdade/Projetos/project-delta/vendor/codeigniter4/framework/system/Database/BaseBuilder.php(1615): CodeIgniter\Database\BaseConnection->query()
+#4 /var/www/html/faculdade/Projetos/project-delta/vendor/codeigniter4/framework/system/Model.php(264): CodeIgniter\Database\BaseBuilder->get()
+#5 /var/www/html/faculdade/Projetos/project-delta/vendor/codeigniter4/framework/system/BaseModel.php(662): CodeIgniter\Model->doFirst()
+#6 /var/www/html/faculdade/Projetos/project-delta/app/Models/Users.php(15): CodeIgniter\BaseModel->first()
+#7 /var/www/html/faculdade/Projetos/project-delta/app/Controllers/SchoolController.php(16): App\Models\Users->getUser()
+#8 /var/www/html/faculdade/Projetos/project-delta/vendor/codeigniter4/framework/system/CodeIgniter.php(942): App\Controllers\SchoolController->index()
+#9 /var/www/html/faculdade/Projetos/project-delta/vendor/codeigniter4/framework/system/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController()
+#10 /var/www/html/faculdade/Projetos/project-delta/vendor/codeigniter4/framework/system/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest()
+#11 /var/www/html/faculdade/Projetos/project-delta/public/index.php(79): CodeIgniter\CodeIgniter->run()
+#12 /var/www/html/faculdade/Projetos/project-delta/vendor/codeigniter4/framework/system/Commands/Server/rewrite.php(47): require_once('...')
+#13 {main}
+
+Next CodeIgniter\Database\Exceptions\DatabaseException: Access denied for user ''@'localhost' (using password: NO) in /var/www/html/faculdade/Projetos/project-delta/vendor/codeigniter4/framework/system/Database/MySQLi/Connection.php:229
+Stack trace:
+#0 /var/www/html/faculdade/Projetos/project-delta/vendor/codeigniter4/framework/system/Database/BaseConnection.php(392): CodeIgniter\Database\MySQLi\Connection->connect()
+#1 /var/www/html/faculdade/Projetos/project-delta/vendor/codeigniter4/framework/system/Database/BaseConnection.php(575): CodeIgniter\Database\BaseConnection->initialize()
+#2 /var/www/html/faculdade/Projetos/project-delta/vendor/codeigniter4/framework/system/Database/BaseBuilder.php(1615): CodeIgniter\Database\BaseConnection->query()
+#3 /var/www/html/faculdade/Projetos/project-delta/vendor/codeigniter4/framework/system/Model.php(264): CodeIgniter\Database\BaseBuilder->get()
+#4 /var/www/html/faculdade/Projetos/project-delta/vendor/codeigniter4/framework/system/BaseModel.php(662): CodeIgniter\Model->doFirst()
+#5 /var/www/html/faculdade/Projetos/project-delta/app/Models/Users.php(15): CodeIgniter\BaseModel->first()
+#6 /var/www/html/faculdade/Projetos/project-delta/app/Controllers/SchoolController.php(16): App\Models\Users->getUser()
+#7 /var/www/html/faculdade/Projetos/project-delta/vendor/codeigniter4/framework/system/CodeIgniter.php(942): App\Controllers\SchoolController->index()
+#8 /var/www/html/faculdade/Projetos/project-delta/vendor/codeigniter4/framework/system/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController()
+#9 /var/www/html/faculdade/Projetos/project-delta/vendor/codeigniter4/framework/system/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest()
+#10 /var/www/html/faculdade/Projetos/project-delta/public/index.php(79): CodeIgniter\CodeIgniter->run()
+#11 /var/www/html/faculdade/Projetos/project-delta/vendor/codeigniter4/framework/system/Commands/Server/rewrite.php(47): require_once('...')
+#12 {main}
+CRITICAL - 2023-11-10 18:06:09 --> Unable to connect to the database.
+Main connection [MySQLi]: Access denied for user ''@'localhost' (using password: NO)
+in SYSTEMPATH/Database/BaseConnection.php on line 428.
+ 1 SYSTEMPATH/Database/BaseConnection.php(575): CodeIgniter\Database\BaseConnection->initialize()
+ 2 SYSTEMPATH/Database/BaseBuilder.php(1615): CodeIgniter\Database\BaseConnection->query()
+ 3 SYSTEMPATH/Model.php(264): CodeIgniter\Database\BaseBuilder->get()
+ 4 SYSTEMPATH/BaseModel.php(662): CodeIgniter\Model->doFirst()
+ 5 APPPATH/Models/Users.php(15): CodeIgniter\BaseModel->first()
+ 6 APPPATH/Controllers/SchoolController.php(16): App\Models\Users->getUser()
+ 7 SYSTEMPATH/CodeIgniter.php(942): App\Controllers\SchoolController->index()
+ 8 SYSTEMPATH/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController()
+ 9 SYSTEMPATH/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest()
+10 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+11 SYSTEMPATH/Commands/Server/rewrite.php(47): require_once('/var/www/html/faculdade/Projetos/project-delta/public/index.php')
+ERROR - 2023-11-10 18:06:26 --> Error connecting to the database: mysqli_sql_exception: Access denied for user ''@'localhost' (using password: NO) in /var/www/html/faculdade/Projetos/project-delta/vendor/codeigniter4/framework/system/Database/MySQLi/Connection.php:184
+Stack trace:
+#0 /var/www/html/faculdade/Projetos/project-delta/vendor/codeigniter4/framework/system/Database/MySQLi/Connection.php(184): mysqli->real_connect()
+#1 /var/www/html/faculdade/Projetos/project-delta/vendor/codeigniter4/framework/system/Database/BaseConnection.php(392): CodeIgniter\Database\MySQLi\Connection->connect()
+#2 /var/www/html/faculdade/Projetos/project-delta/vendor/codeigniter4/framework/system/Database/BaseConnection.php(575): CodeIgniter\Database\BaseConnection->initialize()
+#3 /var/www/html/faculdade/Projetos/project-delta/vendor/codeigniter4/framework/system/Database/BaseBuilder.php(1615): CodeIgniter\Database\BaseConnection->query()
+#4 /var/www/html/faculdade/Projetos/project-delta/vendor/codeigniter4/framework/system/Model.php(264): CodeIgniter\Database\BaseBuilder->get()
+#5 /var/www/html/faculdade/Projetos/project-delta/vendor/codeigniter4/framework/system/BaseModel.php(662): CodeIgniter\Model->doFirst()
+#6 /var/www/html/faculdade/Projetos/project-delta/app/Models/Users.php(15): CodeIgniter\BaseModel->first()
+#7 /var/www/html/faculdade/Projetos/project-delta/app/Controllers/SchoolController.php(16): App\Models\Users->getUser()
+#8 /var/www/html/faculdade/Projetos/project-delta/vendor/codeigniter4/framework/system/CodeIgniter.php(942): App\Controllers\SchoolController->index()
+#9 /var/www/html/faculdade/Projetos/project-delta/vendor/codeigniter4/framework/system/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController()
+#10 /var/www/html/faculdade/Projetos/project-delta/vendor/codeigniter4/framework/system/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest()
+#11 /var/www/html/faculdade/Projetos/project-delta/public/index.php(79): CodeIgniter\CodeIgniter->run()
+#12 /var/www/html/faculdade/Projetos/project-delta/vendor/codeigniter4/framework/system/Commands/Server/rewrite.php(47): require_once('...')
+#13 {main}
+
+Next CodeIgniter\Database\Exceptions\DatabaseException: Access denied for user ''@'localhost' (using password: NO) in /var/www/html/faculdade/Projetos/project-delta/vendor/codeigniter4/framework/system/Database/MySQLi/Connection.php:229
+Stack trace:
+#0 /var/www/html/faculdade/Projetos/project-delta/vendor/codeigniter4/framework/system/Database/BaseConnection.php(392): CodeIgniter\Database\MySQLi\Connection->connect()
+#1 /var/www/html/faculdade/Projetos/project-delta/vendor/codeigniter4/framework/system/Database/BaseConnection.php(575): CodeIgniter\Database\BaseConnection->initialize()
+#2 /var/www/html/faculdade/Projetos/project-delta/vendor/codeigniter4/framework/system/Database/BaseBuilder.php(1615): CodeIgniter\Database\BaseConnection->query()
+#3 /var/www/html/faculdade/Projetos/project-delta/vendor/codeigniter4/framework/system/Model.php(264): CodeIgniter\Database\BaseBuilder->get()
+#4 /var/www/html/faculdade/Projetos/project-delta/vendor/codeigniter4/framework/system/BaseModel.php(662): CodeIgniter\Model->doFirst()
+#5 /var/www/html/faculdade/Projetos/project-delta/app/Models/Users.php(15): CodeIgniter\BaseModel->first()
+#6 /var/www/html/faculdade/Projetos/project-delta/app/Controllers/SchoolController.php(16): App\Models\Users->getUser()
+#7 /var/www/html/faculdade/Projetos/project-delta/vendor/codeigniter4/framework/system/CodeIgniter.php(942): App\Controllers\SchoolController->index()
+#8 /var/www/html/faculdade/Projetos/project-delta/vendor/codeigniter4/framework/system/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController()
+#9 /var/www/html/faculdade/Projetos/project-delta/vendor/codeigniter4/framework/system/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest()
+#10 /var/www/html/faculdade/Projetos/project-delta/public/index.php(79): CodeIgniter\CodeIgniter->run()
+#11 /var/www/html/faculdade/Projetos/project-delta/vendor/codeigniter4/framework/system/Commands/Server/rewrite.php(47): require_once('...')
+#12 {main}
+CRITICAL - 2023-11-10 18:06:26 --> Unable to connect to the database.
+Main connection [MySQLi]: Access denied for user ''@'localhost' (using password: NO)
+in SYSTEMPATH/Database/BaseConnection.php on line 428.
+ 1 SYSTEMPATH/Database/BaseConnection.php(575): CodeIgniter\Database\BaseConnection->initialize()
+ 2 SYSTEMPATH/Database/BaseBuilder.php(1615): CodeIgniter\Database\BaseConnection->query()
+ 3 SYSTEMPATH/Model.php(264): CodeIgniter\Database\BaseBuilder->get()
+ 4 SYSTEMPATH/BaseModel.php(662): CodeIgniter\Model->doFirst()
+ 5 APPPATH/Models/Users.php(15): CodeIgniter\BaseModel->first()
+ 6 APPPATH/Controllers/SchoolController.php(16): App\Models\Users->getUser()
+ 7 SYSTEMPATH/CodeIgniter.php(942): App\Controllers\SchoolController->index()
+ 8 SYSTEMPATH/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController()
+ 9 SYSTEMPATH/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest()
+10 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+11 SYSTEMPATH/Commands/Server/rewrite.php(47): require_once('/var/www/html/faculdade/Projetos/project-delta/public/index.php')
+ERROR - 2023-11-10 18:06:34 --> Error connecting to the database: mysqli_sql_exception: Access denied for user ''@'localhost' (using password: NO) in /var/www/html/faculdade/Projetos/project-delta/vendor/codeigniter4/framework/system/Database/MySQLi/Connection.php:184
+Stack trace:
+#0 /var/www/html/faculdade/Projetos/project-delta/vendor/codeigniter4/framework/system/Database/MySQLi/Connection.php(184): mysqli->real_connect()
+#1 /var/www/html/faculdade/Projetos/project-delta/vendor/codeigniter4/framework/system/Database/BaseConnection.php(392): CodeIgniter\Database\MySQLi\Connection->connect()
+#2 /var/www/html/faculdade/Projetos/project-delta/vendor/codeigniter4/framework/system/Database/BaseConnection.php(575): CodeIgniter\Database\BaseConnection->initialize()
+#3 /var/www/html/faculdade/Projetos/project-delta/vendor/codeigniter4/framework/system/Database/BaseBuilder.php(1615): CodeIgniter\Database\BaseConnection->query()
+#4 /var/www/html/faculdade/Projetos/project-delta/vendor/codeigniter4/framework/system/Model.php(264): CodeIgniter\Database\BaseBuilder->get()
+#5 /var/www/html/faculdade/Projetos/project-delta/vendor/codeigniter4/framework/system/BaseModel.php(662): CodeIgniter\Model->doFirst()
+#6 /var/www/html/faculdade/Projetos/project-delta/app/Models/Users.php(15): CodeIgniter\BaseModel->first()
+#7 /var/www/html/faculdade/Projetos/project-delta/app/Controllers/SchoolController.php(16): App\Models\Users->getUser()
+#8 /var/www/html/faculdade/Projetos/project-delta/vendor/codeigniter4/framework/system/CodeIgniter.php(942): App\Controllers\SchoolController->index()
+#9 /var/www/html/faculdade/Projetos/project-delta/vendor/codeigniter4/framework/system/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController()
+#10 /var/www/html/faculdade/Projetos/project-delta/vendor/codeigniter4/framework/system/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest()
+#11 /var/www/html/faculdade/Projetos/project-delta/public/index.php(79): CodeIgniter\CodeIgniter->run()
+#12 /var/www/html/faculdade/Projetos/project-delta/vendor/codeigniter4/framework/system/Commands/Server/rewrite.php(47): require_once('...')
+#13 {main}
+
+Next CodeIgniter\Database\Exceptions\DatabaseException: Access denied for user ''@'localhost' (using password: NO) in /var/www/html/faculdade/Projetos/project-delta/vendor/codeigniter4/framework/system/Database/MySQLi/Connection.php:229
+Stack trace:
+#0 /var/www/html/faculdade/Projetos/project-delta/vendor/codeigniter4/framework/system/Database/BaseConnection.php(392): CodeIgniter\Database\MySQLi\Connection->connect()
+#1 /var/www/html/faculdade/Projetos/project-delta/vendor/codeigniter4/framework/system/Database/BaseConnection.php(575): CodeIgniter\Database\BaseConnection->initialize()
+#2 /var/www/html/faculdade/Projetos/project-delta/vendor/codeigniter4/framework/system/Database/BaseBuilder.php(1615): CodeIgniter\Database\BaseConnection->query()
+#3 /var/www/html/faculdade/Projetos/project-delta/vendor/codeigniter4/framework/system/Model.php(264): CodeIgniter\Database\BaseBuilder->get()
+#4 /var/www/html/faculdade/Projetos/project-delta/vendor/codeigniter4/framework/system/BaseModel.php(662): CodeIgniter\Model->doFirst()
+#5 /var/www/html/faculdade/Projetos/project-delta/app/Models/Users.php(15): CodeIgniter\BaseModel->first()
+#6 /var/www/html/faculdade/Projetos/project-delta/app/Controllers/SchoolController.php(16): App\Models\Users->getUser()
+#7 /var/www/html/faculdade/Projetos/project-delta/vendor/codeigniter4/framework/system/CodeIgniter.php(942): App\Controllers\SchoolController->index()
+#8 /var/www/html/faculdade/Projetos/project-delta/vendor/codeigniter4/framework/system/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController()
+#9 /var/www/html/faculdade/Projetos/project-delta/vendor/codeigniter4/framework/system/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest()
+#10 /var/www/html/faculdade/Projetos/project-delta/public/index.php(79): CodeIgniter\CodeIgniter->run()
+#11 /var/www/html/faculdade/Projetos/project-delta/vendor/codeigniter4/framework/system/Commands/Server/rewrite.php(47): require_once('...')
+#12 {main}
+CRITICAL - 2023-11-10 18:06:34 --> Unable to connect to the database.
+Main connection [MySQLi]: Access denied for user ''@'localhost' (using password: NO)
+in SYSTEMPATH/Database/BaseConnection.php on line 428.
+ 1 SYSTEMPATH/Database/BaseConnection.php(575): CodeIgniter\Database\BaseConnection->initialize()
+ 2 SYSTEMPATH/Database/BaseBuilder.php(1615): CodeIgniter\Database\BaseConnection->query()
+ 3 SYSTEMPATH/Model.php(264): CodeIgniter\Database\BaseBuilder->get()
+ 4 SYSTEMPATH/BaseModel.php(662): CodeIgniter\Model->doFirst()
+ 5 APPPATH/Models/Users.php(15): CodeIgniter\BaseModel->first()
+ 6 APPPATH/Controllers/SchoolController.php(16): App\Models\Users->getUser()
+ 7 SYSTEMPATH/CodeIgniter.php(942): App\Controllers\SchoolController->index()
+ 8 SYSTEMPATH/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController()
+ 9 SYSTEMPATH/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest()
+10 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+11 SYSTEMPATH/Commands/Server/rewrite.php(47): require_once('/var/www/html/faculdade/Projetos/project-delta/public/index.php')
+ERROR - 2023-11-10 18:06:44 --> Error connecting to the database: mysqli_sql_exception: Access denied for user ''@'localhost' (using password: NO) in /var/www/html/faculdade/Projetos/project-delta/vendor/codeigniter4/framework/system/Database/MySQLi/Connection.php:184
+Stack trace:
+#0 /var/www/html/faculdade/Projetos/project-delta/vendor/codeigniter4/framework/system/Database/MySQLi/Connection.php(184): mysqli->real_connect()
+#1 /var/www/html/faculdade/Projetos/project-delta/vendor/codeigniter4/framework/system/Database/BaseConnection.php(392): CodeIgniter\Database\MySQLi\Connection->connect()
+#2 /var/www/html/faculdade/Projetos/project-delta/vendor/codeigniter4/framework/system/Database/BaseConnection.php(575): CodeIgniter\Database\BaseConnection->initialize()
+#3 /var/www/html/faculdade/Projetos/project-delta/vendor/codeigniter4/framework/system/Database/BaseBuilder.php(1615): CodeIgniter\Database\BaseConnection->query()
+#4 /var/www/html/faculdade/Projetos/project-delta/vendor/codeigniter4/framework/system/Model.php(264): CodeIgniter\Database\BaseBuilder->get()
+#5 /var/www/html/faculdade/Projetos/project-delta/vendor/codeigniter4/framework/system/BaseModel.php(662): CodeIgniter\Model->doFirst()
+#6 /var/www/html/faculdade/Projetos/project-delta/app/Models/Users.php(15): CodeIgniter\BaseModel->first()
+#7 /var/www/html/faculdade/Projetos/project-delta/app/Controllers/SchoolController.php(16): App\Models\Users->getUser()
+#8 /var/www/html/faculdade/Projetos/project-delta/vendor/codeigniter4/framework/system/CodeIgniter.php(942): App\Controllers\SchoolController->index()
+#9 /var/www/html/faculdade/Projetos/project-delta/vendor/codeigniter4/framework/system/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController()
+#10 /var/www/html/faculdade/Projetos/project-delta/vendor/codeigniter4/framework/system/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest()
+#11 /var/www/html/faculdade/Projetos/project-delta/public/index.php(79): CodeIgniter\CodeIgniter->run()
+#12 /var/www/html/faculdade/Projetos/project-delta/vendor/codeigniter4/framework/system/Commands/Server/rewrite.php(47): require_once('...')
+#13 {main}
+
+Next CodeIgniter\Database\Exceptions\DatabaseException: Access denied for user ''@'localhost' (using password: NO) in /var/www/html/faculdade/Projetos/project-delta/vendor/codeigniter4/framework/system/Database/MySQLi/Connection.php:229
+Stack trace:
+#0 /var/www/html/faculdade/Projetos/project-delta/vendor/codeigniter4/framework/system/Database/BaseConnection.php(392): CodeIgniter\Database\MySQLi\Connection->connect()
+#1 /var/www/html/faculdade/Projetos/project-delta/vendor/codeigniter4/framework/system/Database/BaseConnection.php(575): CodeIgniter\Database\BaseConnection->initialize()
+#2 /var/www/html/faculdade/Projetos/project-delta/vendor/codeigniter4/framework/system/Database/BaseBuilder.php(1615): CodeIgniter\Database\BaseConnection->query()
+#3 /var/www/html/faculdade/Projetos/project-delta/vendor/codeigniter4/framework/system/Model.php(264): CodeIgniter\Database\BaseBuilder->get()
+#4 /var/www/html/faculdade/Projetos/project-delta/vendor/codeigniter4/framework/system/BaseModel.php(662): CodeIgniter\Model->doFirst()
+#5 /var/www/html/faculdade/Projetos/project-delta/app/Models/Users.php(15): CodeIgniter\BaseModel->first()
+#6 /var/www/html/faculdade/Projetos/project-delta/app/Controllers/SchoolController.php(16): App\Models\Users->getUser()
+#7 /var/www/html/faculdade/Projetos/project-delta/vendor/codeigniter4/framework/system/CodeIgniter.php(942): App\Controllers\SchoolController->index()
+#8 /var/www/html/faculdade/Projetos/project-delta/vendor/codeigniter4/framework/system/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController()
+#9 /var/www/html/faculdade/Projetos/project-delta/vendor/codeigniter4/framework/system/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest()
+#10 /var/www/html/faculdade/Projetos/project-delta/public/index.php(79): CodeIgniter\CodeIgniter->run()
+#11 /var/www/html/faculdade/Projetos/project-delta/vendor/codeigniter4/framework/system/Commands/Server/rewrite.php(47): require_once('...')
+#12 {main}
+CRITICAL - 2023-11-10 18:06:44 --> Unable to connect to the database.
+Main connection [MySQLi]: Access denied for user ''@'localhost' (using password: NO)
+in SYSTEMPATH/Database/BaseConnection.php on line 428.
+ 1 SYSTEMPATH/Database/BaseConnection.php(575): CodeIgniter\Database\BaseConnection->initialize()
+ 2 SYSTEMPATH/Database/BaseBuilder.php(1615): CodeIgniter\Database\BaseConnection->query()
+ 3 SYSTEMPATH/Model.php(264): CodeIgniter\Database\BaseBuilder->get()
+ 4 SYSTEMPATH/BaseModel.php(662): CodeIgniter\Model->doFirst()
+ 5 APPPATH/Models/Users.php(15): CodeIgniter\BaseModel->first()
+ 6 APPPATH/Controllers/SchoolController.php(16): App\Models\Users->getUser()
+ 7 SYSTEMPATH/CodeIgniter.php(942): App\Controllers\SchoolController->index()
+ 8 SYSTEMPATH/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController()
+ 9 SYSTEMPATH/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest()
+10 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+11 SYSTEMPATH/Commands/Server/rewrite.php(47): require_once('/var/www/html/faculdade/Projetos/project-delta/public/index.php')
+ERROR - 2023-11-10 18:06:45 --> Error connecting to the database: mysqli_sql_exception: Access denied for user ''@'localhost' (using password: NO) in /var/www/html/faculdade/Projetos/project-delta/vendor/codeigniter4/framework/system/Database/MySQLi/Connection.php:184
+Stack trace:
+#0 /var/www/html/faculdade/Projetos/project-delta/vendor/codeigniter4/framework/system/Database/MySQLi/Connection.php(184): mysqli->real_connect()
+#1 /var/www/html/faculdade/Projetos/project-delta/vendor/codeigniter4/framework/system/Database/BaseConnection.php(392): CodeIgniter\Database\MySQLi\Connection->connect()
+#2 /var/www/html/faculdade/Projetos/project-delta/vendor/codeigniter4/framework/system/Database/BaseConnection.php(575): CodeIgniter\Database\BaseConnection->initialize()
+#3 /var/www/html/faculdade/Projetos/project-delta/vendor/codeigniter4/framework/system/Database/BaseBuilder.php(1615): CodeIgniter\Database\BaseConnection->query()
+#4 /var/www/html/faculdade/Projetos/project-delta/vendor/codeigniter4/framework/system/Model.php(264): CodeIgniter\Database\BaseBuilder->get()
+#5 /var/www/html/faculdade/Projetos/project-delta/vendor/codeigniter4/framework/system/BaseModel.php(662): CodeIgniter\Model->doFirst()
+#6 /var/www/html/faculdade/Projetos/project-delta/app/Models/Users.php(15): CodeIgniter\BaseModel->first()
+#7 /var/www/html/faculdade/Projetos/project-delta/app/Controllers/SchoolController.php(16): App\Models\Users->getUser()
+#8 /var/www/html/faculdade/Projetos/project-delta/vendor/codeigniter4/framework/system/CodeIgniter.php(942): App\Controllers\SchoolController->index()
+#9 /var/www/html/faculdade/Projetos/project-delta/vendor/codeigniter4/framework/system/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController()
+#10 /var/www/html/faculdade/Projetos/project-delta/vendor/codeigniter4/framework/system/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest()
+#11 /var/www/html/faculdade/Projetos/project-delta/public/index.php(79): CodeIgniter\CodeIgniter->run()
+#12 /var/www/html/faculdade/Projetos/project-delta/vendor/codeigniter4/framework/system/Commands/Server/rewrite.php(47): require_once('...')
+#13 {main}
+
+Next CodeIgniter\Database\Exceptions\DatabaseException: Access denied for user ''@'localhost' (using password: NO) in /var/www/html/faculdade/Projetos/project-delta/vendor/codeigniter4/framework/system/Database/MySQLi/Connection.php:229
+Stack trace:
+#0 /var/www/html/faculdade/Projetos/project-delta/vendor/codeigniter4/framework/system/Database/BaseConnection.php(392): CodeIgniter\Database\MySQLi\Connection->connect()
+#1 /var/www/html/faculdade/Projetos/project-delta/vendor/codeigniter4/framework/system/Database/BaseConnection.php(575): CodeIgniter\Database\BaseConnection->initialize()
+#2 /var/www/html/faculdade/Projetos/project-delta/vendor/codeigniter4/framework/system/Database/BaseBuilder.php(1615): CodeIgniter\Database\BaseConnection->query()
+#3 /var/www/html/faculdade/Projetos/project-delta/vendor/codeigniter4/framework/system/Model.php(264): CodeIgniter\Database\BaseBuilder->get()
+#4 /var/www/html/faculdade/Projetos/project-delta/vendor/codeigniter4/framework/system/BaseModel.php(662): CodeIgniter\Model->doFirst()
+#5 /var/www/html/faculdade/Projetos/project-delta/app/Models/Users.php(15): CodeIgniter\BaseModel->first()
+#6 /var/www/html/faculdade/Projetos/project-delta/app/Controllers/SchoolController.php(16): App\Models\Users->getUser()
+#7 /var/www/html/faculdade/Projetos/project-delta/vendor/codeigniter4/framework/system/CodeIgniter.php(942): App\Controllers\SchoolController->index()
+#8 /var/www/html/faculdade/Projetos/project-delta/vendor/codeigniter4/framework/system/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController()
+#9 /var/www/html/faculdade/Projetos/project-delta/vendor/codeigniter4/framework/system/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest()
+#10 /var/www/html/faculdade/Projetos/project-delta/public/index.php(79): CodeIgniter\CodeIgniter->run()
+#11 /var/www/html/faculdade/Projetos/project-delta/vendor/codeigniter4/framework/system/Commands/Server/rewrite.php(47): require_once('...')
+#12 {main}
+CRITICAL - 2023-11-10 18:06:45 --> Unable to connect to the database.
+Main connection [MySQLi]: Access denied for user ''@'localhost' (using password: NO)
+in SYSTEMPATH/Database/BaseConnection.php on line 428.
+ 1 SYSTEMPATH/Database/BaseConnection.php(575): CodeIgniter\Database\BaseConnection->initialize()
+ 2 SYSTEMPATH/Database/BaseBuilder.php(1615): CodeIgniter\Database\BaseConnection->query()
+ 3 SYSTEMPATH/Model.php(264): CodeIgniter\Database\BaseBuilder->get()
+ 4 SYSTEMPATH/BaseModel.php(662): CodeIgniter\Model->doFirst()
+ 5 APPPATH/Models/Users.php(15): CodeIgniter\BaseModel->first()
+ 6 APPPATH/Controllers/SchoolController.php(16): App\Models\Users->getUser()
+ 7 SYSTEMPATH/CodeIgniter.php(942): App\Controllers\SchoolController->index()
+ 8 SYSTEMPATH/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController()
+ 9 SYSTEMPATH/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest()
+10 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+11 SYSTEMPATH/Commands/Server/rewrite.php(47): require_once('/var/www/html/faculdade/Projetos/project-delta/public/index.php')
+ERROR - 2023-11-10 18:06:53 --> Error connecting to the database: mysqli_sql_exception: Access denied for user ''@'localhost' (using password: NO) in /var/www/html/faculdade/Projetos/project-delta/vendor/codeigniter4/framework/system/Database/MySQLi/Connection.php:184
+Stack trace:
+#0 /var/www/html/faculdade/Projetos/project-delta/vendor/codeigniter4/framework/system/Database/MySQLi/Connection.php(184): mysqli->real_connect()
+#1 /var/www/html/faculdade/Projetos/project-delta/vendor/codeigniter4/framework/system/Database/BaseConnection.php(392): CodeIgniter\Database\MySQLi\Connection->connect()
+#2 /var/www/html/faculdade/Projetos/project-delta/vendor/codeigniter4/framework/system/Database/BaseConnection.php(575): CodeIgniter\Database\BaseConnection->initialize()
+#3 /var/www/html/faculdade/Projetos/project-delta/vendor/codeigniter4/framework/system/Database/BaseBuilder.php(1615): CodeIgniter\Database\BaseConnection->query()
+#4 /var/www/html/faculdade/Projetos/project-delta/vendor/codeigniter4/framework/system/Model.php(264): CodeIgniter\Database\BaseBuilder->get()
+#5 /var/www/html/faculdade/Projetos/project-delta/vendor/codeigniter4/framework/system/BaseModel.php(662): CodeIgniter\Model->doFirst()
+#6 /var/www/html/faculdade/Projetos/project-delta/app/Models/Users.php(15): CodeIgniter\BaseModel->first()
+#7 /var/www/html/faculdade/Projetos/project-delta/app/Controllers/SchoolController.php(16): App\Models\Users->getUser()
+#8 /var/www/html/faculdade/Projetos/project-delta/vendor/codeigniter4/framework/system/CodeIgniter.php(942): App\Controllers\SchoolController->index()
+#9 /var/www/html/faculdade/Projetos/project-delta/vendor/codeigniter4/framework/system/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController()
+#10 /var/www/html/faculdade/Projetos/project-delta/vendor/codeigniter4/framework/system/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest()
+#11 /var/www/html/faculdade/Projetos/project-delta/public/index.php(79): CodeIgniter\CodeIgniter->run()
+#12 /var/www/html/faculdade/Projetos/project-delta/vendor/codeigniter4/framework/system/Commands/Server/rewrite.php(47): require_once('...')
+#13 {main}
+
+Next CodeIgniter\Database\Exceptions\DatabaseException: Access denied for user ''@'localhost' (using password: NO) in /var/www/html/faculdade/Projetos/project-delta/vendor/codeigniter4/framework/system/Database/MySQLi/Connection.php:229
+Stack trace:
+#0 /var/www/html/faculdade/Projetos/project-delta/vendor/codeigniter4/framework/system/Database/BaseConnection.php(392): CodeIgniter\Database\MySQLi\Connection->connect()
+#1 /var/www/html/faculdade/Projetos/project-delta/vendor/codeigniter4/framework/system/Database/BaseConnection.php(575): CodeIgniter\Database\BaseConnection->initialize()
+#2 /var/www/html/faculdade/Projetos/project-delta/vendor/codeigniter4/framework/system/Database/BaseBuilder.php(1615): CodeIgniter\Database\BaseConnection->query()
+#3 /var/www/html/faculdade/Projetos/project-delta/vendor/codeigniter4/framework/system/Model.php(264): CodeIgniter\Database\BaseBuilder->get()
+#4 /var/www/html/faculdade/Projetos/project-delta/vendor/codeigniter4/framework/system/BaseModel.php(662): CodeIgniter\Model->doFirst()
+#5 /var/www/html/faculdade/Projetos/project-delta/app/Models/Users.php(15): CodeIgniter\BaseModel->first()
+#6 /var/www/html/faculdade/Projetos/project-delta/app/Controllers/SchoolController.php(16): App\Models\Users->getUser()
+#7 /var/www/html/faculdade/Projetos/project-delta/vendor/codeigniter4/framework/system/CodeIgniter.php(942): App\Controllers\SchoolController->index()
+#8 /var/www/html/faculdade/Projetos/project-delta/vendor/codeigniter4/framework/system/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController()
+#9 /var/www/html/faculdade/Projetos/project-delta/vendor/codeigniter4/framework/system/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest()
+#10 /var/www/html/faculdade/Projetos/project-delta/public/index.php(79): CodeIgniter\CodeIgniter->run()
+#11 /var/www/html/faculdade/Projetos/project-delta/vendor/codeigniter4/framework/system/Commands/Server/rewrite.php(47): require_once('...')
+#12 {main}
+CRITICAL - 2023-11-10 18:06:53 --> Unable to connect to the database.
+Main connection [MySQLi]: Access denied for user ''@'localhost' (using password: NO)
+in SYSTEMPATH/Database/BaseConnection.php on line 428.
+ 1 SYSTEMPATH/Database/BaseConnection.php(575): CodeIgniter\Database\BaseConnection->initialize()
+ 2 SYSTEMPATH/Database/BaseBuilder.php(1615): CodeIgniter\Database\BaseConnection->query()
+ 3 SYSTEMPATH/Model.php(264): CodeIgniter\Database\BaseBuilder->get()
+ 4 SYSTEMPATH/BaseModel.php(662): CodeIgniter\Model->doFirst()
+ 5 APPPATH/Models/Users.php(15): CodeIgniter\BaseModel->first()
+ 6 APPPATH/Controllers/SchoolController.php(16): App\Models\Users->getUser()
+ 7 SYSTEMPATH/CodeIgniter.php(942): App\Controllers\SchoolController->index()
+ 8 SYSTEMPATH/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController()
+ 9 SYSTEMPATH/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest()
+10 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+11 SYSTEMPATH/Commands/Server/rewrite.php(47): require_once('/var/www/html/faculdade/Projetos/project-delta/public/index.php')
+ERROR - 2023-11-10 18:07:05 --> Error connecting to the database: mysqli_sql_exception: Access denied for user ''@'localhost' (using password: NO) in /var/www/html/faculdade/Projetos/project-delta/vendor/codeigniter4/framework/system/Database/MySQLi/Connection.php:184
+Stack trace:
+#0 /var/www/html/faculdade/Projetos/project-delta/vendor/codeigniter4/framework/system/Database/MySQLi/Connection.php(184): mysqli->real_connect()
+#1 /var/www/html/faculdade/Projetos/project-delta/vendor/codeigniter4/framework/system/Database/BaseConnection.php(392): CodeIgniter\Database\MySQLi\Connection->connect()
+#2 /var/www/html/faculdade/Projetos/project-delta/vendor/codeigniter4/framework/system/Database/BaseConnection.php(575): CodeIgniter\Database\BaseConnection->initialize()
+#3 /var/www/html/faculdade/Projetos/project-delta/vendor/codeigniter4/framework/system/Database/BaseBuilder.php(1615): CodeIgniter\Database\BaseConnection->query()
+#4 /var/www/html/faculdade/Projetos/project-delta/vendor/codeigniter4/framework/system/Model.php(264): CodeIgniter\Database\BaseBuilder->get()
+#5 /var/www/html/faculdade/Projetos/project-delta/vendor/codeigniter4/framework/system/BaseModel.php(662): CodeIgniter\Model->doFirst()
+#6 /var/www/html/faculdade/Projetos/project-delta/app/Models/Users.php(15): CodeIgniter\BaseModel->first()
+#7 /var/www/html/faculdade/Projetos/project-delta/app/Controllers/SchoolController.php(16): App\Models\Users->getUser()
+#8 /var/www/html/faculdade/Projetos/project-delta/vendor/codeigniter4/framework/system/CodeIgniter.php(942): App\Controllers\SchoolController->index()
+#9 /var/www/html/faculdade/Projetos/project-delta/vendor/codeigniter4/framework/system/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController()
+#10 /var/www/html/faculdade/Projetos/project-delta/vendor/codeigniter4/framework/system/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest()
+#11 /var/www/html/faculdade/Projetos/project-delta/public/index.php(79): CodeIgniter\CodeIgniter->run()
+#12 /var/www/html/faculdade/Projetos/project-delta/vendor/codeigniter4/framework/system/Commands/Server/rewrite.php(47): require_once('...')
+#13 {main}
+
+Next CodeIgniter\Database\Exceptions\DatabaseException: Access denied for user ''@'localhost' (using password: NO) in /var/www/html/faculdade/Projetos/project-delta/vendor/codeigniter4/framework/system/Database/MySQLi/Connection.php:229
+Stack trace:
+#0 /var/www/html/faculdade/Projetos/project-delta/vendor/codeigniter4/framework/system/Database/BaseConnection.php(392): CodeIgniter\Database\MySQLi\Connection->connect()
+#1 /var/www/html/faculdade/Projetos/project-delta/vendor/codeigniter4/framework/system/Database/BaseConnection.php(575): CodeIgniter\Database\BaseConnection->initialize()
+#2 /var/www/html/faculdade/Projetos/project-delta/vendor/codeigniter4/framework/system/Database/BaseBuilder.php(1615): CodeIgniter\Database\BaseConnection->query()
+#3 /var/www/html/faculdade/Projetos/project-delta/vendor/codeigniter4/framework/system/Model.php(264): CodeIgniter\Database\BaseBuilder->get()
+#4 /var/www/html/faculdade/Projetos/project-delta/vendor/codeigniter4/framework/system/BaseModel.php(662): CodeIgniter\Model->doFirst()
+#5 /var/www/html/faculdade/Projetos/project-delta/app/Models/Users.php(15): CodeIgniter\BaseModel->first()
+#6 /var/www/html/faculdade/Projetos/project-delta/app/Controllers/SchoolController.php(16): App\Models\Users->getUser()
+#7 /var/www/html/faculdade/Projetos/project-delta/vendor/codeigniter4/framework/system/CodeIgniter.php(942): App\Controllers\SchoolController->index()
+#8 /var/www/html/faculdade/Projetos/project-delta/vendor/codeigniter4/framework/system/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController()
+#9 /var/www/html/faculdade/Projetos/project-delta/vendor/codeigniter4/framework/system/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest()
+#10 /var/www/html/faculdade/Projetos/project-delta/public/index.php(79): CodeIgniter\CodeIgniter->run()
+#11 /var/www/html/faculdade/Projetos/project-delta/vendor/codeigniter4/framework/system/Commands/Server/rewrite.php(47): require_once('...')
+#12 {main}
+CRITICAL - 2023-11-10 18:07:05 --> Unable to connect to the database.
+Main connection [MySQLi]: Access denied for user ''@'localhost' (using password: NO)
+in SYSTEMPATH/Database/BaseConnection.php on line 428.
+ 1 SYSTEMPATH/Database/BaseConnection.php(575): CodeIgniter\Database\BaseConnection->initialize()
+ 2 SYSTEMPATH/Database/BaseBuilder.php(1615): CodeIgniter\Database\BaseConnection->query()
+ 3 SYSTEMPATH/Model.php(264): CodeIgniter\Database\BaseBuilder->get()
+ 4 SYSTEMPATH/BaseModel.php(662): CodeIgniter\Model->doFirst()
+ 5 APPPATH/Models/Users.php(15): CodeIgniter\BaseModel->first()
+ 6 APPPATH/Controllers/SchoolController.php(16): App\Models\Users->getUser()
+ 7 SYSTEMPATH/CodeIgniter.php(942): App\Controllers\SchoolController->index()
+ 8 SYSTEMPATH/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController()
+ 9 SYSTEMPATH/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest()
+10 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+11 SYSTEMPATH/Commands/Server/rewrite.php(47): require_once('/var/www/html/faculdade/Projetos/project-delta/public/index.php')
+ERROR - 2023-11-10 18:07:38 --> Error connecting to the database: mysqli_sql_exception: Access denied for user ''@'localhost' (using password: NO) in /var/www/html/faculdade/Projetos/project-delta/vendor/codeigniter4/framework/system/Database/MySQLi/Connection.php:184
+Stack trace:
+#0 /var/www/html/faculdade/Projetos/project-delta/vendor/codeigniter4/framework/system/Database/MySQLi/Connection.php(184): mysqli->real_connect()
+#1 /var/www/html/faculdade/Projetos/project-delta/vendor/codeigniter4/framework/system/Database/BaseConnection.php(392): CodeIgniter\Database\MySQLi\Connection->connect()
+#2 /var/www/html/faculdade/Projetos/project-delta/vendor/codeigniter4/framework/system/Database/BaseConnection.php(575): CodeIgniter\Database\BaseConnection->initialize()
+#3 /var/www/html/faculdade/Projetos/project-delta/vendor/codeigniter4/framework/system/Database/BaseBuilder.php(1615): CodeIgniter\Database\BaseConnection->query()
+#4 /var/www/html/faculdade/Projetos/project-delta/vendor/codeigniter4/framework/system/Model.php(264): CodeIgniter\Database\BaseBuilder->get()
+#5 /var/www/html/faculdade/Projetos/project-delta/vendor/codeigniter4/framework/system/BaseModel.php(662): CodeIgniter\Model->doFirst()
+#6 /var/www/html/faculdade/Projetos/project-delta/app/Models/Users.php(15): CodeIgniter\BaseModel->first()
+#7 /var/www/html/faculdade/Projetos/project-delta/app/Controllers/SchoolController.php(19): App\Models\Users->getUser()
+#8 /var/www/html/faculdade/Projetos/project-delta/vendor/codeigniter4/framework/system/CodeIgniter.php(942): App\Controllers\SchoolController->index()
+#9 /var/www/html/faculdade/Projetos/project-delta/vendor/codeigniter4/framework/system/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController()
+#10 /var/www/html/faculdade/Projetos/project-delta/vendor/codeigniter4/framework/system/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest()
+#11 /var/www/html/faculdade/Projetos/project-delta/public/index.php(79): CodeIgniter\CodeIgniter->run()
+#12 /var/www/html/faculdade/Projetos/project-delta/vendor/codeigniter4/framework/system/Commands/Server/rewrite.php(47): require_once('...')
+#13 {main}
+
+Next CodeIgniter\Database\Exceptions\DatabaseException: Access denied for user ''@'localhost' (using password: NO) in /var/www/html/faculdade/Projetos/project-delta/vendor/codeigniter4/framework/system/Database/MySQLi/Connection.php:229
+Stack trace:
+#0 /var/www/html/faculdade/Projetos/project-delta/vendor/codeigniter4/framework/system/Database/BaseConnection.php(392): CodeIgniter\Database\MySQLi\Connection->connect()
+#1 /var/www/html/faculdade/Projetos/project-delta/vendor/codeigniter4/framework/system/Database/BaseConnection.php(575): CodeIgniter\Database\BaseConnection->initialize()
+#2 /var/www/html/faculdade/Projetos/project-delta/vendor/codeigniter4/framework/system/Database/BaseBuilder.php(1615): CodeIgniter\Database\BaseConnection->query()
+#3 /var/www/html/faculdade/Projetos/project-delta/vendor/codeigniter4/framework/system/Model.php(264): CodeIgniter\Database\BaseBuilder->get()
+#4 /var/www/html/faculdade/Projetos/project-delta/vendor/codeigniter4/framework/system/BaseModel.php(662): CodeIgniter\Model->doFirst()
+#5 /var/www/html/faculdade/Projetos/project-delta/app/Models/Users.php(15): CodeIgniter\BaseModel->first()
+#6 /var/www/html/faculdade/Projetos/project-delta/app/Controllers/SchoolController.php(19): App\Models\Users->getUser()
+#7 /var/www/html/faculdade/Projetos/project-delta/vendor/codeigniter4/framework/system/CodeIgniter.php(942): App\Controllers\SchoolController->index()
+#8 /var/www/html/faculdade/Projetos/project-delta/vendor/codeigniter4/framework/system/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController()
+#9 /var/www/html/faculdade/Projetos/project-delta/vendor/codeigniter4/framework/system/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest()
+#10 /var/www/html/faculdade/Projetos/project-delta/public/index.php(79): CodeIgniter\CodeIgniter->run()
+#11 /var/www/html/faculdade/Projetos/project-delta/vendor/codeigniter4/framework/system/Commands/Server/rewrite.php(47): require_once('...')
+#12 {main}
+CRITICAL - 2023-11-10 18:07:38 --> Unable to connect to the database.
+Main connection [MySQLi]: Access denied for user ''@'localhost' (using password: NO)
+in SYSTEMPATH/Database/BaseConnection.php on line 428.
+ 1 SYSTEMPATH/Database/BaseConnection.php(575): CodeIgniter\Database\BaseConnection->initialize()
+ 2 SYSTEMPATH/Database/BaseBuilder.php(1615): CodeIgniter\Database\BaseConnection->query()
+ 3 SYSTEMPATH/Model.php(264): CodeIgniter\Database\BaseBuilder->get()
+ 4 SYSTEMPATH/BaseModel.php(662): CodeIgniter\Model->doFirst()
+ 5 APPPATH/Models/Users.php(15): CodeIgniter\BaseModel->first()
+ 6 APPPATH/Controllers/SchoolController.php(19): App\Models\Users->getUser()
+ 7 SYSTEMPATH/CodeIgniter.php(942): App\Controllers\SchoolController->index()
+ 8 SYSTEMPATH/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController()
+ 9 SYSTEMPATH/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest()
+10 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+11 SYSTEMPATH/Commands/Server/rewrite.php(47): require_once('/var/www/html/faculdade/Projetos/project-delta/public/index.php')
+ERROR - 2023-11-10 18:08:11 --> mysqli_sql_exception: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ':0:
+AND 1 = :1:
+ LIMIT 1' at line 3 in /var/www/html/faculdade/Projetos/project-delta/vendor/codeigniter4/framework/system/Database/MySQLi/Connection.php:306
+Stack trace:
+#0 /var/www/html/faculdade/Projetos/project-delta/vendor/codeigniter4/framework/system/Database/MySQLi/Connection.php(306): mysqli->query()
+#1 /var/www/html/faculdade/Projetos/project-delta/vendor/codeigniter4/framework/system/Database/BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute()
+#2 /var/www/html/faculdade/Projetos/project-delta/vendor/codeigniter4/framework/system/Database/BaseConnection.php(607): CodeIgniter\Database\BaseConnection->simpleQuery()
+#3 /var/www/html/faculdade/Projetos/project-delta/vendor/codeigniter4/framework/system/Database/BaseBuilder.php(1615): CodeIgniter\Database\BaseConnection->query()
+#4 /var/www/html/faculdade/Projetos/project-delta/vendor/codeigniter4/framework/system/Model.php(264): CodeIgniter\Database\BaseBuilder->get()
+#5 /var/www/html/faculdade/Projetos/project-delta/vendor/codeigniter4/framework/system/BaseModel.php(662): CodeIgniter\Model->doFirst()
+#6 /var/www/html/faculdade/Projetos/project-delta/app/Models/Users.php(15): CodeIgniter\BaseModel->first()
+#7 /var/www/html/faculdade/Projetos/project-delta/app/Controllers/SchoolController.php(19): App\Models\Users->getUser()
+#8 /var/www/html/faculdade/Projetos/project-delta/vendor/codeigniter4/framework/system/CodeIgniter.php(942): App\Controllers\SchoolController->index()
+#9 /var/www/html/faculdade/Projetos/project-delta/vendor/codeigniter4/framework/system/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController()
+#10 /var/www/html/faculdade/Projetos/project-delta/vendor/codeigniter4/framework/system/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest()
+#11 /var/www/html/faculdade/Projetos/project-delta/public/index.php(79): CodeIgniter\CodeIgniter->run()
+#12 /var/www/html/faculdade/Projetos/project-delta/vendor/codeigniter4/framework/system/Commands/Server/rewrite.php(47): require_once('...')
+#13 {main}
+CRITICAL - 2023-11-10 18:08:11 --> You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ':0:
+AND 1 = :1:
+ LIMIT 1' at line 3
+in SYSTEMPATH/Database/BaseConnection.php on line 647.
+ 1 SYSTEMPATH/Database/BaseBuilder.php(1615): CodeIgniter\Database\BaseConnection->query()
+ 2 SYSTEMPATH/Model.php(264): CodeIgniter\Database\BaseBuilder->get()
+ 3 SYSTEMPATH/BaseModel.php(662): CodeIgniter\Model->doFirst()
+ 4 APPPATH/Models/Users.php(15): CodeIgniter\BaseModel->first()
+ 5 APPPATH/Controllers/SchoolController.php(19): App\Models\Users->getUser()
+ 6 SYSTEMPATH/CodeIgniter.php(942): App\Controllers\SchoolController->index()
+ 7 SYSTEMPATH/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController()
+ 8 SYSTEMPATH/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest()
+ 9 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH/Commands/Server/rewrite.php(47): require_once('/var/www/html/faculdade/Projetos/project-delta/public/index.php')
+ERROR - 2023-11-10 18:08:37 --> mysqli_sql_exception: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ':0:
+AND 1 = :1:
+ LIMIT 1' at line 3 in /var/www/html/faculdade/Projetos/project-delta/vendor/codeigniter4/framework/system/Database/MySQLi/Connection.php:306
+Stack trace:
+#0 /var/www/html/faculdade/Projetos/project-delta/vendor/codeigniter4/framework/system/Database/MySQLi/Connection.php(306): mysqli->query()
+#1 /var/www/html/faculdade/Projetos/project-delta/vendor/codeigniter4/framework/system/Database/BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute()
+#2 /var/www/html/faculdade/Projetos/project-delta/vendor/codeigniter4/framework/system/Database/BaseConnection.php(607): CodeIgniter\Database\BaseConnection->simpleQuery()
+#3 /var/www/html/faculdade/Projetos/project-delta/vendor/codeigniter4/framework/system/Database/BaseBuilder.php(1615): CodeIgniter\Database\BaseConnection->query()
+#4 /var/www/html/faculdade/Projetos/project-delta/vendor/codeigniter4/framework/system/Model.php(264): CodeIgniter\Database\BaseBuilder->get()
+#5 /var/www/html/faculdade/Projetos/project-delta/vendor/codeigniter4/framework/system/BaseModel.php(662): CodeIgniter\Model->doFirst()
+#6 /var/www/html/faculdade/Projetos/project-delta/app/Models/Users.php(15): CodeIgniter\BaseModel->first()
+#7 /var/www/html/faculdade/Projetos/project-delta/app/Controllers/SchoolController.php(19): App\Models\Users->getUser()
+#8 /var/www/html/faculdade/Projetos/project-delta/vendor/codeigniter4/framework/system/CodeIgniter.php(942): App\Controllers\SchoolController->index()
+#9 /var/www/html/faculdade/Projetos/project-delta/vendor/codeigniter4/framework/system/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController()
+#10 /var/www/html/faculdade/Projetos/project-delta/vendor/codeigniter4/framework/system/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest()
+#11 /var/www/html/faculdade/Projetos/project-delta/public/index.php(79): CodeIgniter\CodeIgniter->run()
+#12 /var/www/html/faculdade/Projetos/project-delta/vendor/codeigniter4/framework/system/Commands/Server/rewrite.php(47): require_once('...')
+#13 {main}
+CRITICAL - 2023-11-10 18:08:37 --> You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ':0:
+AND 1 = :1:
+ LIMIT 1' at line 3
+in SYSTEMPATH/Database/BaseConnection.php on line 647.
+ 1 SYSTEMPATH/Database/BaseBuilder.php(1615): CodeIgniter\Database\BaseConnection->query()
+ 2 SYSTEMPATH/Model.php(264): CodeIgniter\Database\BaseBuilder->get()
+ 3 SYSTEMPATH/BaseModel.php(662): CodeIgniter\Model->doFirst()
+ 4 APPPATH/Models/Users.php(15): CodeIgniter\BaseModel->first()
+ 5 APPPATH/Controllers/SchoolController.php(19): App\Models\Users->getUser()
+ 6 SYSTEMPATH/CodeIgniter.php(942): App\Controllers\SchoolController->index()
+ 7 SYSTEMPATH/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController()
+ 8 SYSTEMPATH/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest()
+ 9 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH/Commands/Server/rewrite.php(47): require_once('/var/www/html/faculdade/Projetos/project-delta/public/index.php')
+ERROR - 2023-11-10 18:09:19 --> mysqli_sql_exception: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ':0:
+AND 1 = :1:
+ LIMIT 1' at line 3 in /var/www/html/faculdade/Projetos/project-delta/vendor/codeigniter4/framework/system/Database/MySQLi/Connection.php:306
+Stack trace:
+#0 /var/www/html/faculdade/Projetos/project-delta/vendor/codeigniter4/framework/system/Database/MySQLi/Connection.php(306): mysqli->query()
+#1 /var/www/html/faculdade/Projetos/project-delta/vendor/codeigniter4/framework/system/Database/BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute()
+#2 /var/www/html/faculdade/Projetos/project-delta/vendor/codeigniter4/framework/system/Database/BaseConnection.php(607): CodeIgniter\Database\BaseConnection->simpleQuery()
+#3 /var/www/html/faculdade/Projetos/project-delta/vendor/codeigniter4/framework/system/Database/BaseBuilder.php(1615): CodeIgniter\Database\BaseConnection->query()
+#4 /var/www/html/faculdade/Projetos/project-delta/vendor/codeigniter4/framework/system/Model.php(264): CodeIgniter\Database\BaseBuilder->get()
+#5 /var/www/html/faculdade/Projetos/project-delta/vendor/codeigniter4/framework/system/BaseModel.php(662): CodeIgniter\Model->doFirst()
+#6 /var/www/html/faculdade/Projetos/project-delta/app/Models/Users.php(15): CodeIgniter\BaseModel->first()
+#7 /var/www/html/faculdade/Projetos/project-delta/app/Controllers/SchoolController.php(19): App\Models\Users->getUser()
+#8 /var/www/html/faculdade/Projetos/project-delta/vendor/codeigniter4/framework/system/CodeIgniter.php(942): App\Controllers\SchoolController->index()
+#9 /var/www/html/faculdade/Projetos/project-delta/vendor/codeigniter4/framework/system/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController()
+#10 /var/www/html/faculdade/Projetos/project-delta/vendor/codeigniter4/framework/system/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest()
+#11 /var/www/html/faculdade/Projetos/project-delta/public/index.php(79): CodeIgniter\CodeIgniter->run()
+#12 /var/www/html/faculdade/Projetos/project-delta/vendor/codeigniter4/framework/system/Commands/Server/rewrite.php(47): require_once('...')
+#13 {main}
+CRITICAL - 2023-11-10 18:09:19 --> You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ':0:
+AND 1 = :1:
+ LIMIT 1' at line 3
+in SYSTEMPATH/Database/BaseConnection.php on line 647.
+ 1 SYSTEMPATH/Database/BaseBuilder.php(1615): CodeIgniter\Database\BaseConnection->query()
+ 2 SYSTEMPATH/Model.php(264): CodeIgniter\Database\BaseBuilder->get()
+ 3 SYSTEMPATH/BaseModel.php(662): CodeIgniter\Model->doFirst()
+ 4 APPPATH/Models/Users.php(15): CodeIgniter\BaseModel->first()
+ 5 APPPATH/Controllers/SchoolController.php(19): App\Models\Users->getUser()
+ 6 SYSTEMPATH/CodeIgniter.php(942): App\Controllers\SchoolController->index()
+ 7 SYSTEMPATH/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController()
+ 8 SYSTEMPATH/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest()
+ 9 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH/Commands/Server/rewrite.php(47): require_once('/var/www/html/faculdade/Projetos/project-delta/public/index.php')
+ERROR - 2023-11-10 18:09:25 --> mysqli_sql_exception: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ':0:
+AND 1 = :1:
+ LIMIT 1' at line 3 in /var/www/html/faculdade/Projetos/project-delta/vendor/codeigniter4/framework/system/Database/MySQLi/Connection.php:306
+Stack trace:
+#0 /var/www/html/faculdade/Projetos/project-delta/vendor/codeigniter4/framework/system/Database/MySQLi/Connection.php(306): mysqli->query()
+#1 /var/www/html/faculdade/Projetos/project-delta/vendor/codeigniter4/framework/system/Database/BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute()
+#2 /var/www/html/faculdade/Projetos/project-delta/vendor/codeigniter4/framework/system/Database/BaseConnection.php(607): CodeIgniter\Database\BaseConnection->simpleQuery()
+#3 /var/www/html/faculdade/Projetos/project-delta/vendor/codeigniter4/framework/system/Database/BaseBuilder.php(1615): CodeIgniter\Database\BaseConnection->query()
+#4 /var/www/html/faculdade/Projetos/project-delta/vendor/codeigniter4/framework/system/Model.php(264): CodeIgniter\Database\BaseBuilder->get()
+#5 /var/www/html/faculdade/Projetos/project-delta/vendor/codeigniter4/framework/system/BaseModel.php(662): CodeIgniter\Model->doFirst()
+#6 /var/www/html/faculdade/Projetos/project-delta/app/Models/Users.php(15): CodeIgniter\BaseModel->first()
+#7 /var/www/html/faculdade/Projetos/project-delta/app/Controllers/SchoolController.php(19): App\Models\Users->getUser()
+#8 /var/www/html/faculdade/Projetos/project-delta/vendor/codeigniter4/framework/system/CodeIgniter.php(942): App\Controllers\SchoolController->index()
+#9 /var/www/html/faculdade/Projetos/project-delta/vendor/codeigniter4/framework/system/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController()
+#10 /var/www/html/faculdade/Projetos/project-delta/vendor/codeigniter4/framework/system/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest()
+#11 /var/www/html/faculdade/Projetos/project-delta/public/index.php(79): CodeIgniter\CodeIgniter->run()
+#12 /var/www/html/faculdade/Projetos/project-delta/vendor/codeigniter4/framework/system/Commands/Server/rewrite.php(47): require_once('...')
+#13 {main}
+CRITICAL - 2023-11-10 18:09:25 --> You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ':0:
+AND 1 = :1:
+ LIMIT 1' at line 3
+in SYSTEMPATH/Database/BaseConnection.php on line 647.
+ 1 SYSTEMPATH/Database/BaseBuilder.php(1615): CodeIgniter\Database\BaseConnection->query()
+ 2 SYSTEMPATH/Model.php(264): CodeIgniter\Database\BaseBuilder->get()
+ 3 SYSTEMPATH/BaseModel.php(662): CodeIgniter\Model->doFirst()
+ 4 APPPATH/Models/Users.php(15): CodeIgniter\BaseModel->first()
+ 5 APPPATH/Controllers/SchoolController.php(19): App\Models\Users->getUser()
+ 6 SYSTEMPATH/CodeIgniter.php(942): App\Controllers\SchoolController->index()
+ 7 SYSTEMPATH/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController()
+ 8 SYSTEMPATH/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest()
+ 9 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH/Commands/Server/rewrite.php(47): require_once('/var/www/html/faculdade/Projetos/project-delta/public/index.php')
+ERROR - 2023-11-10 18:10:22 --> mysqli_sql_exception: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ':0:
+AND 1 = :1:
+ LIMIT 1' at line 3 in /var/www/html/faculdade/Projetos/project-delta/vendor/codeigniter4/framework/system/Database/MySQLi/Connection.php:306
+Stack trace:
+#0 /var/www/html/faculdade/Projetos/project-delta/vendor/codeigniter4/framework/system/Database/MySQLi/Connection.php(306): mysqli->query()
+#1 /var/www/html/faculdade/Projetos/project-delta/vendor/codeigniter4/framework/system/Database/BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute()
+#2 /var/www/html/faculdade/Projetos/project-delta/vendor/codeigniter4/framework/system/Database/BaseConnection.php(607): CodeIgniter\Database\BaseConnection->simpleQuery()
+#3 /var/www/html/faculdade/Projetos/project-delta/vendor/codeigniter4/framework/system/Database/BaseBuilder.php(1615): CodeIgniter\Database\BaseConnection->query()
+#4 /var/www/html/faculdade/Projetos/project-delta/vendor/codeigniter4/framework/system/Model.php(264): CodeIgniter\Database\BaseBuilder->get()
+#5 /var/www/html/faculdade/Projetos/project-delta/vendor/codeigniter4/framework/system/BaseModel.php(662): CodeIgniter\Model->doFirst()
+#6 /var/www/html/faculdade/Projetos/project-delta/app/Models/Users.php(15): CodeIgniter\BaseModel->first()
+#7 /var/www/html/faculdade/Projetos/project-delta/app/Controllers/SchoolController.php(19): App\Models\Users->getUser()
+#8 /var/www/html/faculdade/Projetos/project-delta/vendor/codeigniter4/framework/system/CodeIgniter.php(942): App\Controllers\SchoolController->index()
+#9 /var/www/html/faculdade/Projetos/project-delta/vendor/codeigniter4/framework/system/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController()
+#10 /var/www/html/faculdade/Projetos/project-delta/vendor/codeigniter4/framework/system/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest()
+#11 /var/www/html/faculdade/Projetos/project-delta/public/index.php(79): CodeIgniter\CodeIgniter->run()
+#12 /var/www/html/faculdade/Projetos/project-delta/vendor/codeigniter4/framework/system/Commands/Server/rewrite.php(47): require_once('...')
+#13 {main}
+CRITICAL - 2023-11-10 18:10:22 --> You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ':0:
+AND 1 = :1:
+ LIMIT 1' at line 3
+in SYSTEMPATH/Database/BaseConnection.php on line 647.
+ 1 SYSTEMPATH/Database/BaseBuilder.php(1615): CodeIgniter\Database\BaseConnection->query()
+ 2 SYSTEMPATH/Model.php(264): CodeIgniter\Database\BaseBuilder->get()
+ 3 SYSTEMPATH/BaseModel.php(662): CodeIgniter\Model->doFirst()
+ 4 APPPATH/Models/Users.php(15): CodeIgniter\BaseModel->first()
+ 5 APPPATH/Controllers/SchoolController.php(19): App\Models\Users->getUser()
+ 6 SYSTEMPATH/CodeIgniter.php(942): App\Controllers\SchoolController->index()
+ 7 SYSTEMPATH/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController()
+ 8 SYSTEMPATH/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest()
+ 9 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH/Commands/Server/rewrite.php(47): require_once('/var/www/html/faculdade/Projetos/project-delta/public/index.php')
+CRITICAL - 2023-11-10 18:13:22 --> json_encode(): Argument #2 ($flags) must be of type int, CodeIgniter\HTTP\IncomingRequest given
+in APPPATH/Controllers/SchoolController.php on line 26.
+ 1 APPPATH/Controllers/SchoolController.php(26): json_encode()
+ 2 SYSTEMPATH/CodeIgniter.php(942): App\Controllers\SchoolController->index()
+ 3 SYSTEMPATH/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController()
+ 4 SYSTEMPATH/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest()
+ 5 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH/Commands/Server/rewrite.php(47): require_once('/var/www/html/faculdade/Projetos/project-delta/public/index.php')
+CRITICAL - 2023-11-10 19:14:27 --> Cannot call constructor
+in APPPATH/Controllers/SchoolController.php on line 15.
+ 1 SYSTEMPATH/CodeIgniter.php(914): App\Controllers\SchoolController->__construct()
+ 2 SYSTEMPATH/CodeIgniter.php(493): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest()
+ 4 FCPATH/index.php(80): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH/Commands/Server/rewrite.php(47): require_once('/var/www/html/faculdade/Projetos/project-delta/public/index.php')
+CRITICAL - 2023-11-10 19:15:57 --> Cannot call constructor
+in APPPATH/Controllers/SchoolController.php on line 15.
+ 1 SYSTEMPATH/CodeIgniter.php(914): App\Controllers\SchoolController->__construct()
+ 2 SYSTEMPATH/CodeIgniter.php(493): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest()
+ 4 FCPATH/index.php(80): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH/Commands/Server/rewrite.php(47): require_once('/var/www/html/faculdade/Projetos/project-delta/public/index.php')
+CRITICAL - 2023-11-10 19:15:58 --> Cannot call constructor
+in APPPATH/Controllers/SchoolController.php on line 15.
+ 1 SYSTEMPATH/CodeIgniter.php(914): App\Controllers\SchoolController->__construct()
+ 2 SYSTEMPATH/CodeIgniter.php(493): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest()
+ 4 FCPATH/index.php(80): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH/Commands/Server/rewrite.php(47): require_once('/var/www/html/faculdade/Projetos/project-delta/public/index.php')
+CRITICAL - 2023-11-10 20:10:50 --> Class "Cors" not found
+in SYSTEMPATH/Filters/Filters.php on line 177.
+ 1 SYSTEMPATH/CodeIgniter.php(474): CodeIgniter\Filters\Filters->run()
+ 2 SYSTEMPATH/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest()
+ 3 FCPATH/index.php(80): CodeIgniter\CodeIgniter->run()
+ 4 SYSTEMPATH/Commands/Server/rewrite.php(47): require_once('/var/www/html/faculdade/Projetos/project-delta/public/index.php')
+CRITICAL - 2023-11-10 20:11:03 --> Class "Cors" not found
+in SYSTEMPATH/Filters/Filters.php on line 177.
+ 1 SYSTEMPATH/CodeIgniter.php(474): CodeIgniter\Filters\Filters->run()
+ 2 SYSTEMPATH/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest()
+ 3 FCPATH/index.php(80): CodeIgniter\CodeIgniter->run()
+ 4 SYSTEMPATH/Commands/Server/rewrite.php(47): require_once('/var/www/html/faculdade/Projetos/project-delta/public/index.php')
+CRITICAL - 2023-11-10 20:11:29 --> Class "Cors" not found
+in SYSTEMPATH/Filters/Filters.php on line 177.
+ 1 SYSTEMPATH/CodeIgniter.php(474): CodeIgniter\Filters\Filters->run()
+ 2 SYSTEMPATH/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest()
+ 3 FCPATH/index.php(80): CodeIgniter\CodeIgniter->run()
+ 4 SYSTEMPATH/Commands/Server/rewrite.php(47): require_once('/var/www/html/faculdade/Projetos/project-delta/public/index.php')
+CRITICAL - 2023-11-10 20:11:30 --> Class "Cors" not found
+in SYSTEMPATH/Filters/Filters.php on line 177.
+ 1 SYSTEMPATH/CodeIgniter.php(474): CodeIgniter\Filters\Filters->run()
+ 2 SYSTEMPATH/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest()
+ 3 FCPATH/index.php(80): CodeIgniter\CodeIgniter->run()
+ 4 SYSTEMPATH/Commands/Server/rewrite.php(47): require_once('/var/www/html/faculdade/Projetos/project-delta/public/index.php')
+CRITICAL - 2023-11-10 20:11:39 --> Class "Cors" not found
+in SYSTEMPATH/Filters/Filters.php on line 177.
+ 1 SYSTEMPATH/CodeIgniter.php(474): CodeIgniter\Filters\Filters->run()
+ 2 SYSTEMPATH/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest()
+ 3 FCPATH/index.php(80): CodeIgniter\CodeIgniter->run()
+ 4 SYSTEMPATH/Commands/Server/rewrite.php(47): require_once('/var/www/html/faculdade/Projetos/project-delta/public/index.php')
+CRITICAL - 2023-11-10 20:11:49 --> Class "Cors" not found
+in SYSTEMPATH/Filters/Filters.php on line 177.
+ 1 SYSTEMPATH/CodeIgniter.php(474): CodeIgniter\Filters\Filters->run()
+ 2 SYSTEMPATH/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest()
+ 3 FCPATH/index.php(80): CodeIgniter\CodeIgniter->run()
+ 4 SYSTEMPATH/Commands/Server/rewrite.php(47): require_once('/var/www/html/faculdade/Projetos/project-delta/public/index.php')
+CRITICAL - 2023-11-10 20:11:55 --> Class "Cors" not found
+in SYSTEMPATH/Filters/Filters.php on line 177.
+ 1 SYSTEMPATH/CodeIgniter.php(474): CodeIgniter\Filters\Filters->run()
+ 2 SYSTEMPATH/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest()
+ 3 FCPATH/index.php(80): CodeIgniter\CodeIgniter->run()
+ 4 SYSTEMPATH/Commands/Server/rewrite.php(47): require_once('/var/www/html/faculdade/Projetos/project-delta/public/index.php')
+CRITICAL - 2023-11-10 20:12:19 --> "cors" filter must have a matching alias defined.
+in SYSTEMPATH/Filters/Filters.php on line 580.
+ 1 SYSTEMPATH/Filters/Filters.php(580): CodeIgniter\Filters\Exceptions\FilterException::forNoAlias()
+ 2 SYSTEMPATH/Filters/Filters.php(263): CodeIgniter\Filters\Filters->processAliasesToClass()
+ 3 SYSTEMPATH/Filters/Filters.php(174): CodeIgniter\Filters\Filters->initialize()
+ 4 SYSTEMPATH/CodeIgniter.php(474): CodeIgniter\Filters\Filters->run()
+ 5 SYSTEMPATH/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest()
+ 6 FCPATH/index.php(80): CodeIgniter\CodeIgniter->run()
+ 7 SYSTEMPATH/Commands/Server/rewrite.php(47): require_once('/var/www/html/faculdade/Projetos/project-delta/public/index.php')
+CRITICAL - 2023-11-10 20:12:20 --> "cors" filter must have a matching alias defined.
+in SYSTEMPATH/Filters/Filters.php on line 580.
+ 1 SYSTEMPATH/Filters/Filters.php(580): CodeIgniter\Filters\Exceptions\FilterException::forNoAlias()
+ 2 SYSTEMPATH/Filters/Filters.php(263): CodeIgniter\Filters\Filters->processAliasesToClass()
+ 3 SYSTEMPATH/Filters/Filters.php(174): CodeIgniter\Filters\Filters->initialize()
+ 4 SYSTEMPATH/CodeIgniter.php(474): CodeIgniter\Filters\Filters->run()
+ 5 SYSTEMPATH/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest()
+ 6 FCPATH/index.php(80): CodeIgniter\CodeIgniter->run()
+ 7 SYSTEMPATH/Commands/Server/rewrite.php(47): require_once('/var/www/html/faculdade/Projetos/project-delta/public/index.php')
+CRITICAL - 2023-11-10 20:12:29 --> "cors" filter must have a matching alias defined.
+in SYSTEMPATH/Filters/Filters.php on line 580.
+ 1 SYSTEMPATH/Filters/Filters.php(580): CodeIgniter\Filters\Exceptions\FilterException::forNoAlias()
+ 2 SYSTEMPATH/Filters/Filters.php(263): CodeIgniter\Filters\Filters->processAliasesToClass()
+ 3 SYSTEMPATH/Filters/Filters.php(174): CodeIgniter\Filters\Filters->initialize()
+ 4 SYSTEMPATH/CodeIgniter.php(474): CodeIgniter\Filters\Filters->run()
+ 5 SYSTEMPATH/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest()
+ 6 FCPATH/index.php(80): CodeIgniter\CodeIgniter->run()
+ 7 SYSTEMPATH/Commands/Server/rewrite.php(47): require_once('/var/www/html/faculdade/Projetos/project-delta/public/index.php')
+CRITICAL - 2023-11-10 20:12:48 --> Class "Cors" not found
+in SYSTEMPATH/Filters/Filters.php on line 177.
+ 1 SYSTEMPATH/CodeIgniter.php(474): CodeIgniter\Filters\Filters->run()
+ 2 SYSTEMPATH/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest()
+ 3 FCPATH/index.php(80): CodeIgniter\CodeIgniter->run()
+ 4 SYSTEMPATH/Commands/Server/rewrite.php(47): require_once('/var/www/html/faculdade/Projetos/project-delta/public/index.php')
+CRITICAL - 2023-11-10 20:12:52 --> Class "Cors" not found
+in SYSTEMPATH/Filters/Filters.php on line 177.
+ 1 SYSTEMPATH/CodeIgniter.php(474): CodeIgniter\Filters\Filters->run()
+ 2 SYSTEMPATH/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest()
+ 3 FCPATH/index.php(80): CodeIgniter\CodeIgniter->run()
+ 4 SYSTEMPATH/Commands/Server/rewrite.php(47): require_once('/var/www/html/faculdade/Projetos/project-delta/public/index.php')
+CRITICAL - 2023-11-10 20:12:55 --> Class "Cors" not found
+in SYSTEMPATH/Filters/Filters.php on line 177.
+ 1 SYSTEMPATH/CodeIgniter.php(474): CodeIgniter\Filters\Filters->run()
+ 2 SYSTEMPATH/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest()
+ 3 FCPATH/index.php(80): CodeIgniter\CodeIgniter->run()
+ 4 SYSTEMPATH/Commands/Server/rewrite.php(47): require_once('/var/www/html/faculdade/Projetos/project-delta/public/index.php')
+CRITICAL - 2023-11-10 20:13:14 --> Class "Cors" not found
+in SYSTEMPATH/Filters/Filters.php on line 177.
+ 1 SYSTEMPATH/CodeIgniter.php(474): CodeIgniter\Filters\Filters->run()
+ 2 SYSTEMPATH/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest()
+ 3 FCPATH/index.php(80): CodeIgniter\CodeIgniter->run()
+ 4 SYSTEMPATH/Commands/Server/rewrite.php(47): require_once('/var/www/html/faculdade/Projetos/project-delta/public/index.php')
+CRITICAL - 2023-11-10 20:13:32 --> Class "Cors" not found
+in SYSTEMPATH/Filters/Filters.php on line 177.
+ 1 SYSTEMPATH/CodeIgniter.php(474): CodeIgniter\Filters\Filters->run()
+ 2 SYSTEMPATH/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest()
+ 3 FCPATH/index.php(80): CodeIgniter\CodeIgniter->run()
+ 4 SYSTEMPATH/Commands/Server/rewrite.php(47): require_once('/var/www/html/faculdade/Projetos/project-delta/public/index.php')
+CRITICAL - 2023-11-10 20:13:33 --> Class "Cors" not found
+in SYSTEMPATH/Filters/Filters.php on line 177.
+ 1 SYSTEMPATH/CodeIgniter.php(474): CodeIgniter\Filters\Filters->run()
+ 2 SYSTEMPATH/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest()
+ 3 FCPATH/index.php(80): CodeIgniter\CodeIgniter->run()
+ 4 SYSTEMPATH/Commands/Server/rewrite.php(47): require_once('/var/www/html/faculdade/Projetos/project-delta/public/index.php')
+CRITICAL - 2023-11-10 20:13:48 --> "cors" filter must have a matching alias defined.
+in SYSTEMPATH/Filters/Filters.php on line 580.
+ 1 SYSTEMPATH/Filters/Filters.php(580): CodeIgniter\Filters\Exceptions\FilterException::forNoAlias()
+ 2 SYSTEMPATH/Filters/Filters.php(263): CodeIgniter\Filters\Filters->processAliasesToClass()
+ 3 SYSTEMPATH/Filters/Filters.php(174): CodeIgniter\Filters\Filters->initialize()
+ 4 SYSTEMPATH/CodeIgniter.php(474): CodeIgniter\Filters\Filters->run()
+ 5 SYSTEMPATH/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest()
+ 6 FCPATH/index.php(80): CodeIgniter\CodeIgniter->run()
+ 7 SYSTEMPATH/Commands/Server/rewrite.php(47): require_once('/var/www/html/faculdade/Projetos/project-delta/public/index.php')
+CRITICAL - 2023-11-10 20:13:55 --> "cors" filter must have a matching alias defined.
+in SYSTEMPATH/Filters/Filters.php on line 580.
+ 1 SYSTEMPATH/Filters/Filters.php(580): CodeIgniter\Filters\Exceptions\FilterException::forNoAlias()
+ 2 SYSTEMPATH/Filters/Filters.php(263): CodeIgniter\Filters\Filters->processAliasesToClass()
+ 3 SYSTEMPATH/Filters/Filters.php(174): CodeIgniter\Filters\Filters->initialize()
+ 4 SYSTEMPATH/CodeIgniter.php(474): CodeIgniter\Filters\Filters->run()
+ 5 SYSTEMPATH/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest()
+ 6 FCPATH/index.php(80): CodeIgniter\CodeIgniter->run()
+ 7 SYSTEMPATH/Commands/Server/rewrite.php(47): require_once('/var/www/html/faculdade/Projetos/project-delta/public/index.php')
+CRITICAL - 2023-11-10 20:14:03 --> "cors" filter must have a matching alias defined.
+in SYSTEMPATH/Filters/Filters.php on line 580.
+ 1 SYSTEMPATH/Filters/Filters.php(580): CodeIgniter\Filters\Exceptions\FilterException::forNoAlias()
+ 2 SYSTEMPATH/Filters/Filters.php(263): CodeIgniter\Filters\Filters->processAliasesToClass()
+ 3 SYSTEMPATH/Filters/Filters.php(174): CodeIgniter\Filters\Filters->initialize()
+ 4 SYSTEMPATH/CodeIgniter.php(474): CodeIgniter\Filters\Filters->run()
+ 5 SYSTEMPATH/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest()
+ 6 FCPATH/index.php(80): CodeIgniter\CodeIgniter->run()
+ 7 SYSTEMPATH/Commands/Server/rewrite.php(47): require_once('/var/www/html/faculdade/Projetos/project-delta/public/index.php')
+CRITICAL - 2023-11-10 20:14:05 --> "cors" filter must have a matching alias defined.
+in SYSTEMPATH/Filters/Filters.php on line 580.
+ 1 SYSTEMPATH/Filters/Filters.php(580): CodeIgniter\Filters\Exceptions\FilterException::forNoAlias()
+ 2 SYSTEMPATH/Filters/Filters.php(263): CodeIgniter\Filters\Filters->processAliasesToClass()
+ 3 SYSTEMPATH/Filters/Filters.php(174): CodeIgniter\Filters\Filters->initialize()
+ 4 SYSTEMPATH/CodeIgniter.php(474): CodeIgniter\Filters\Filters->run()
+ 5 SYSTEMPATH/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest()
+ 6 FCPATH/index.php(80): CodeIgniter\CodeIgniter->run()
+ 7 SYSTEMPATH/Commands/Server/rewrite.php(47): require_once('/var/www/html/faculdade/Projetos/project-delta/public/index.php')
+CRITICAL - 2023-11-10 20:14:10 --> "cors" filter must have a matching alias defined.
+in SYSTEMPATH/Filters/Filters.php on line 580.
+ 1 SYSTEMPATH/Filters/Filters.php(580): CodeIgniter\Filters\Exceptions\FilterException::forNoAlias()
+ 2 SYSTEMPATH/Filters/Filters.php(263): CodeIgniter\Filters\Filters->processAliasesToClass()
+ 3 SYSTEMPATH/Filters/Filters.php(174): CodeIgniter\Filters\Filters->initialize()
+ 4 SYSTEMPATH/CodeIgniter.php(474): CodeIgniter\Filters\Filters->run()
+ 5 SYSTEMPATH/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest()
+ 6 FCPATH/index.php(80): CodeIgniter\CodeIgniter->run()
+ 7 SYSTEMPATH/Commands/Server/rewrite.php(47): require_once('/var/www/html/faculdade/Projetos/project-delta/public/index.php')
+CRITICAL - 2023-11-10 20:14:13 --> "cors" filter must have a matching alias defined.
+in SYSTEMPATH/Filters/Filters.php on line 580.
+ 1 SYSTEMPATH/Filters/Filters.php(580): CodeIgniter\Filters\Exceptions\FilterException::forNoAlias()
+ 2 SYSTEMPATH/Filters/Filters.php(263): CodeIgniter\Filters\Filters->processAliasesToClass()
+ 3 SYSTEMPATH/Filters/Filters.php(174): CodeIgniter\Filters\Filters->initialize()
+ 4 SYSTEMPATH/CodeIgniter.php(474): CodeIgniter\Filters\Filters->run()
+ 5 SYSTEMPATH/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest()
+ 6 FCPATH/index.php(80): CodeIgniter\CodeIgniter->run()
+ 7 SYSTEMPATH/Commands/Server/rewrite.php(47): require_once('/var/www/html/faculdade/Projetos/project-delta/public/index.php')
+CRITICAL - 2023-11-10 20:14:24 --> "cors" filter must have a matching alias defined.
+in SYSTEMPATH/Filters/Filters.php on line 580.
+ 1 SYSTEMPATH/Filters/Filters.php(580): CodeIgniter\Filters\Exceptions\FilterException::forNoAlias()
+ 2 SYSTEMPATH/Filters/Filters.php(263): CodeIgniter\Filters\Filters->processAliasesToClass()
+ 3 SYSTEMPATH/Filters/Filters.php(174): CodeIgniter\Filters\Filters->initialize()
+ 4 SYSTEMPATH/CodeIgniter.php(474): CodeIgniter\Filters\Filters->run()
+ 5 SYSTEMPATH/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest()
+ 6 FCPATH/index.php(80): CodeIgniter\CodeIgniter->run()
+ 7 SYSTEMPATH/Commands/Server/rewrite.php(47): require_once('/var/www/html/faculdade/Projetos/project-delta/public/index.php')
+CRITICAL - 2023-11-10 20:14:48 --> "cors" filter must have a matching alias defined.
+in SYSTEMPATH/Filters/Filters.php on line 580.
+ 1 SYSTEMPATH/Filters/Filters.php(580): CodeIgniter\Filters\Exceptions\FilterException::forNoAlias()
+ 2 SYSTEMPATH/Filters/Filters.php(263): CodeIgniter\Filters\Filters->processAliasesToClass()
+ 3 SYSTEMPATH/Filters/Filters.php(174): CodeIgniter\Filters\Filters->initialize()
+ 4 SYSTEMPATH/CodeIgniter.php(474): CodeIgniter\Filters\Filters->run()
+ 5 SYSTEMPATH/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest()
+ 6 FCPATH/index.php(80): CodeIgniter\CodeIgniter->run()
+ 7 SYSTEMPATH/Commands/Server/rewrite.php(47): require_once('/var/www/html/faculdade/Projetos/project-delta/public/index.php')
+CRITICAL - 2023-11-10 20:15:09 --> "cors" filter must have a matching alias defined.
+in SYSTEMPATH/Filters/Filters.php on line 580.
+ 1 SYSTEMPATH/Filters/Filters.php(580): CodeIgniter\Filters\Exceptions\FilterException::forNoAlias()
+ 2 SYSTEMPATH/Filters/Filters.php(263): CodeIgniter\Filters\Filters->processAliasesToClass()
+ 3 SYSTEMPATH/Filters/Filters.php(174): CodeIgniter\Filters\Filters->initialize()
+ 4 SYSTEMPATH/CodeIgniter.php(474): CodeIgniter\Filters\Filters->run()
+ 5 SYSTEMPATH/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest()
+ 6 FCPATH/index.php(80): CodeIgniter\CodeIgniter->run()
+ 7 SYSTEMPATH/Commands/Server/rewrite.php(47): require_once('/var/www/html/faculdade/Projetos/project-delta/public/index.php')
+CRITICAL - 2023-11-10 20:15:22 --> "cors" filter must have a matching alias defined.
+in SYSTEMPATH/Filters/Filters.php on line 580.
+ 1 SYSTEMPATH/Filters/Filters.php(580): CodeIgniter\Filters\Exceptions\FilterException::forNoAlias()
+ 2 SYSTEMPATH/Filters/Filters.php(263): CodeIgniter\Filters\Filters->processAliasesToClass()
+ 3 SYSTEMPATH/Filters/Filters.php(174): CodeIgniter\Filters\Filters->initialize()
+ 4 SYSTEMPATH/CodeIgniter.php(474): CodeIgniter\Filters\Filters->run()
+ 5 SYSTEMPATH/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest()
+ 6 FCPATH/index.php(80): CodeIgniter\CodeIgniter->run()
+ 7 SYSTEMPATH/Commands/Server/rewrite.php(47): require_once('/var/www/html/faculdade/Projetos/project-delta/public/index.php')
+CRITICAL - 2023-11-10 20:15:27 --> "cors" filter must have a matching alias defined.
+in SYSTEMPATH/Filters/Filters.php on line 580.
+ 1 SYSTEMPATH/Filters/Filters.php(580): CodeIgniter\Filters\Exceptions\FilterException::forNoAlias()
+ 2 SYSTEMPATH/Filters/Filters.php(263): CodeIgniter\Filters\Filters->processAliasesToClass()
+ 3 SYSTEMPATH/Filters/Filters.php(174): CodeIgniter\Filters\Filters->initialize()
+ 4 SYSTEMPATH/CodeIgniter.php(474): CodeIgniter\Filters\Filters->run()
+ 5 SYSTEMPATH/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest()
+ 6 FCPATH/index.php(80): CodeIgniter\CodeIgniter->run()
+ 7 SYSTEMPATH/Commands/Server/rewrite.php(47): require_once('/var/www/html/faculdade/Projetos/project-delta/public/index.php')
+CRITICAL - 2023-11-10 20:15:51 --> "cors" filter must have a matching alias defined.
+in SYSTEMPATH/Filters/Filters.php on line 580.
+ 1 SYSTEMPATH/Filters/Filters.php(580): CodeIgniter\Filters\Exceptions\FilterException::forNoAlias()
+ 2 SYSTEMPATH/Filters/Filters.php(263): CodeIgniter\Filters\Filters->processAliasesToClass()
+ 3 SYSTEMPATH/Filters/Filters.php(174): CodeIgniter\Filters\Filters->initialize()
+ 4 SYSTEMPATH/CodeIgniter.php(474): CodeIgniter\Filters\Filters->run()
+ 5 SYSTEMPATH/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest()
+ 6 FCPATH/index.php(80): CodeIgniter\CodeIgniter->run()
+ 7 SYSTEMPATH/Commands/Server/rewrite.php(47): require_once('/var/www/html/faculdade/Projetos/project-delta/public/index.php')
+CRITICAL - 2023-11-10 20:15:53 --> "cors" filter must have a matching alias defined.
+in SYSTEMPATH/Filters/Filters.php on line 580.
+ 1 SYSTEMPATH/Filters/Filters.php(580): CodeIgniter\Filters\Exceptions\FilterException::forNoAlias()
+ 2 SYSTEMPATH/Filters/Filters.php(263): CodeIgniter\Filters\Filters->processAliasesToClass()
+ 3 SYSTEMPATH/Filters/Filters.php(174): CodeIgniter\Filters\Filters->initialize()
+ 4 SYSTEMPATH/CodeIgniter.php(474): CodeIgniter\Filters\Filters->run()
+ 5 SYSTEMPATH/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest()
+ 6 FCPATH/index.php(80): CodeIgniter\CodeIgniter->run()
+ 7 SYSTEMPATH/Commands/Server/rewrite.php(47): require_once('/var/www/html/faculdade/Projetos/project-delta/public/index.php')
+CRITICAL - 2023-11-10 20:16:09 --> "cors" filter must have a matching alias defined.
+in SYSTEMPATH/Filters/Filters.php on line 580.
+ 1 SYSTEMPATH/Filters/Filters.php(580): CodeIgniter\Filters\Exceptions\FilterException::forNoAlias()
+ 2 SYSTEMPATH/Filters/Filters.php(263): CodeIgniter\Filters\Filters->processAliasesToClass()
+ 3 SYSTEMPATH/Filters/Filters.php(174): CodeIgniter\Filters\Filters->initialize()
+ 4 SYSTEMPATH/CodeIgniter.php(474): CodeIgniter\Filters\Filters->run()
+ 5 SYSTEMPATH/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest()
+ 6 FCPATH/index.php(80): CodeIgniter\CodeIgniter->run()
+ 7 SYSTEMPATH/Commands/Server/rewrite.php(47): require_once('/var/www/html/faculdade/Projetos/project-delta/public/index.php')
+CRITICAL - 2023-11-10 20:16:34 --> "cors" filter must have a matching alias defined.
+in SYSTEMPATH/Filters/Filters.php on line 580.
+ 1 SYSTEMPATH/Filters/Filters.php(580): CodeIgniter\Filters\Exceptions\FilterException::forNoAlias()
+ 2 SYSTEMPATH/Filters/Filters.php(263): CodeIgniter\Filters\Filters->processAliasesToClass()
+ 3 SYSTEMPATH/Filters/Filters.php(174): CodeIgniter\Filters\Filters->initialize()
+ 4 SYSTEMPATH/CodeIgniter.php(474): CodeIgniter\Filters\Filters->run()
+ 5 SYSTEMPATH/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest()
+ 6 FCPATH/index.php(80): CodeIgniter\CodeIgniter->run()
+ 7 SYSTEMPATH/Commands/Server/rewrite.php(47): require_once('/var/www/html/faculdade/Projetos/project-delta/public/index.php')
+CRITICAL - 2023-11-10 20:16:40 --> "cors" filter must have a matching alias defined.
+in SYSTEMPATH/Filters/Filters.php on line 580.
+ 1 SYSTEMPATH/Filters/Filters.php(580): CodeIgniter\Filters\Exceptions\FilterException::forNoAlias()
+ 2 SYSTEMPATH/Filters/Filters.php(263): CodeIgniter\Filters\Filters->processAliasesToClass()
+ 3 SYSTEMPATH/Filters/Filters.php(174): CodeIgniter\Filters\Filters->initialize()
+ 4 SYSTEMPATH/CodeIgniter.php(474): CodeIgniter\Filters\Filters->run()
+ 5 SYSTEMPATH/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest()
+ 6 FCPATH/index.php(80): CodeIgniter\CodeIgniter->run()
+ 7 SYSTEMPATH/Commands/Server/rewrite.php(47): require_once('/var/www/html/faculdade/Projetos/project-delta/public/index.php')
+CRITICAL - 2023-11-10 20:17:06 --> "cors" filter must have a matching alias defined.
+in SYSTEMPATH/Filters/Filters.php on line 580.
+ 1 SYSTEMPATH/Filters/Filters.php(580): CodeIgniter\Filters\Exceptions\FilterException::forNoAlias()
+ 2 SYSTEMPATH/Filters/Filters.php(263): CodeIgniter\Filters\Filters->processAliasesToClass()
+ 3 SYSTEMPATH/Filters/Filters.php(174): CodeIgniter\Filters\Filters->initialize()
+ 4 SYSTEMPATH/CodeIgniter.php(474): CodeIgniter\Filters\Filters->run()
+ 5 SYSTEMPATH/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest()
+ 6 FCPATH/index.php(80): CodeIgniter\CodeIgniter->run()
+ 7 SYSTEMPATH/Commands/Server/rewrite.php(47): require_once('/var/www/html/faculdade/Projetos/project-delta/public/index.php')
+CRITICAL - 2023-11-10 20:17:31 --> "cors" filter must have a matching alias defined.
+in SYSTEMPATH/Filters/Filters.php on line 580.
+ 1 SYSTEMPATH/Filters/Filters.php(580): CodeIgniter\Filters\Exceptions\FilterException::forNoAlias()
+ 2 SYSTEMPATH/Filters/Filters.php(263): CodeIgniter\Filters\Filters->processAliasesToClass()
+ 3 SYSTEMPATH/Filters/Filters.php(174): CodeIgniter\Filters\Filters->initialize()
+ 4 SYSTEMPATH/CodeIgniter.php(474): CodeIgniter\Filters\Filters->run()
+ 5 SYSTEMPATH/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest()
+ 6 FCPATH/index.php(80): CodeIgniter\CodeIgniter->run()
+ 7 SYSTEMPATH/Commands/Server/rewrite.php(47): require_once('/var/www/html/faculdade/Projetos/project-delta/public/index.php')
+CRITICAL - 2023-11-10 20:17:35 --> "cors" filter must have a matching alias defined.
+in SYSTEMPATH/Filters/Filters.php on line 580.
+ 1 SYSTEMPATH/Filters/Filters.php(580): CodeIgniter\Filters\Exceptions\FilterException::forNoAlias()
+ 2 SYSTEMPATH/Filters/Filters.php(263): CodeIgniter\Filters\Filters->processAliasesToClass()
+ 3 SYSTEMPATH/Filters/Filters.php(174): CodeIgniter\Filters\Filters->initialize()
+ 4 SYSTEMPATH/CodeIgniter.php(474): CodeIgniter\Filters\Filters->run()
+ 5 SYSTEMPATH/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest()
+ 6 FCPATH/index.php(80): CodeIgniter\CodeIgniter->run()
+ 7 SYSTEMPATH/Commands/Server/rewrite.php(47): require_once('/var/www/html/faculdade/Projetos/project-delta/public/index.php')
+CRITICAL - 2023-11-10 20:18:09 --> "cors" filter must have a matching alias defined.
+in SYSTEMPATH/Filters/Filters.php on line 580.
+ 1 SYSTEMPATH/Filters/Filters.php(580): CodeIgniter\Filters\Exceptions\FilterException::forNoAlias()
+ 2 SYSTEMPATH/Filters/Filters.php(263): CodeIgniter\Filters\Filters->processAliasesToClass()
+ 3 SYSTEMPATH/Filters/Filters.php(174): CodeIgniter\Filters\Filters->initialize()
+ 4 SYSTEMPATH/CodeIgniter.php(474): CodeIgniter\Filters\Filters->run()
+ 5 SYSTEMPATH/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest()
+ 6 FCPATH/index.php(80): CodeIgniter\CodeIgniter->run()
+ 7 SYSTEMPATH/Commands/Server/rewrite.php(47): require_once('/var/www/html/faculdade/Projetos/project-delta/public/index.php')
+CRITICAL - 2023-11-10 20:18:34 --> "cors" filter must have a matching alias defined.
+in SYSTEMPATH/Filters/Filters.php on line 580.
+ 1 SYSTEMPATH/Filters/Filters.php(580): CodeIgniter\Filters\Exceptions\FilterException::forNoAlias()
+ 2 SYSTEMPATH/Filters/Filters.php(263): CodeIgniter\Filters\Filters->processAliasesToClass()
+ 3 SYSTEMPATH/Filters/Filters.php(174): CodeIgniter\Filters\Filters->initialize()
+ 4 SYSTEMPATH/CodeIgniter.php(474): CodeIgniter\Filters\Filters->run()
+ 5 SYSTEMPATH/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest()
+ 6 FCPATH/index.php(80): CodeIgniter\CodeIgniter->run()
+ 7 SYSTEMPATH/Commands/Server/rewrite.php(47): require_once('/var/www/html/faculdade/Projetos/project-delta/public/index.php')
+CRITICAL - 2023-11-10 20:18:40 --> "cors" filter must have a matching alias defined.
+in SYSTEMPATH/Filters/Filters.php on line 580.
+ 1 SYSTEMPATH/Filters/Filters.php(580): CodeIgniter\Filters\Exceptions\FilterException::forNoAlias()
+ 2 SYSTEMPATH/Filters/Filters.php(263): CodeIgniter\Filters\Filters->processAliasesToClass()
+ 3 SYSTEMPATH/Filters/Filters.php(174): CodeIgniter\Filters\Filters->initialize()
+ 4 SYSTEMPATH/CodeIgniter.php(474): CodeIgniter\Filters\Filters->run()
+ 5 SYSTEMPATH/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest()
+ 6 FCPATH/index.php(80): CodeIgniter\CodeIgniter->run()
+ 7 SYSTEMPATH/Commands/Server/rewrite.php(47): require_once('/var/www/html/faculdade/Projetos/project-delta/public/index.php')
+CRITICAL - 2023-11-10 20:18:45 --> "cors" filter must have a matching alias defined.
+in SYSTEMPATH/Filters/Filters.php on line 580.
+ 1 SYSTEMPATH/Filters/Filters.php(580): CodeIgniter\Filters\Exceptions\FilterException::forNoAlias()
+ 2 SYSTEMPATH/Filters/Filters.php(263): CodeIgniter\Filters\Filters->processAliasesToClass()
+ 3 SYSTEMPATH/Filters/Filters.php(174): CodeIgniter\Filters\Filters->initialize()
+ 4 SYSTEMPATH/CodeIgniter.php(474): CodeIgniter\Filters\Filters->run()
+ 5 SYSTEMPATH/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest()
+ 6 FCPATH/index.php(80): CodeIgniter\CodeIgniter->run()
+ 7 SYSTEMPATH/Commands/Server/rewrite.php(47): require_once('/var/www/html/faculdade/Projetos/project-delta/public/index.php')
+CRITICAL - 2023-11-10 20:18:59 --> Class "Cors" not found
+in SYSTEMPATH/Filters/Filters.php on line 177.
+ 1 SYSTEMPATH/CodeIgniter.php(474): CodeIgniter\Filters\Filters->run()
+ 2 SYSTEMPATH/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest()
+ 3 FCPATH/index.php(80): CodeIgniter\CodeIgniter->run()
+ 4 SYSTEMPATH/Commands/Server/rewrite.php(47): require_once('/var/www/html/faculdade/Projetos/project-delta/public/index.php')
+CRITICAL - 2023-11-10 20:19:30 --> Class "Cors" not found
+in SYSTEMPATH/Filters/Filters.php on line 177.
+ 1 SYSTEMPATH/CodeIgniter.php(474): CodeIgniter\Filters\Filters->run()
+ 2 SYSTEMPATH/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest()
+ 3 FCPATH/index.php(81): CodeIgniter\CodeIgniter->run()
+ 4 SYSTEMPATH/Commands/Server/rewrite.php(47): require_once('/var/www/html/faculdade/Projetos/project-delta/public/index.php')
+CRITICAL - 2023-11-10 20:27:09 --> Undefined variable $route
+in APPPATH/Config/Routes.php on line 11.
+ 1 APPPATH/Config/Routes.php(11): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 SYSTEMPATH/Router/RouteCollection.php(777): CodeIgniter\Router\RouteCollection::{closure}()
+ 3 APPPATH/Config/Routes.php(10): CodeIgniter\Router\RouteCollection->group()
+ 4 SYSTEMPATH/Router/RouteCollection.php(344): require('/var/www/html/faculdade/Projetos/project-delta/app/Config/Routes.php')
+ 5 SYSTEMPATH/CodeIgniter.php(810): CodeIgniter\Router\RouteCollection->loadRoutes()
+ 6 SYSTEMPATH/CodeIgniter.php(450): CodeIgniter\CodeIgniter->tryToRouteIt()
+ 7 SYSTEMPATH/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest()
+ 8 FCPATH/index.php(81): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH/Commands/Server/rewrite.php(47): require_once('/var/www/html/faculdade/Projetos/project-delta/public/index.php')
+CRITICAL - 2023-11-10 20:27:27 --> Class App\Filters\Cors contains 1 abstract method and must therefore be declared abstract or implement the remaining methods (CodeIgniter\Filters\FilterInterface::after)
+in APPPATH/Filters/Cors.php on line 9.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+CRITICAL - 2023-11-10 20:28:56 --> Call to undefined method CodeIgniter\Router\RouteCollection::ṕost()
+in APPPATH/Config/Routes.php on line 11.
+ 1 SYSTEMPATH/Router/RouteCollection.php(777): CodeIgniter\Router\RouteCollection::{closure}()
+ 2 APPPATH/Config/Routes.php(10): CodeIgniter\Router\RouteCollection->group()
+ 3 SYSTEMPATH/Router/RouteCollection.php(344): require('/var/www/html/faculdade/Projetos/project-delta/app/Config/Routes.php')
+ 4 SYSTEMPATH/CodeIgniter.php(810): CodeIgniter\Router\RouteCollection->loadRoutes()
+ 5 SYSTEMPATH/CodeIgniter.php(450): CodeIgniter\CodeIgniter->tryToRouteIt()
+ 6 SYSTEMPATH/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest()
+ 7 FCPATH/index.php(81): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH/Commands/Server/rewrite.php(47): require_once('/var/www/html/faculdade/Projetos/project-delta/public/index.php')
+CRITICAL - 2023-11-10 21:12:41 --> App\Models\Users::getUser(): Argument #1 ($email) must be of type string, null given, called in /var/www/html/faculdade/Projetos/project-delta/app/Controllers/Login.php on line 24
+in APPPATH/Models/Users.php on line 13.
+ 1 APPPATH/Controllers/Login.php(24): App\Models\Users->getUser()
+ 2 SYSTEMPATH/CodeIgniter.php(942): App\Controllers\Login->index()
+ 3 SYSTEMPATH/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController()
+ 4 SYSTEMPATH/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest()
+ 5 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH/Commands/Server/rewrite.php(47): require_once('/var/www/html/faculdade/Projetos/project-delta/public/index.php')
+CRITICAL - 2023-11-10 21:12:57 --> App\Models\Users::getUser(): Argument #1 ($email) must be of type string, null given, called in /var/www/html/faculdade/Projetos/project-delta/app/Controllers/Login.php on line 24
+in APPPATH/Models/Users.php on line 13.
+ 1 APPPATH/Controllers/Login.php(24): App\Models\Users->getUser()
+ 2 SYSTEMPATH/CodeIgniter.php(942): App\Controllers\Login->index()
+ 3 SYSTEMPATH/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController()
+ 4 SYSTEMPATH/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest()
+ 5 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH/Commands/Server/rewrite.php(47): require_once('/var/www/html/faculdade/Projetos/project-delta/public/index.php')
+CRITICAL - 2023-11-10 21:13:37 --> App\Models\Users::getUser(): Argument #1 ($email) must be of type string, null given, called in /var/www/html/faculdade/Projetos/project-delta/app/Controllers/Login.php on line 24
+in APPPATH/Models/Users.php on line 13.
+ 1 APPPATH/Controllers/Login.php(24): App\Models\Users->getUser()
+ 2 SYSTEMPATH/CodeIgniter.php(942): App\Controllers\Login->index()
+ 3 SYSTEMPATH/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController()
+ 4 SYSTEMPATH/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest()
+ 5 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH/Commands/Server/rewrite.php(47): require_once('/var/www/html/faculdade/Projetos/project-delta/public/index.php')
+CRITICAL - 2023-11-10 21:13:48 --> App\Models\Users::getUser(): Argument #1 ($email) must be of type string, null given, called in /var/www/html/faculdade/Projetos/project-delta/app/Controllers/Login.php on line 24
+in APPPATH/Models/Users.php on line 13.
+ 1 APPPATH/Controllers/Login.php(24): App\Models\Users->getUser()
+ 2 SYSTEMPATH/CodeIgniter.php(942): App\Controllers\Login->index()
+ 3 SYSTEMPATH/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController()
+ 4 SYSTEMPATH/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest()
+ 5 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH/Commands/Server/rewrite.php(47): require_once('/var/www/html/faculdade/Projetos/project-delta/public/index.php')
+CRITICAL - 2023-11-10 21:14:11 --> Undefined variable $user
+in APPPATH/Controllers/Login.php on line 23.
+ 1 APPPATH/Controllers/Login.php(23): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 SYSTEMPATH/CodeIgniter.php(942): App\Controllers\Login->index()
+ 3 SYSTEMPATH/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController()
+ 4 SYSTEMPATH/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest()
+ 5 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH/Commands/Server/rewrite.php(47): require_once('/var/www/html/faculdade/Projetos/project-delta/public/index.php')
+CRITICAL - 2023-11-10 21:14:21 --> json_encode(): Argument #2 ($flags) must be of type int, string given
+in APPPATH/Controllers/Login.php on line 23.
+ 1 APPPATH/Controllers/Login.php(23): json_encode()
+ 2 SYSTEMPATH/CodeIgniter.php(942): App\Controllers\Login->index()
+ 3 SYSTEMPATH/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController()
+ 4 SYSTEMPATH/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest()
+ 5 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH/Commands/Server/rewrite.php(47): require_once('/var/www/html/faculdade/Projetos/project-delta/public/index.php')
+CRITICAL - 2023-11-10 21:14:22 --> json_encode(): Argument #2 ($flags) must be of type int, string given
+in APPPATH/Controllers/Login.php on line 23.
+ 1 APPPATH/Controllers/Login.php(23): json_encode()
+ 2 SYSTEMPATH/CodeIgniter.php(942): App\Controllers\Login->index()
+ 3 SYSTEMPATH/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController()
+ 4 SYSTEMPATH/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest()
+ 5 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH/Commands/Server/rewrite.php(47): require_once('/var/www/html/faculdade/Projetos/project-delta/public/index.php')
+CRITICAL - 2023-11-10 21:15:31 --> App\Models\Users::getUser(): Argument #1 ($email) must be of type string, null given, called in /var/www/html/faculdade/Projetos/project-delta/app/Controllers/Login.php on line 25
+in APPPATH/Models/Users.php on line 13.
+ 1 APPPATH/Controllers/Login.php(25): App\Models\Users->getUser()
+ 2 SYSTEMPATH/CodeIgniter.php(942): App\Controllers\Login->index()
+ 3 SYSTEMPATH/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController()
+ 4 SYSTEMPATH/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest()
+ 5 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH/Commands/Server/rewrite.php(47): require_once('/var/www/html/faculdade/Projetos/project-delta/public/index.php')
+CRITICAL - 2023-11-10 21:16:05 --> App\Models\Users::getUser(): Argument #1 ($email) must be of type string, null given, called in /var/www/html/faculdade/Projetos/project-delta/app/Controllers/Login.php on line 25
+in APPPATH/Models/Users.php on line 13.
+ 1 APPPATH/Controllers/Login.php(25): App\Models\Users->getUser()
+ 2 SYSTEMPATH/CodeIgniter.php(942): App\Controllers\Login->index()
+ 3 SYSTEMPATH/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController()
+ 4 SYSTEMPATH/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest()
+ 5 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH/Commands/Server/rewrite.php(47): require_once('/var/www/html/faculdade/Projetos/project-delta/public/index.php')
+CRITICAL - 2023-11-10 21:16:06 --> App\Models\Users::getUser(): Argument #1 ($email) must be of type string, null given, called in /var/www/html/faculdade/Projetos/project-delta/app/Controllers/Login.php on line 25
+in APPPATH/Models/Users.php on line 13.
+ 1 APPPATH/Controllers/Login.php(25): App\Models\Users->getUser()
+ 2 SYSTEMPATH/CodeIgniter.php(942): App\Controllers\Login->index()
+ 3 SYSTEMPATH/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController()
+ 4 SYSTEMPATH/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest()
+ 5 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH/Commands/Server/rewrite.php(47): require_once('/var/www/html/faculdade/Projetos/project-delta/public/index.php')
+CRITICAL - 2023-11-10 21:16:37 --> App\Models\Users::getUser(): Argument #1 ($email) must be of type string, null given, called in /var/www/html/faculdade/Projetos/project-delta/app/Controllers/Login.php on line 26
+in APPPATH/Models/Users.php on line 13.
+ 1 APPPATH/Controllers/Login.php(26): App\Models\Users->getUser()
+ 2 SYSTEMPATH/CodeIgniter.php(942): App\Controllers\Login->index()
+ 3 SYSTEMPATH/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController()
+ 4 SYSTEMPATH/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest()
+ 5 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH/Commands/Server/rewrite.php(47): require_once('/var/www/html/faculdade/Projetos/project-delta/public/index.php')
+CRITICAL - 2023-11-10 21:16:53 --> json_encode(): Argument #2 ($flags) must be of type int, string given
+in APPPATH/Controllers/Login.php on line 25.
+ 1 APPPATH/Controllers/Login.php(25): json_encode()
+ 2 SYSTEMPATH/CodeIgniter.php(942): App\Controllers\Login->index()
+ 3 SYSTEMPATH/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController()
+ 4 SYSTEMPATH/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest()
+ 5 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH/Commands/Server/rewrite.php(47): require_once('/var/www/html/faculdade/Projetos/project-delta/public/index.php')
+CRITICAL - 2023-11-10 21:16:55 --> json_encode(): Argument #2 ($flags) must be of type int, string given
+in APPPATH/Controllers/Login.php on line 25.
+ 1 APPPATH/Controllers/Login.php(25): json_encode()
+ 2 SYSTEMPATH/CodeIgniter.php(942): App\Controllers\Login->index()
+ 3 SYSTEMPATH/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController()
+ 4 SYSTEMPATH/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest()
+ 5 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH/Commands/Server/rewrite.php(47): require_once('/var/www/html/faculdade/Projetos/project-delta/public/index.php')
+CRITICAL - 2023-11-10 21:17:51 --> App\Models\Users::getUser(): Argument #2 ($password) must be of type string, null given, called in /var/www/html/faculdade/Projetos/project-delta/app/Controllers/Login.php on line 25
+in APPPATH/Models/Users.php on line 13.
+ 1 APPPATH/Controllers/Login.php(25): App\Models\Users->getUser()
+ 2 SYSTEMPATH/CodeIgniter.php(942): App\Controllers\Login->index()
+ 3 SYSTEMPATH/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController()
+ 4 SYSTEMPATH/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest()
+ 5 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH/Commands/Server/rewrite.php(47): require_once('/var/www/html/faculdade/Projetos/project-delta/public/index.php')
+CRITICAL - 2023-11-10 21:18:09 --> App\Models\Users::getUser(): Return value must be of type object, null returned
+in APPPATH/Models/Users.php on line 15.
+ 1 APPPATH/Controllers/Login.php(25): App\Models\Users->getUser()
+ 2 SYSTEMPATH/CodeIgniter.php(942): App\Controllers\Login->index()
+ 3 SYSTEMPATH/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController()
+ 4 SYSTEMPATH/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest()
+ 5 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH/Commands/Server/rewrite.php(47): require_once('/var/www/html/faculdade/Projetos/project-delta/public/index.php')
+CRITICAL - 2023-11-10 21:18:24 --> json_encode(): Argument #2 ($flags) must be of type int, string given
+in APPPATH/Controllers/Login.php on line 25.
+ 1 APPPATH/Controllers/Login.php(25): json_encode()
+ 2 SYSTEMPATH/CodeIgniter.php(942): App\Controllers\Login->index()
+ 3 SYSTEMPATH/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController()
+ 4 SYSTEMPATH/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest()
+ 5 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH/Commands/Server/rewrite.php(47): require_once('/var/www/html/faculdade/Projetos/project-delta/public/index.php')
+CRITICAL - 2023-11-10 21:29:13 --> Too few arguments to function App\Controllers\Login::__construct(), 0 passed in /var/www/html/faculdade/Projetos/project-delta/vendor/codeigniter4/framework/system/CodeIgniter.php on line 914 and exactly 1 expected
+in APPPATH/Controllers/Login.php on line 14.
+ 1 SYSTEMPATH/CodeIgniter.php(914): App\Controllers\Login->__construct()
+ 2 SYSTEMPATH/CodeIgniter.php(493): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest()
+ 4 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH/Commands/Server/rewrite.php(47): require_once('/var/www/html/faculdade/Projetos/project-delta/public/index.php')
+CRITICAL - 2023-11-10 21:29:30 --> Too few arguments to function App\Controllers\Login::__construct(), 0 passed in /var/www/html/faculdade/Projetos/project-delta/vendor/codeigniter4/framework/system/CodeIgniter.php on line 914 and exactly 1 expected
+in APPPATH/Controllers/Login.php on line 14.
+ 1 SYSTEMPATH/CodeIgniter.php(914): App\Controllers\Login->__construct()
+ 2 SYSTEMPATH/CodeIgniter.php(493): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest()
+ 4 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH/Commands/Server/rewrite.php(47): require_once('/var/www/html/faculdade/Projetos/project-delta/public/index.php')
+CRITICAL - 2023-11-10 21:35:25 --> Undefined property: CodeIgniter\HTTP\IncomingRequest::$email
+in APPPATH/Controllers/Login.php on line 27.
+ 1 APPPATH/Controllers/Login.php(27): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 SYSTEMPATH/CodeIgniter.php(942): App\Controllers\Login->index()
+ 3 SYSTEMPATH/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController()
+ 4 SYSTEMPATH/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest()
+ 5 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH/Commands/Server/rewrite.php(47): require_once('/var/www/html/faculdade/Projetos/project-delta/public/index.php')
+CRITICAL - 2023-11-10 21:44:30 --> App\Models\Users::getUser(): Return value must be of type object, null returned
+in APPPATH/Models/Users.php on line 15.
+ 1 APPPATH/Controllers/Login.php(32): App\Models\Users->getUser()
+ 2 SYSTEMPATH/CodeIgniter.php(942): App\Controllers\Login->index()
+ 3 SYSTEMPATH/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController()
+ 4 SYSTEMPATH/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest()
+ 5 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH/Commands/Server/rewrite.php(47): require_once('/var/www/html/faculdade/Projetos/project-delta/public/index.php')
+CRITICAL - 2023-11-10 21:44:51 --> App\Models\Users::getUser(): Return value must be of type object, null returned
+in APPPATH/Models/Users.php on line 15.
+ 1 APPPATH/Controllers/Login.php(32): App\Models\Users->getUser()
+ 2 SYSTEMPATH/CodeIgniter.php(942): App\Controllers\Login->index()
+ 3 SYSTEMPATH/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController()
+ 4 SYSTEMPATH/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest()
+ 5 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH/Commands/Server/rewrite.php(47): require_once('/var/www/html/faculdade/Projetos/project-delta/public/index.php')
+CRITICAL - 2023-11-10 21:45:17 --> App\Models\Users::getUser(): Return value must be of type object, null returned
+in APPPATH/Models/Users.php on line 15.
+ 1 APPPATH/Controllers/Login.php(32): App\Models\Users->getUser()
+ 2 SYSTEMPATH/CodeIgniter.php(942): App\Controllers\Login->index()
+ 3 SYSTEMPATH/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController()
+ 4 SYSTEMPATH/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest()
+ 5 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH/Commands/Server/rewrite.php(47): require_once('/var/www/html/faculdade/Projetos/project-delta/public/index.php')
+CRITICAL - 2023-11-10 21:54:18 --> App\Models\Users::getUser(): Return value must be of type object, null returned
+in APPPATH/Models/Users.php on line 15.
+ 1 APPPATH/Controllers/Login.php(32): App\Models\Users->getUser()
+ 2 SYSTEMPATH/CodeIgniter.php(942): App\Controllers\Login->index()
+ 3 SYSTEMPATH/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController()
+ 4 SYSTEMPATH/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest()
+ 5 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH/Commands/Server/rewrite.php(47): require_once('/var/www/html/faculdade/Projetos/project-delta/public/index.php')
+CRITICAL - 2023-11-10 21:58:12 --> App\Models\Users::getUser(): Return value must be of type object, null returned
+in APPPATH/Models/Users.php on line 15.
+ 1 APPPATH/Controllers/Login.php(34): App\Models\Users->getUser()
+ 2 SYSTEMPATH/CodeIgniter.php(942): App\Controllers\Login->index()
+ 3 SYSTEMPATH/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController()
+ 4 SYSTEMPATH/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest()
+ 5 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH/Commands/Server/rewrite.php(47): require_once('/var/www/html/faculdade/Projetos/project-delta/public/index.php')
+CRITICAL - 2023-11-10 21:58:57 --> App\Models\Users::getUser(): Return value must be of type object, null returned
+in APPPATH/Models/Users.php on line 15.
+ 1 APPPATH/Controllers/Login.php(34): App\Models\Users->getUser()
+ 2 SYSTEMPATH/CodeIgniter.php(942): App\Controllers\Login->index()
+ 3 SYSTEMPATH/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController()
+ 4 SYSTEMPATH/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest()
+ 5 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH/Commands/Server/rewrite.php(47): require_once('/var/www/html/faculdade/Projetos/project-delta/public/index.php')
+CRITICAL - 2023-11-10 21:59:54 --> App\Models\Users::getUser(): Return value must be of type object, null returned
+in APPPATH/Models/Users.php on line 15.
+ 1 APPPATH/Controllers/Login.php(34): App\Models\Users->getUser()
+ 2 SYSTEMPATH/CodeIgniter.php(942): App\Controllers\Login->index()
+ 3 SYSTEMPATH/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController()
+ 4 SYSTEMPATH/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest()
+ 5 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH/Commands/Server/rewrite.php(47): require_once('/var/www/html/faculdade/Projetos/project-delta/public/index.php')
+CRITICAL - 2023-11-10 22:00:50 --> App\Models\Users::getUser(): Return value must be of type object, null returned
+in APPPATH/Models/Users.php on line 15.
+ 1 APPPATH/Controllers/Login.php(34): App\Models\Users->getUser()
+ 2 SYSTEMPATH/CodeIgniter.php(942): App\Controllers\Login->index()
+ 3 SYSTEMPATH/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController()
+ 4 SYSTEMPATH/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest()
+ 5 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH/Commands/Server/rewrite.php(47): require_once('/var/www/html/faculdade/Projetos/project-delta/public/index.php')
+CRITICAL - 2023-11-10 22:01:30 --> App\Models\Users::getUser(): Return value must be of type object, null returned
+in APPPATH/Models/Users.php on line 15.
+ 1 APPPATH/Controllers/Login.php(34): App\Models\Users->getUser()
+ 2 SYSTEMPATH/CodeIgniter.php(942): App\Controllers\Login->index()
+ 3 SYSTEMPATH/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController()
+ 4 SYSTEMPATH/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest()
+ 5 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH/Commands/Server/rewrite.php(47): require_once('/var/www/html/faculdade/Projetos/project-delta/public/index.php')

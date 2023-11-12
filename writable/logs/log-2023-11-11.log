@@ -1,0 +1,550 @@
+CRITICAL - 2023-11-11 11:48:10 --> "api/*" filter must have a matching alias defined.
+in SYSTEMPATH/Filters/Filters.php on line 580.
+ 1 SYSTEMPATH/Filters/Filters.php(580): CodeIgniter\Filters\Exceptions\FilterException::forNoAlias()
+ 2 SYSTEMPATH/Filters/Filters.php(263): CodeIgniter\Filters\Filters->processAliasesToClass()
+ 3 SYSTEMPATH/Filters/Filters.php(174): CodeIgniter\Filters\Filters->initialize()
+ 4 SYSTEMPATH/CodeIgniter.php(474): CodeIgniter\Filters\Filters->run()
+ 5 SYSTEMPATH/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest()
+ 6 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+ 7 SYSTEMPATH/Commands/Server/rewrite.php(47): require_once('/var/www/html/faculdade/Projetos/project-delta/public/index.php')
+CRITICAL - 2023-11-11 11:48:22 --> "api/*" filter must have a matching alias defined.
+in SYSTEMPATH/Filters/Filters.php on line 580.
+ 1 SYSTEMPATH/Filters/Filters.php(580): CodeIgniter\Filters\Exceptions\FilterException::forNoAlias()
+ 2 SYSTEMPATH/Filters/Filters.php(263): CodeIgniter\Filters\Filters->processAliasesToClass()
+ 3 SYSTEMPATH/Filters/Filters.php(174): CodeIgniter\Filters\Filters->initialize()
+ 4 SYSTEMPATH/CodeIgniter.php(474): CodeIgniter\Filters\Filters->run()
+ 5 SYSTEMPATH/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest()
+ 6 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+ 7 SYSTEMPATH/Commands/Server/rewrite.php(47): require_once('/var/www/html/faculdade/Projetos/project-delta/public/index.php')
+CRITICAL - 2023-11-11 11:48:22 --> "api/*" filter must have a matching alias defined.
+in SYSTEMPATH/Filters/Filters.php on line 580.
+ 1 SYSTEMPATH/Filters/Filters.php(580): CodeIgniter\Filters\Exceptions\FilterException::forNoAlias()
+ 2 SYSTEMPATH/Filters/Filters.php(263): CodeIgniter\Filters\Filters->processAliasesToClass()
+ 3 SYSTEMPATH/Filters/Filters.php(174): CodeIgniter\Filters\Filters->initialize()
+ 4 SYSTEMPATH/CodeIgniter.php(474): CodeIgniter\Filters\Filters->run()
+ 5 SYSTEMPATH/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest()
+ 6 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+ 7 SYSTEMPATH/Commands/Server/rewrite.php(47): require_once('/var/www/html/faculdade/Projetos/project-delta/public/index.php')
+CRITICAL - 2023-11-11 11:48:42 --> "api/*" filter must have a matching alias defined.
+in SYSTEMPATH/Filters/Filters.php on line 580.
+ 1 SYSTEMPATH/Filters/Filters.php(580): CodeIgniter\Filters\Exceptions\FilterException::forNoAlias()
+ 2 SYSTEMPATH/Filters/Filters.php(263): CodeIgniter\Filters\Filters->processAliasesToClass()
+ 3 SYSTEMPATH/Filters/Filters.php(174): CodeIgniter\Filters\Filters->initialize()
+ 4 SYSTEMPATH/CodeIgniter.php(474): CodeIgniter\Filters\Filters->run()
+ 5 SYSTEMPATH/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest()
+ 6 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+ 7 SYSTEMPATH/Commands/Server/rewrite.php(47): require_once('/var/www/html/faculdade/Projetos/project-delta/public/index.php')
+CRITICAL - 2023-11-11 11:48:55 --> "api/*" filter must have a matching alias defined.
+in SYSTEMPATH/Filters/Filters.php on line 580.
+ 1 SYSTEMPATH/Filters/Filters.php(580): CodeIgniter\Filters\Exceptions\FilterException::forNoAlias()
+ 2 SYSTEMPATH/Filters/Filters.php(263): CodeIgniter\Filters\Filters->processAliasesToClass()
+ 3 SYSTEMPATH/Filters/Filters.php(174): CodeIgniter\Filters\Filters->initialize()
+ 4 SYSTEMPATH/CodeIgniter.php(474): CodeIgniter\Filters\Filters->run()
+ 5 SYSTEMPATH/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest()
+ 6 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+ 7 SYSTEMPATH/Commands/Server/rewrite.php(47): require_once('/var/www/html/faculdade/Projetos/project-delta/public/index.php')
+CRITICAL - 2023-11-11 11:49:39 --> "api/*" filter must have a matching alias defined.
+in SYSTEMPATH/Filters/Filters.php on line 580.
+ 1 SYSTEMPATH/Filters/Filters.php(580): CodeIgniter\Filters\Exceptions\FilterException::forNoAlias()
+ 2 SYSTEMPATH/Filters/Filters.php(263): CodeIgniter\Filters\Filters->processAliasesToClass()
+ 3 SYSTEMPATH/Filters/Filters.php(174): CodeIgniter\Filters\Filters->initialize()
+ 4 SYSTEMPATH/CodeIgniter.php(474): CodeIgniter\Filters\Filters->run()
+ 5 SYSTEMPATH/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest()
+ 6 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+ 7 SYSTEMPATH/Commands/Server/rewrite.php(47): require_once('/var/www/html/faculdade/Projetos/project-delta/public/index.php')
+CRITICAL - 2023-11-11 12:10:41 --> Too few arguments to function CodeIgniter\Router\RouteCollection::post(), 1 passed in /var/www/html/faculdade/Projetos/project-delta/app/Config/Routes.php on line 13 and at least 2 expected
+in SYSTEMPATH/Router/RouteCollection.php on line 1028.
+ 1 APPPATH/Config/Routes.php(13): CodeIgniter\Router\RouteCollection->post()
+ 2 SYSTEMPATH/Router/RouteCollection.php(777): CodeIgniter\Router\RouteCollection::{closure}()
+ 3 APPPATH/Config/Routes.php(12): CodeIgniter\Router\RouteCollection->group()
+ 4 SYSTEMPATH/Router/RouteCollection.php(344): require('/var/www/html/faculdade/Projetos/project-delta/app/Config/Routes.php')
+ 5 SYSTEMPATH/CodeIgniter.php(810): CodeIgniter\Router\RouteCollection->loadRoutes()
+ 6 SYSTEMPATH/CodeIgniter.php(450): CodeIgniter\CodeIgniter->tryToRouteIt()
+ 7 SYSTEMPATH/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest()
+ 8 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH/Commands/Server/rewrite.php(47): require_once('/var/www/html/faculdade/Projetos/project-delta/public/index.php')
+CRITICAL - 2023-11-11 12:29:22 --> Undefined variable $user
+in APPPATH/Controllers/Logout.php on line 22.
+ 1 APPPATH/Controllers/Logout.php(22): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 SYSTEMPATH/CodeIgniter.php(942): App\Controllers\Logout->index()
+ 3 SYSTEMPATH/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController()
+ 4 SYSTEMPATH/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest()
+ 5 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH/Commands/Server/rewrite.php(47): require_once('/var/www/html/faculdade/Projetos/project-delta/public/index.php')
+CRITICAL - 2023-11-11 12:29:41 --> Undefined variable $user
+in APPPATH/Controllers/Logout.php on line 22.
+ 1 APPPATH/Controllers/Logout.php(22): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 SYSTEMPATH/CodeIgniter.php(942): App\Controllers\Logout->index()
+ 3 SYSTEMPATH/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController()
+ 4 SYSTEMPATH/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest()
+ 5 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH/Commands/Server/rewrite.php(47): require_once('/var/www/html/faculdade/Projetos/project-delta/public/index.php')
+CRITICAL - 2023-11-11 12:29:53 --> Unclosed '[' does not match ')'
+in APPPATH/Controllers/Logout.php on line 23.
+ 1 SYSTEMPATH/Autoloader/Autoloader.php(291): CodeIgniter\Autoloader\Autoloader->includeFile()
+ 2 SYSTEMPATH/Autoloader/Autoloader.php(269): CodeIgniter\Autoloader\Autoloader->loadInNamespace()
+ 3 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass()
+ 4 SYSTEMPATH/CodeIgniter.php(900): class_exists()
+ 5 SYSTEMPATH/CodeIgniter.php(489): CodeIgniter\CodeIgniter->startController()
+ 6 SYSTEMPATH/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest()
+ 7 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH/Commands/Server/rewrite.php(47): require_once('/var/www/html/faculdade/Projetos/project-delta/public/index.php')
+CRITICAL - 2023-11-11 12:29:59 --> Undefined variable $user
+in APPPATH/Controllers/Logout.php on line 22.
+ 1 APPPATH/Controllers/Logout.php(22): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 SYSTEMPATH/CodeIgniter.php(942): App\Controllers\Logout->index()
+ 3 SYSTEMPATH/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController()
+ 4 SYSTEMPATH/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest()
+ 5 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH/Commands/Server/rewrite.php(47): require_once('/var/www/html/faculdade/Projetos/project-delta/public/index.php')
+CRITICAL - 2023-11-11 12:34:41 --> User not found.
+in APPPATH/Controllers/Logout.php on line 33.
+ 1 SYSTEMPATH/CodeIgniter.php(942): App\Controllers\Logout->index()
+ 2 SYSTEMPATH/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController()
+ 3 SYSTEMPATH/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest()
+ 4 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH/Commands/Server/rewrite.php(47): require_once('/var/www/html/faculdade/Projetos/project-delta/public/index.php')
+CRITICAL - 2023-11-11 12:51:28 --> Non-static method CodeIgniter\BaseModel::findAll() cannot be called statically
+in APPPATH/Controllers/Students.php on line 18.
+ 1 SYSTEMPATH/CodeIgniter.php(942): App\Controllers\Students->index()
+ 2 SYSTEMPATH/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController()
+ 3 SYSTEMPATH/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest()
+ 4 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH/Commands/Server/rewrite.php(47): require_once('/var/www/html/faculdade/Projetos/project-delta/public/index.php')
+CRITICAL - 2023-11-11 12:52:13 --> Non-static method CodeIgniter\BaseModel::findAll() cannot be called statically
+in APPPATH/Controllers/Students.php on line 18.
+ 1 SYSTEMPATH/CodeIgniter.php(942): App\Controllers\Students->index()
+ 2 SYSTEMPATH/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController()
+ 3 SYSTEMPATH/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest()
+ 4 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH/Commands/Server/rewrite.php(47): require_once('/var/www/html/faculdade/Projetos/project-delta/public/index.php')
+ERROR - 2023-11-11 13:15:31 --> mysqli_sql_exception: Unknown column 'CASE WHEN hogwarts_house = "H" THEN "Hufflepuff" WHEN hogwarts_house = "R" THEN "Ravenclaw" WHEN hogwarts_house = "S" THEN "Slytherin" ELSE "Gryffindor" END' in 'field list' in /var/www/html/faculdade/Projetos/project-delta/vendor/codeigniter4/framework/system/Database/MySQLi/Connection.php:306
+Stack trace:
+#0 /var/www/html/faculdade/Projetos/project-delta/vendor/codeigniter4/framework/system/Database/MySQLi/Connection.php(306): mysqli->query()
+#1 /var/www/html/faculdade/Projetos/project-delta/vendor/codeigniter4/framework/system/Database/BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute()
+#2 /var/www/html/faculdade/Projetos/project-delta/vendor/codeigniter4/framework/system/Database/BaseConnection.php(607): CodeIgniter\Database\BaseConnection->simpleQuery()
+#3 /var/www/html/faculdade/Projetos/project-delta/vendor/codeigniter4/framework/system/Database/BaseBuilder.php(1615): CodeIgniter\Database\BaseConnection->query()
+#4 /var/www/html/faculdade/Projetos/project-delta/vendor/codeigniter4/framework/system/Model.php(237): CodeIgniter\Database\BaseBuilder->get()
+#5 /var/www/html/faculdade/Projetos/project-delta/vendor/codeigniter4/framework/system/BaseModel.php(624): CodeIgniter\Model->doFindAll()
+#6 /var/www/html/faculdade/Projetos/project-delta/app/Controllers/Students.php(27): CodeIgniter\BaseModel->findAll()
+#7 /var/www/html/faculdade/Projetos/project-delta/vendor/codeigniter4/framework/system/CodeIgniter.php(942): App\Controllers\Students->index()
+#8 /var/www/html/faculdade/Projetos/project-delta/vendor/codeigniter4/framework/system/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController()
+#9 /var/www/html/faculdade/Projetos/project-delta/vendor/codeigniter4/framework/system/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest()
+#10 /var/www/html/faculdade/Projetos/project-delta/public/index.php(79): CodeIgniter\CodeIgniter->run()
+#11 /var/www/html/faculdade/Projetos/project-delta/vendor/codeigniter4/framework/system/Commands/Server/rewrite.php(47): require_once('...')
+#12 {main}
+CRITICAL - 2023-11-11 13:15:31 --> Unknown column 'CASE WHEN hogwarts_house = "H" THEN "Hufflepuff" WHEN hogwarts_house = "R" THEN "Ravenclaw" WHEN hogwarts_house = "S" THEN "Slytherin" ELSE "Gryffindor" END' in 'field list'
+in SYSTEMPATH/Database/BaseConnection.php on line 647.
+ 1 SYSTEMPATH/Database/BaseBuilder.php(1615): CodeIgniter\Database\BaseConnection->query()
+ 2 SYSTEMPATH/Model.php(237): CodeIgniter\Database\BaseBuilder->get()
+ 3 SYSTEMPATH/BaseModel.php(624): CodeIgniter\Model->doFindAll()
+ 4 APPPATH/Controllers/Students.php(27): CodeIgniter\BaseModel->findAll()
+ 5 SYSTEMPATH/CodeIgniter.php(942): App\Controllers\Students->index()
+ 6 SYSTEMPATH/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController()
+ 7 SYSTEMPATH/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest()
+ 8 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH/Commands/Server/rewrite.php(47): require_once('/var/www/html/faculdade/Projetos/project-delta/public/index.php')
+ERROR - 2023-11-11 13:15:31 --> mysqli_sql_exception: Unknown column 'CASE WHEN hogwarts_house = "H" THEN "Hufflepuff" WHEN hogwarts_house = "R" THEN "Ravenclaw" WHEN hogwarts_house = "S" THEN "Slytherin" ELSE "Gryffindor" END' in 'field list' in /var/www/html/faculdade/Projetos/project-delta/vendor/codeigniter4/framework/system/Database/MySQLi/Connection.php:306
+Stack trace:
+#0 /var/www/html/faculdade/Projetos/project-delta/vendor/codeigniter4/framework/system/Database/MySQLi/Connection.php(306): mysqli->query()
+#1 /var/www/html/faculdade/Projetos/project-delta/vendor/codeigniter4/framework/system/Database/BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute()
+#2 /var/www/html/faculdade/Projetos/project-delta/vendor/codeigniter4/framework/system/Database/BaseConnection.php(607): CodeIgniter\Database\BaseConnection->simpleQuery()
+#3 /var/www/html/faculdade/Projetos/project-delta/vendor/codeigniter4/framework/system/Database/BaseBuilder.php(1615): CodeIgniter\Database\BaseConnection->query()
+#4 /var/www/html/faculdade/Projetos/project-delta/vendor/codeigniter4/framework/system/Model.php(237): CodeIgniter\Database\BaseBuilder->get()
+#5 /var/www/html/faculdade/Projetos/project-delta/vendor/codeigniter4/framework/system/BaseModel.php(624): CodeIgniter\Model->doFindAll()
+#6 /var/www/html/faculdade/Projetos/project-delta/app/Controllers/Students.php(27): CodeIgniter\BaseModel->findAll()
+#7 /var/www/html/faculdade/Projetos/project-delta/vendor/codeigniter4/framework/system/CodeIgniter.php(942): App\Controllers\Students->index()
+#8 /var/www/html/faculdade/Projetos/project-delta/vendor/codeigniter4/framework/system/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController()
+#9 /var/www/html/faculdade/Projetos/project-delta/vendor/codeigniter4/framework/system/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest()
+#10 /var/www/html/faculdade/Projetos/project-delta/public/index.php(79): CodeIgniter\CodeIgniter->run()
+#11 /var/www/html/faculdade/Projetos/project-delta/vendor/codeigniter4/framework/system/Commands/Server/rewrite.php(47): require_once('...')
+#12 {main}
+CRITICAL - 2023-11-11 13:15:31 --> Unknown column 'CASE WHEN hogwarts_house = "H" THEN "Hufflepuff" WHEN hogwarts_house = "R" THEN "Ravenclaw" WHEN hogwarts_house = "S" THEN "Slytherin" ELSE "Gryffindor" END' in 'field list'
+in SYSTEMPATH/Database/BaseConnection.php on line 647.
+ 1 SYSTEMPATH/Database/BaseBuilder.php(1615): CodeIgniter\Database\BaseConnection->query()
+ 2 SYSTEMPATH/Model.php(237): CodeIgniter\Database\BaseBuilder->get()
+ 3 SYSTEMPATH/BaseModel.php(624): CodeIgniter\Model->doFindAll()
+ 4 APPPATH/Controllers/Students.php(27): CodeIgniter\BaseModel->findAll()
+ 5 SYSTEMPATH/CodeIgniter.php(942): App\Controllers\Students->index()
+ 6 SYSTEMPATH/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController()
+ 7 SYSTEMPATH/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest()
+ 8 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH/Commands/Server/rewrite.php(47): require_once('/var/www/html/faculdade/Projetos/project-delta/public/index.php')
+ERROR - 2023-11-11 13:15:38 --> mysqli_sql_exception: Unknown column 'CASE WHEN hogwarts_house = "H" THEN "Hufflepuff" WHEN hogwarts_house = "R" THEN "Ravenclaw" WHEN hogwarts_house = "S" THEN "Slytherin" ELSE "Gryffindor" END' in 'field list' in /var/www/html/faculdade/Projetos/project-delta/vendor/codeigniter4/framework/system/Database/MySQLi/Connection.php:306
+Stack trace:
+#0 /var/www/html/faculdade/Projetos/project-delta/vendor/codeigniter4/framework/system/Database/MySQLi/Connection.php(306): mysqli->query()
+#1 /var/www/html/faculdade/Projetos/project-delta/vendor/codeigniter4/framework/system/Database/BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute()
+#2 /var/www/html/faculdade/Projetos/project-delta/vendor/codeigniter4/framework/system/Database/BaseConnection.php(607): CodeIgniter\Database\BaseConnection->simpleQuery()
+#3 /var/www/html/faculdade/Projetos/project-delta/vendor/codeigniter4/framework/system/Database/BaseBuilder.php(1615): CodeIgniter\Database\BaseConnection->query()
+#4 /var/www/html/faculdade/Projetos/project-delta/vendor/codeigniter4/framework/system/Model.php(237): CodeIgniter\Database\BaseBuilder->get()
+#5 /var/www/html/faculdade/Projetos/project-delta/vendor/codeigniter4/framework/system/BaseModel.php(624): CodeIgniter\Model->doFindAll()
+#6 /var/www/html/faculdade/Projetos/project-delta/app/Controllers/Students.php(27): CodeIgniter\BaseModel->findAll()
+#7 /var/www/html/faculdade/Projetos/project-delta/vendor/codeigniter4/framework/system/CodeIgniter.php(942): App\Controllers\Students->index()
+#8 /var/www/html/faculdade/Projetos/project-delta/vendor/codeigniter4/framework/system/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController()
+#9 /var/www/html/faculdade/Projetos/project-delta/vendor/codeigniter4/framework/system/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest()
+#10 /var/www/html/faculdade/Projetos/project-delta/public/index.php(79): CodeIgniter\CodeIgniter->run()
+#11 /var/www/html/faculdade/Projetos/project-delta/vendor/codeigniter4/framework/system/Commands/Server/rewrite.php(47): require_once('...')
+#12 {main}
+CRITICAL - 2023-11-11 13:15:38 --> Unknown column 'CASE WHEN hogwarts_house = "H" THEN "Hufflepuff" WHEN hogwarts_house = "R" THEN "Ravenclaw" WHEN hogwarts_house = "S" THEN "Slytherin" ELSE "Gryffindor" END' in 'field list'
+in SYSTEMPATH/Database/BaseConnection.php on line 647.
+ 1 SYSTEMPATH/Database/BaseBuilder.php(1615): CodeIgniter\Database\BaseConnection->query()
+ 2 SYSTEMPATH/Model.php(237): CodeIgniter\Database\BaseBuilder->get()
+ 3 SYSTEMPATH/BaseModel.php(624): CodeIgniter\Model->doFindAll()
+ 4 APPPATH/Controllers/Students.php(27): CodeIgniter\BaseModel->findAll()
+ 5 SYSTEMPATH/CodeIgniter.php(942): App\Controllers\Students->index()
+ 6 SYSTEMPATH/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController()
+ 7 SYSTEMPATH/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest()
+ 8 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH/Commands/Server/rewrite.php(47): require_once('/var/www/html/faculdade/Projetos/project-delta/public/index.php')
+CRITICAL - 2023-11-11 13:31:45 --> Undefined variable $request
+in APPPATH/Controllers/Students.php on line 37.
+ 1 APPPATH/Controllers/Students.php(37): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 SYSTEMPATH/CodeIgniter.php(942): App\Controllers\Students->create()
+ 3 SYSTEMPATH/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController()
+ 4 SYSTEMPATH/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest()
+ 5 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH/Commands/Server/rewrite.php(47): require_once('/var/www/html/faculdade/Projetos/project-delta/public/index.php')
+CRITICAL - 2023-11-11 13:32:36 --> Undefined variable $request
+in APPPATH/Controllers/Students.php on line 38.
+ 1 APPPATH/Controllers/Students.php(38): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 SYSTEMPATH/CodeIgniter.php(942): App\Controllers\Students->create()
+ 3 SYSTEMPATH/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController()
+ 4 SYSTEMPATH/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest()
+ 5 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH/Commands/Server/rewrite.php(47): require_once('/var/www/html/faculdade/Projetos/project-delta/public/index.php')
+CRITICAL - 2023-11-11 13:37:48 --> Call to undefined method CodeIgniter\Validation\Validation::errors()
+in APPPATH/Controllers/Students.php on line 51.
+ 1 SYSTEMPATH/CodeIgniter.php(942): App\Controllers\Students->create()
+ 2 SYSTEMPATH/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController()
+ 3 SYSTEMPATH/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest()
+ 4 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH/Commands/Server/rewrite.php(47): require_once('/var/www/html/faculdade/Projetos/project-delta/public/index.php')
+CRITICAL - 2023-11-11 13:38:23 --> Call to undefined function App\Controllers\getErrors()
+in APPPATH/Controllers/Students.php on line 51.
+ 1 SYSTEMPATH/CodeIgniter.php(942): App\Controllers\Students->create()
+ 2 SYSTEMPATH/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController()
+ 3 SYSTEMPATH/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest()
+ 4 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH/Commands/Server/rewrite.php(47): require_once('/var/www/html/faculdade/Projetos/project-delta/public/index.php')
+CRITICAL - 2023-11-11 13:38:41 --> Call to a member function first() on array
+in APPPATH/Controllers/Students.php on line 51.
+ 1 SYSTEMPATH/CodeIgniter.php(942): App\Controllers\Students->create()
+ 2 SYSTEMPATH/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController()
+ 3 SYSTEMPATH/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest()
+ 4 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH/Commands/Server/rewrite.php(47): require_once('/var/www/html/faculdade/Projetos/project-delta/public/index.php')
+CRITICAL - 2023-11-11 13:43:49 --> Call to undefined method CodeIgniter\Validation\Validation::error_array()
+in APPPATH/Controllers/Students.php on line 51.
+ 1 SYSTEMPATH/CodeIgniter.php(942): App\Controllers\Students->create()
+ 2 SYSTEMPATH/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController()
+ 3 SYSTEMPATH/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest()
+ 4 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH/Commands/Server/rewrite.php(47): require_once('/var/www/html/faculdade/Projetos/project-delta/public/index.php')
+CRITICAL - 2023-11-11 13:44:29 --> Call to undefined function App\Controllers\validation_errors()
+in APPPATH/Controllers/Students.php on line 51.
+ 1 SYSTEMPATH/CodeIgniter.php(942): App\Controllers\Students->create()
+ 2 SYSTEMPATH/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController()
+ 3 SYSTEMPATH/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest()
+ 4 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH/Commands/Server/rewrite.php(47): require_once('/var/www/html/faculdade/Projetos/project-delta/public/index.php')
+CRITICAL - 2023-11-11 13:57:09 --> Attempt to read property "email" on array
+in APPPATH/Controllers/Students.php on line 53.
+ 1 APPPATH/Controllers/Students.php(53): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 SYSTEMPATH/CodeIgniter.php(942): App\Controllers\Students->create()
+ 3 SYSTEMPATH/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController()
+ 4 SYSTEMPATH/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest()
+ 5 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH/Commands/Server/rewrite.php(47): require_once('/var/www/html/faculdade/Projetos/project-delta/public/index.php')
+CRITICAL - 2023-11-11 13:57:39 --> Attempt to read property "email" on array
+in APPPATH/Controllers/Students.php on line 51.
+ 1 APPPATH/Controllers/Students.php(51): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 SYSTEMPATH/CodeIgniter.php(942): App\Controllers\Students->create()
+ 3 SYSTEMPATH/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController()
+ 4 SYSTEMPATH/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest()
+ 5 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH/Commands/Server/rewrite.php(47): require_once('/var/www/html/faculdade/Projetos/project-delta/public/index.php')
+CRITICAL - 2023-11-11 14:46:46 --> Declaration of App\Controllers\Students::delete($id) must be compatible with CodeIgniter\RESTful\ResourceController::delete($id = null)
+in APPPATH/Controllers/Students.php on line 71.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+CRITICAL - 2023-11-11 14:46:46 --> Declaration of App\Controllers\Students::delete($id) must be compatible with CodeIgniter\RESTful\ResourceController::delete($id = null)
+in APPPATH/Controllers/Students.php on line 71.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+CRITICAL - 2023-11-11 14:53:43 --> Undefined variable $email
+in APPPATH/Models/Student.php on line 24.
+ 1 APPPATH/Models/Student.php(24): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 APPPATH/Controllers/Students.php(75): App\Models\Student->getStudentById()
+ 3 SYSTEMPATH/CodeIgniter.php(942): App\Controllers\Students->delete()
+ 4 SYSTEMPATH/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController()
+ 5 SYSTEMPATH/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest()
+ 6 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+ 7 SYSTEMPATH/Commands/Server/rewrite.php(47): require_once('/var/www/html/faculdade/Projetos/project-delta/public/index.php')
+CRITICAL - 2023-11-11 15:00:49 --> Call to undefined method App\Entities\StudentEntity::delete()
+in APPPATH/Controllers/Students.php on line 81.
+ 1 SYSTEMPATH/CodeIgniter.php(942): App\Controllers\Students->delete()
+ 2 SYSTEMPATH/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController()
+ 3 SYSTEMPATH/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest()
+ 4 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH/Commands/Server/rewrite.php(47): require_once('/var/www/html/faculdade/Projetos/project-delta/public/index.php')
+CRITICAL - 2023-11-11 15:02:22 --> Call to a member function delete() on array
+in APPPATH/Controllers/Students.php on line 81.
+ 1 SYSTEMPATH/CodeIgniter.php(942): App\Controllers\Students->delete()
+ 2 SYSTEMPATH/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController()
+ 3 SYSTEMPATH/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest()
+ 4 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH/Commands/Server/rewrite.php(47): require_once('/var/www/html/faculdade/Projetos/project-delta/public/index.php')
+CRITICAL - 2023-11-11 22:16:58 --> Undefined variable $studentModelmodel
+in APPPATH/Controllers/Students.php on line 76.
+ 1 APPPATH/Controllers/Students.php(76): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 SYSTEMPATH/CodeIgniter.php(942): App\Controllers\Students->show()
+ 3 SYSTEMPATH/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController()
+ 4 SYSTEMPATH/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest()
+ 5 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH/Commands/Server/rewrite.php(47): require_once('/var/www/html/faculdade/Projetos/project-delta/public/index.php')
+CRITICAL - 2023-11-11 22:16:58 --> Undefined variable $studentModelmodel
+in APPPATH/Controllers/Students.php on line 76.
+ 1 APPPATH/Controllers/Students.php(76): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 SYSTEMPATH/CodeIgniter.php(942): App\Controllers\Students->show()
+ 3 SYSTEMPATH/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController()
+ 4 SYSTEMPATH/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest()
+ 5 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH/Commands/Server/rewrite.php(47): require_once('/var/www/html/faculdade/Projetos/project-delta/public/index.php')
+ERROR - 2023-11-11 22:18:54 --> mysqli_sql_exception: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '.`id_student`)
+WHERE `students`.`id` = '12'
+ LIMIT 1' at line 3 in /var/www/html/faculdade/Projetos/project-delta/vendor/codeigniter4/framework/system/Database/MySQLi/Connection.php:306
+Stack trace:
+#0 /var/www/html/faculdade/Projetos/project-delta/vendor/codeigniter4/framework/system/Database/MySQLi/Connection.php(306): mysqli->query()
+#1 /var/www/html/faculdade/Projetos/project-delta/vendor/codeigniter4/framework/system/Database/BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute()
+#2 /var/www/html/faculdade/Projetos/project-delta/vendor/codeigniter4/framework/system/Database/BaseConnection.php(607): CodeIgniter\Database\BaseConnection->simpleQuery()
+#3 /var/www/html/faculdade/Projetos/project-delta/vendor/codeigniter4/framework/system/Database/BaseBuilder.php(1615): CodeIgniter\Database\BaseConnection->query()
+#4 /var/www/html/faculdade/Projetos/project-delta/vendor/codeigniter4/framework/system/Model.php(264): CodeIgniter\Database\BaseBuilder->get()
+#5 /var/www/html/faculdade/Projetos/project-delta/vendor/codeigniter4/framework/system/BaseModel.php(662): CodeIgniter\Model->doFirst()
+#6 /var/www/html/faculdade/Projetos/project-delta/app/Controllers/Students.php(80): CodeIgniter\BaseModel->first()
+#7 /var/www/html/faculdade/Projetos/project-delta/vendor/codeigniter4/framework/system/CodeIgniter.php(942): App\Controllers\Students->show()
+#8 /var/www/html/faculdade/Projetos/project-delta/vendor/codeigniter4/framework/system/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController()
+#9 /var/www/html/faculdade/Projetos/project-delta/vendor/codeigniter4/framework/system/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest()
+#10 /var/www/html/faculdade/Projetos/project-delta/public/index.php(79): CodeIgniter\CodeIgniter->run()
+#11 /var/www/html/faculdade/Projetos/project-delta/vendor/codeigniter4/framework/system/Commands/Server/rewrite.php(47): require_once('...')
+#12 {main}
+CRITICAL - 2023-11-11 22:18:54 --> You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '.`id_student`)
+WHERE `students`.`id` = '12'
+ LIMIT 1' at line 3
+in SYSTEMPATH/Database/BaseConnection.php on line 647.
+ 1 SYSTEMPATH/Database/BaseBuilder.php(1615): CodeIgniter\Database\BaseConnection->query()
+ 2 SYSTEMPATH/Model.php(264): CodeIgniter\Database\BaseBuilder->get()
+ 3 SYSTEMPATH/BaseModel.php(662): CodeIgniter\Model->doFirst()
+ 4 APPPATH/Controllers/Students.php(80): CodeIgniter\BaseModel->first()
+ 5 SYSTEMPATH/CodeIgniter.php(942): App\Controllers\Students->show()
+ 6 SYSTEMPATH/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController()
+ 7 SYSTEMPATH/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest()
+ 8 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH/Commands/Server/rewrite.php(47): require_once('/var/www/html/faculdade/Projetos/project-delta/public/index.php')
+ERROR - 2023-11-11 22:18:54 --> mysqli_sql_exception: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '.`id_student`)
+WHERE `students`.`id` = '12'
+ LIMIT 1' at line 3 in /var/www/html/faculdade/Projetos/project-delta/vendor/codeigniter4/framework/system/Database/MySQLi/Connection.php:306
+Stack trace:
+#0 /var/www/html/faculdade/Projetos/project-delta/vendor/codeigniter4/framework/system/Database/MySQLi/Connection.php(306): mysqli->query()
+#1 /var/www/html/faculdade/Projetos/project-delta/vendor/codeigniter4/framework/system/Database/BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute()
+#2 /var/www/html/faculdade/Projetos/project-delta/vendor/codeigniter4/framework/system/Database/BaseConnection.php(607): CodeIgniter\Database\BaseConnection->simpleQuery()
+#3 /var/www/html/faculdade/Projetos/project-delta/vendor/codeigniter4/framework/system/Database/BaseBuilder.php(1615): CodeIgniter\Database\BaseConnection->query()
+#4 /var/www/html/faculdade/Projetos/project-delta/vendor/codeigniter4/framework/system/Model.php(264): CodeIgniter\Database\BaseBuilder->get()
+#5 /var/www/html/faculdade/Projetos/project-delta/vendor/codeigniter4/framework/system/BaseModel.php(662): CodeIgniter\Model->doFirst()
+#6 /var/www/html/faculdade/Projetos/project-delta/app/Controllers/Students.php(80): CodeIgniter\BaseModel->first()
+#7 /var/www/html/faculdade/Projetos/project-delta/vendor/codeigniter4/framework/system/CodeIgniter.php(942): App\Controllers\Students->show()
+#8 /var/www/html/faculdade/Projetos/project-delta/vendor/codeigniter4/framework/system/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController()
+#9 /var/www/html/faculdade/Projetos/project-delta/vendor/codeigniter4/framework/system/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest()
+#10 /var/www/html/faculdade/Projetos/project-delta/public/index.php(79): CodeIgniter\CodeIgniter->run()
+#11 /var/www/html/faculdade/Projetos/project-delta/vendor/codeigniter4/framework/system/Commands/Server/rewrite.php(47): require_once('...')
+#12 {main}
+CRITICAL - 2023-11-11 22:18:54 --> You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '.`id_student`)
+WHERE `students`.`id` = '12'
+ LIMIT 1' at line 3
+in SYSTEMPATH/Database/BaseConnection.php on line 647.
+ 1 SYSTEMPATH/Database/BaseBuilder.php(1615): CodeIgniter\Database\BaseConnection->query()
+ 2 SYSTEMPATH/Model.php(264): CodeIgniter\Database\BaseBuilder->get()
+ 3 SYSTEMPATH/BaseModel.php(662): CodeIgniter\Model->doFirst()
+ 4 APPPATH/Controllers/Students.php(80): CodeIgniter\BaseModel->first()
+ 5 SYSTEMPATH/CodeIgniter.php(942): App\Controllers\Students->show()
+ 6 SYSTEMPATH/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController()
+ 7 SYSTEMPATH/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest()
+ 8 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH/Commands/Server/rewrite.php(47): require_once('/var/www/html/faculdade/Projetos/project-delta/public/index.php')
+ERROR - 2023-11-11 22:19:00 --> mysqli_sql_exception: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '.`id_student`)
+WHERE `students`.`id` = '12'
+ LIMIT 1' at line 3 in /var/www/html/faculdade/Projetos/project-delta/vendor/codeigniter4/framework/system/Database/MySQLi/Connection.php:306
+Stack trace:
+#0 /var/www/html/faculdade/Projetos/project-delta/vendor/codeigniter4/framework/system/Database/MySQLi/Connection.php(306): mysqli->query()
+#1 /var/www/html/faculdade/Projetos/project-delta/vendor/codeigniter4/framework/system/Database/BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute()
+#2 /var/www/html/faculdade/Projetos/project-delta/vendor/codeigniter4/framework/system/Database/BaseConnection.php(607): CodeIgniter\Database\BaseConnection->simpleQuery()
+#3 /var/www/html/faculdade/Projetos/project-delta/vendor/codeigniter4/framework/system/Database/BaseBuilder.php(1615): CodeIgniter\Database\BaseConnection->query()
+#4 /var/www/html/faculdade/Projetos/project-delta/vendor/codeigniter4/framework/system/Model.php(264): CodeIgniter\Database\BaseBuilder->get()
+#5 /var/www/html/faculdade/Projetos/project-delta/vendor/codeigniter4/framework/system/BaseModel.php(662): CodeIgniter\Model->doFirst()
+#6 /var/www/html/faculdade/Projetos/project-delta/app/Controllers/Students.php(80): CodeIgniter\BaseModel->first()
+#7 /var/www/html/faculdade/Projetos/project-delta/vendor/codeigniter4/framework/system/CodeIgniter.php(942): App\Controllers\Students->show()
+#8 /var/www/html/faculdade/Projetos/project-delta/vendor/codeigniter4/framework/system/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController()
+#9 /var/www/html/faculdade/Projetos/project-delta/vendor/codeigniter4/framework/system/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest()
+#10 /var/www/html/faculdade/Projetos/project-delta/public/index.php(79): CodeIgniter\CodeIgniter->run()
+#11 /var/www/html/faculdade/Projetos/project-delta/vendor/codeigniter4/framework/system/Commands/Server/rewrite.php(47): require_once('...')
+#12 {main}
+CRITICAL - 2023-11-11 22:19:00 --> You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '.`id_student`)
+WHERE `students`.`id` = '12'
+ LIMIT 1' at line 3
+in SYSTEMPATH/Database/BaseConnection.php on line 647.
+ 1 SYSTEMPATH/Database/BaseBuilder.php(1615): CodeIgniter\Database\BaseConnection->query()
+ 2 SYSTEMPATH/Model.php(264): CodeIgniter\Database\BaseBuilder->get()
+ 3 SYSTEMPATH/BaseModel.php(662): CodeIgniter\Model->doFirst()
+ 4 APPPATH/Controllers/Students.php(80): CodeIgniter\BaseModel->first()
+ 5 SYSTEMPATH/CodeIgniter.php(942): App\Controllers\Students->show()
+ 6 SYSTEMPATH/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController()
+ 7 SYSTEMPATH/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest()
+ 8 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH/Commands/Server/rewrite.php(47): require_once('/var/www/html/faculdade/Projetos/project-delta/public/index.php')
+ERROR - 2023-11-11 22:19:00 --> mysqli_sql_exception: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '.`id_student`)
+WHERE `students`.`id` = '12'
+ LIMIT 1' at line 3 in /var/www/html/faculdade/Projetos/project-delta/vendor/codeigniter4/framework/system/Database/MySQLi/Connection.php:306
+Stack trace:
+#0 /var/www/html/faculdade/Projetos/project-delta/vendor/codeigniter4/framework/system/Database/MySQLi/Connection.php(306): mysqli->query()
+#1 /var/www/html/faculdade/Projetos/project-delta/vendor/codeigniter4/framework/system/Database/BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute()
+#2 /var/www/html/faculdade/Projetos/project-delta/vendor/codeigniter4/framework/system/Database/BaseConnection.php(607): CodeIgniter\Database\BaseConnection->simpleQuery()
+#3 /var/www/html/faculdade/Projetos/project-delta/vendor/codeigniter4/framework/system/Database/BaseBuilder.php(1615): CodeIgniter\Database\BaseConnection->query()
+#4 /var/www/html/faculdade/Projetos/project-delta/vendor/codeigniter4/framework/system/Model.php(264): CodeIgniter\Database\BaseBuilder->get()
+#5 /var/www/html/faculdade/Projetos/project-delta/vendor/codeigniter4/framework/system/BaseModel.php(662): CodeIgniter\Model->doFirst()
+#6 /var/www/html/faculdade/Projetos/project-delta/app/Controllers/Students.php(80): CodeIgniter\BaseModel->first()
+#7 /var/www/html/faculdade/Projetos/project-delta/vendor/codeigniter4/framework/system/CodeIgniter.php(942): App\Controllers\Students->show()
+#8 /var/www/html/faculdade/Projetos/project-delta/vendor/codeigniter4/framework/system/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController()
+#9 /var/www/html/faculdade/Projetos/project-delta/vendor/codeigniter4/framework/system/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest()
+#10 /var/www/html/faculdade/Projetos/project-delta/public/index.php(79): CodeIgniter\CodeIgniter->run()
+#11 /var/www/html/faculdade/Projetos/project-delta/vendor/codeigniter4/framework/system/Commands/Server/rewrite.php(47): require_once('...')
+#12 {main}
+CRITICAL - 2023-11-11 22:19:00 --> You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '.`id_student`)
+WHERE `students`.`id` = '12'
+ LIMIT 1' at line 3
+in SYSTEMPATH/Database/BaseConnection.php on line 647.
+ 1 SYSTEMPATH/Database/BaseBuilder.php(1615): CodeIgniter\Database\BaseConnection->query()
+ 2 SYSTEMPATH/Model.php(264): CodeIgniter\Database\BaseBuilder->get()
+ 3 SYSTEMPATH/BaseModel.php(662): CodeIgniter\Model->doFirst()
+ 4 APPPATH/Controllers/Students.php(80): CodeIgniter\BaseModel->first()
+ 5 SYSTEMPATH/CodeIgniter.php(942): App\Controllers\Students->show()
+ 6 SYSTEMPATH/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController()
+ 7 SYSTEMPATH/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest()
+ 8 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH/Commands/Server/rewrite.php(47): require_once('/var/www/html/faculdade/Projetos/project-delta/public/index.php')
+ERROR - 2023-11-11 22:19:08 --> mysqli_sql_exception: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '.`id_student`)
+WHERE `students`.`id` = '12'
+ LIMIT 1' at line 3 in /var/www/html/faculdade/Projetos/project-delta/vendor/codeigniter4/framework/system/Database/MySQLi/Connection.php:306
+Stack trace:
+#0 /var/www/html/faculdade/Projetos/project-delta/vendor/codeigniter4/framework/system/Database/MySQLi/Connection.php(306): mysqli->query()
+#1 /var/www/html/faculdade/Projetos/project-delta/vendor/codeigniter4/framework/system/Database/BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute()
+#2 /var/www/html/faculdade/Projetos/project-delta/vendor/codeigniter4/framework/system/Database/BaseConnection.php(607): CodeIgniter\Database\BaseConnection->simpleQuery()
+#3 /var/www/html/faculdade/Projetos/project-delta/vendor/codeigniter4/framework/system/Database/BaseBuilder.php(1615): CodeIgniter\Database\BaseConnection->query()
+#4 /var/www/html/faculdade/Projetos/project-delta/vendor/codeigniter4/framework/system/Model.php(264): CodeIgniter\Database\BaseBuilder->get()
+#5 /var/www/html/faculdade/Projetos/project-delta/vendor/codeigniter4/framework/system/BaseModel.php(662): CodeIgniter\Model->doFirst()
+#6 /var/www/html/faculdade/Projetos/project-delta/app/Controllers/Students.php(80): CodeIgniter\BaseModel->first()
+#7 /var/www/html/faculdade/Projetos/project-delta/vendor/codeigniter4/framework/system/CodeIgniter.php(942): App\Controllers\Students->show()
+#8 /var/www/html/faculdade/Projetos/project-delta/vendor/codeigniter4/framework/system/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController()
+#9 /var/www/html/faculdade/Projetos/project-delta/vendor/codeigniter4/framework/system/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest()
+#10 /var/www/html/faculdade/Projetos/project-delta/public/index.php(79): CodeIgniter\CodeIgniter->run()
+#11 /var/www/html/faculdade/Projetos/project-delta/vendor/codeigniter4/framework/system/Commands/Server/rewrite.php(47): require_once('...')
+#12 {main}
+CRITICAL - 2023-11-11 22:19:08 --> You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '.`id_student`)
+WHERE `students`.`id` = '12'
+ LIMIT 1' at line 3
+in SYSTEMPATH/Database/BaseConnection.php on line 647.
+ 1 SYSTEMPATH/Database/BaseBuilder.php(1615): CodeIgniter\Database\BaseConnection->query()
+ 2 SYSTEMPATH/Model.php(264): CodeIgniter\Database\BaseBuilder->get()
+ 3 SYSTEMPATH/BaseModel.php(662): CodeIgniter\Model->doFirst()
+ 4 APPPATH/Controllers/Students.php(80): CodeIgniter\BaseModel->first()
+ 5 SYSTEMPATH/CodeIgniter.php(942): App\Controllers\Students->show()
+ 6 SYSTEMPATH/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController()
+ 7 SYSTEMPATH/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest()
+ 8 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH/Commands/Server/rewrite.php(47): require_once('/var/www/html/faculdade/Projetos/project-delta/public/index.php')
+ERROR - 2023-11-11 22:19:08 --> mysqli_sql_exception: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '.`id_student`)
+WHERE `students`.`id` = '12'
+ LIMIT 1' at line 3 in /var/www/html/faculdade/Projetos/project-delta/vendor/codeigniter4/framework/system/Database/MySQLi/Connection.php:306
+Stack trace:
+#0 /var/www/html/faculdade/Projetos/project-delta/vendor/codeigniter4/framework/system/Database/MySQLi/Connection.php(306): mysqli->query()
+#1 /var/www/html/faculdade/Projetos/project-delta/vendor/codeigniter4/framework/system/Database/BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute()
+#2 /var/www/html/faculdade/Projetos/project-delta/vendor/codeigniter4/framework/system/Database/BaseConnection.php(607): CodeIgniter\Database\BaseConnection->simpleQuery()
+#3 /var/www/html/faculdade/Projetos/project-delta/vendor/codeigniter4/framework/system/Database/BaseBuilder.php(1615): CodeIgniter\Database\BaseConnection->query()
+#4 /var/www/html/faculdade/Projetos/project-delta/vendor/codeigniter4/framework/system/Model.php(264): CodeIgniter\Database\BaseBuilder->get()
+#5 /var/www/html/faculdade/Projetos/project-delta/vendor/codeigniter4/framework/system/BaseModel.php(662): CodeIgniter\Model->doFirst()
+#6 /var/www/html/faculdade/Projetos/project-delta/app/Controllers/Students.php(80): CodeIgniter\BaseModel->first()
+#7 /var/www/html/faculdade/Projetos/project-delta/vendor/codeigniter4/framework/system/CodeIgniter.php(942): App\Controllers\Students->show()
+#8 /var/www/html/faculdade/Projetos/project-delta/vendor/codeigniter4/framework/system/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController()
+#9 /var/www/html/faculdade/Projetos/project-delta/vendor/codeigniter4/framework/system/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest()
+#10 /var/www/html/faculdade/Projetos/project-delta/public/index.php(79): CodeIgniter\CodeIgniter->run()
+#11 /var/www/html/faculdade/Projetos/project-delta/vendor/codeigniter4/framework/system/Commands/Server/rewrite.php(47): require_once('...')
+#12 {main}
+CRITICAL - 2023-11-11 22:19:08 --> You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '.`id_student`)
+WHERE `students`.`id` = '12'
+ LIMIT 1' at line 3
+in SYSTEMPATH/Database/BaseConnection.php on line 647.
+ 1 SYSTEMPATH/Database/BaseBuilder.php(1615): CodeIgniter\Database\BaseConnection->query()
+ 2 SYSTEMPATH/Model.php(264): CodeIgniter\Database\BaseBuilder->get()
+ 3 SYSTEMPATH/BaseModel.php(662): CodeIgniter\Model->doFirst()
+ 4 APPPATH/Controllers/Students.php(80): CodeIgniter\BaseModel->first()
+ 5 SYSTEMPATH/CodeIgniter.php(942): App\Controllers\Students->show()
+ 6 SYSTEMPATH/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController()
+ 7 SYSTEMPATH/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest()
+ 8 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH/Commands/Server/rewrite.php(47): require_once('/var/www/html/faculdade/Projetos/project-delta/public/index.php')
+ERROR - 2023-11-11 22:19:40 --> mysqli_sql_exception: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '.`id_student`)
+WHERE `students`.`id` = '12'
+ LIMIT 1' at line 3 in /var/www/html/faculdade/Projetos/project-delta/vendor/codeigniter4/framework/system/Database/MySQLi/Connection.php:306
+Stack trace:
+#0 /var/www/html/faculdade/Projetos/project-delta/vendor/codeigniter4/framework/system/Database/MySQLi/Connection.php(306): mysqli->query()
+#1 /var/www/html/faculdade/Projetos/project-delta/vendor/codeigniter4/framework/system/Database/BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute()
+#2 /var/www/html/faculdade/Projetos/project-delta/vendor/codeigniter4/framework/system/Database/BaseConnection.php(607): CodeIgniter\Database\BaseConnection->simpleQuery()
+#3 /var/www/html/faculdade/Projetos/project-delta/vendor/codeigniter4/framework/system/Database/BaseBuilder.php(1615): CodeIgniter\Database\BaseConnection->query()
+#4 /var/www/html/faculdade/Projetos/project-delta/vendor/codeigniter4/framework/system/Model.php(264): CodeIgniter\Database\BaseBuilder->get()
+#5 /var/www/html/faculdade/Projetos/project-delta/vendor/codeigniter4/framework/system/BaseModel.php(662): CodeIgniter\Model->doFirst()
+#6 /var/www/html/faculdade/Projetos/project-delta/app/Controllers/Students.php(80): CodeIgniter\BaseModel->first()
+#7 /var/www/html/faculdade/Projetos/project-delta/vendor/codeigniter4/framework/system/CodeIgniter.php(942): App\Controllers\Students->show()
+#8 /var/www/html/faculdade/Projetos/project-delta/vendor/codeigniter4/framework/system/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController()
+#9 /var/www/html/faculdade/Projetos/project-delta/vendor/codeigniter4/framework/system/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest()
+#10 /var/www/html/faculdade/Projetos/project-delta/public/index.php(79): CodeIgniter\CodeIgniter->run()
+#11 /var/www/html/faculdade/Projetos/project-delta/vendor/codeigniter4/framework/system/Commands/Server/rewrite.php(47): require_once('...')
+#12 {main}
+CRITICAL - 2023-11-11 22:19:40 --> You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '.`id_student`)
+WHERE `students`.`id` = '12'
+ LIMIT 1' at line 3
+in SYSTEMPATH/Database/BaseConnection.php on line 647.
+ 1 SYSTEMPATH/Database/BaseBuilder.php(1615): CodeIgniter\Database\BaseConnection->query()
+ 2 SYSTEMPATH/Model.php(264): CodeIgniter\Database\BaseBuilder->get()
+ 3 SYSTEMPATH/BaseModel.php(662): CodeIgniter\Model->doFirst()
+ 4 APPPATH/Controllers/Students.php(80): CodeIgniter\BaseModel->first()
+ 5 SYSTEMPATH/CodeIgniter.php(942): App\Controllers\Students->show()
+ 6 SYSTEMPATH/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController()
+ 7 SYSTEMPATH/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest()
+ 8 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH/Commands/Server/rewrite.php(47): require_once('/var/www/html/faculdade/Projetos/project-delta/public/index.php')
+ERROR - 2023-11-11 22:19:40 --> mysqli_sql_exception: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '.`id_student`)
+WHERE `students`.`id` = '12'
+ LIMIT 1' at line 3 in /var/www/html/faculdade/Projetos/project-delta/vendor/codeigniter4/framework/system/Database/MySQLi/Connection.php:306
+Stack trace:
+#0 /var/www/html/faculdade/Projetos/project-delta/vendor/codeigniter4/framework/system/Database/MySQLi/Connection.php(306): mysqli->query()
+#1 /var/www/html/faculdade/Projetos/project-delta/vendor/codeigniter4/framework/system/Database/BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute()
+#2 /var/www/html/faculdade/Projetos/project-delta/vendor/codeigniter4/framework/system/Database/BaseConnection.php(607): CodeIgniter\Database\BaseConnection->simpleQuery()
+#3 /var/www/html/faculdade/Projetos/project-delta/vendor/codeigniter4/framework/system/Database/BaseBuilder.php(1615): CodeIgniter\Database\BaseConnection->query()
+#4 /var/www/html/faculdade/Projetos/project-delta/vendor/codeigniter4/framework/system/Model.php(264): CodeIgniter\Database\BaseBuilder->get()
+#5 /var/www/html/faculdade/Projetos/project-delta/vendor/codeigniter4/framework/system/BaseModel.php(662): CodeIgniter\Model->doFirst()
+#6 /var/www/html/faculdade/Projetos/project-delta/app/Controllers/Students.php(80): CodeIgniter\BaseModel->first()
+#7 /var/www/html/faculdade/Projetos/project-delta/vendor/codeigniter4/framework/system/CodeIgniter.php(942): App\Controllers\Students->show()
+#8 /var/www/html/faculdade/Projetos/project-delta/vendor/codeigniter4/framework/system/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController()
+#9 /var/www/html/faculdade/Projetos/project-delta/vendor/codeigniter4/framework/system/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest()
+#10 /var/www/html/faculdade/Projetos/project-delta/public/index.php(79): CodeIgniter\CodeIgniter->run()
+#11 /var/www/html/faculdade/Projetos/project-delta/vendor/codeigniter4/framework/system/Commands/Server/rewrite.php(47): require_once('...')
+#12 {main}
+CRITICAL - 2023-11-11 22:19:40 --> You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '.`id_student`)
+WHERE `students`.`id` = '12'
+ LIMIT 1' at line 3
+in SYSTEMPATH/Database/BaseConnection.php on line 647.
+ 1 SYSTEMPATH/Database/BaseBuilder.php(1615): CodeIgniter\Database\BaseConnection->query()
+ 2 SYSTEMPATH/Model.php(264): CodeIgniter\Database\BaseBuilder->get()
+ 3 SYSTEMPATH/BaseModel.php(662): CodeIgniter\Model->doFirst()
+ 4 APPPATH/Controllers/Students.php(80): CodeIgniter\BaseModel->first()
+ 5 SYSTEMPATH/CodeIgniter.php(942): App\Controllers\Students->show()
+ 6 SYSTEMPATH/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController()
+ 7 SYSTEMPATH/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest()
+ 8 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH/Commands/Server/rewrite.php(47): require_once('/var/www/html/faculdade/Projetos/project-delta/public/index.php')

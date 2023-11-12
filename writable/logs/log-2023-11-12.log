@@ -1,0 +1,612 @@
+CRITICAL - 2023-11-12 00:32:01 --> Undefined variable $studentAdress
+in APPPATH/Controllers/Students.php on line 96.
+ 1 APPPATH/Controllers/Students.php(96): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 SYSTEMPATH/CodeIgniter.php(942): App\Controllers\Students->update()
+ 3 SYSTEMPATH/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController()
+ 4 SYSTEMPATH/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest()
+ 5 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH/Commands/Server/rewrite.php(47): require_once('/var/www/html/faculdade/Projetos/project-delta/public/index.php')
+CRITICAL - 2023-11-12 00:32:47 --> Undefined variable $studentAdress
+in APPPATH/Controllers/Students.php on line 96.
+ 1 APPPATH/Controllers/Students.php(96): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 SYSTEMPATH/CodeIgniter.php(942): App\Controllers\Students->update()
+ 3 SYSTEMPATH/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController()
+ 4 SYSTEMPATH/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest()
+ 5 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH/Commands/Server/rewrite.php(47): require_once('/var/www/html/faculdade/Projetos/project-delta/public/index.php')
+CRITICAL - 2023-11-12 00:32:47 --> Undefined variable $studentAdress
+in APPPATH/Controllers/Students.php on line 96.
+ 1 APPPATH/Controllers/Students.php(96): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 SYSTEMPATH/CodeIgniter.php(942): App\Controllers\Students->update()
+ 3 SYSTEMPATH/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController()
+ 4 SYSTEMPATH/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest()
+ 5 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH/Commands/Server/rewrite.php(47): require_once('/var/www/html/faculdade/Projetos/project-delta/public/index.php')
+CRITICAL - 2023-11-12 00:32:56 --> Undefined variable $student
+in APPPATH/Controllers/Students.php on line 90.
+ 1 APPPATH/Controllers/Students.php(90): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 SYSTEMPATH/CodeIgniter.php(942): App\Controllers\Students->update()
+ 3 SYSTEMPATH/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController()
+ 4 SYSTEMPATH/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest()
+ 5 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH/Commands/Server/rewrite.php(47): require_once('/var/www/html/faculdade/Projetos/project-delta/public/index.php')
+CRITICAL - 2023-11-12 01:50:01 --> Undefined variable $address_info
+in APPPATH/Controllers/Students.php on line 148.
+ 1 APPPATH/Controllers/Students.php(148): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 SYSTEMPATH/CodeIgniter.php(942): App\Controllers\Students->update()
+ 3 SYSTEMPATH/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController()
+ 4 SYSTEMPATH/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest()
+ 5 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH/Commands/Server/rewrite.php(47): require_once('/var/www/html/faculdade/Projetos/project-delta/public/index.php')
+CRITICAL - 2023-11-12 01:50:20 --> Undefined variable $address_info
+in APPPATH/Controllers/Students.php on line 145.
+ 1 APPPATH/Controllers/Students.php(145): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 SYSTEMPATH/CodeIgniter.php(942): App\Controllers\Students->update()
+ 3 SYSTEMPATH/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController()
+ 4 SYSTEMPATH/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest()
+ 5 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH/Commands/Server/rewrite.php(47): require_once('/var/www/html/faculdade/Projetos/project-delta/public/index.php')
+CRITICAL - 2023-11-12 01:53:05 --> There is no data to update.
+in SYSTEMPATH/BaseModel.php on line 930.
+ 1 SYSTEMPATH/BaseModel.php(930): CodeIgniter\Database\Exceptions\DataException::forEmptyDataset()
+ 2 SYSTEMPATH/Model.php(776): CodeIgniter\BaseModel->update()
+ 3 APPPATH/Controllers/Students.php(146): CodeIgniter\Model->update()
+ 4 SYSTEMPATH/CodeIgniter.php(942): App\Controllers\Students->update()
+ 5 SYSTEMPATH/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController()
+ 6 SYSTEMPATH/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest()
+ 7 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH/Commands/Server/rewrite.php(47): require_once('/var/www/html/faculdade/Projetos/project-delta/public/index.php')
+CRITICAL - 2023-11-12 01:53:54 --> There is no data to update.
+in SYSTEMPATH/BaseModel.php on line 930.
+ 1 SYSTEMPATH/BaseModel.php(930): CodeIgniter\Database\Exceptions\DataException::forEmptyDataset()
+ 2 SYSTEMPATH/Model.php(776): CodeIgniter\BaseModel->update()
+ 3 APPPATH/Controllers/Students.php(146): CodeIgniter\Model->update()
+ 4 SYSTEMPATH/CodeIgniter.php(942): App\Controllers\Students->update()
+ 5 SYSTEMPATH/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController()
+ 6 SYSTEMPATH/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest()
+ 7 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH/Commands/Server/rewrite.php(47): require_once('/var/www/html/faculdade/Projetos/project-delta/public/index.php')
+CRITICAL - 2023-11-12 01:54:08 --> There is no data to update.
+in SYSTEMPATH/BaseModel.php on line 930.
+ 1 SYSTEMPATH/BaseModel.php(930): CodeIgniter\Database\Exceptions\DataException::forEmptyDataset()
+ 2 SYSTEMPATH/Model.php(776): CodeIgniter\BaseModel->update()
+ 3 APPPATH/Controllers/Students.php(146): CodeIgniter\Model->update()
+ 4 SYSTEMPATH/CodeIgniter.php(942): App\Controllers\Students->update()
+ 5 SYSTEMPATH/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController()
+ 6 SYSTEMPATH/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest()
+ 7 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH/Commands/Server/rewrite.php(47): require_once('/var/www/html/faculdade/Projetos/project-delta/public/index.php')
+CRITICAL - 2023-11-12 03:29:45 --> Call to undefined method CodeIgniter\HTTP\IncomingRequest::post()
+in APPPATH/Controllers/Students.php on line 122.
+ 1 SYSTEMPATH/CodeIgniter.php(942): App\Controllers\Students->update()
+ 2 SYSTEMPATH/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController()
+ 3 SYSTEMPATH/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest()
+ 4 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH/Commands/Server/rewrite.php(47): require_once('/var/www/html/faculdade/Projetos/project-delta/public/index.php')
+CRITICAL - 2023-11-12 03:30:37 --> Call to undefined method CodeIgniter\HTTP\IncomingRequest::gerVar()
+in APPPATH/Controllers/Students.php on line 122.
+ 1 SYSTEMPATH/CodeIgniter.php(942): App\Controllers\Students->update()
+ 2 SYSTEMPATH/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController()
+ 3 SYSTEMPATH/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest()
+ 4 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH/Commands/Server/rewrite.php(47): require_once('/var/www/html/faculdade/Projetos/project-delta/public/index.php')
+CRITICAL - 2023-11-12 03:31:38 --> Undefined property: App\Controllers\Students::$input
+in APPPATH/Controllers/Students.php on line 122.
+ 1 APPPATH/Controllers/Students.php(122): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 SYSTEMPATH/CodeIgniter.php(942): App\Controllers\Students->update()
+ 3 SYSTEMPATH/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController()
+ 4 SYSTEMPATH/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest()
+ 5 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH/Commands/Server/rewrite.php(47): require_once('/var/www/html/faculdade/Projetos/project-delta/public/index.php')
+CRITICAL - 2023-11-12 04:03:43 --> Undefined variable $_PUT
+in APPPATH/Controllers/Students.php on line 120.
+ 1 APPPATH/Controllers/Students.php(120): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 SYSTEMPATH/CodeIgniter.php(942): App\Controllers\Students->update()
+ 3 SYSTEMPATH/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController()
+ 4 SYSTEMPATH/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest()
+ 5 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH/Commands/Server/rewrite.php(47): require_once('/var/www/html/faculdade/Projetos/project-delta/public/index.php')
+CRITICAL - 2023-11-12 04:08:06 --> filter_var(): Unknown filter with ID 0
+in SYSTEMPATH/HTTP/IncomingRequest.php on line 633.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 SYSTEMPATH/HTTP/IncomingRequest.php(633): filter_var()
+ 3 SYSTEMPATH/HTTP/IncomingRequest.php(551): CodeIgniter\HTTP\IncomingRequest->getJsonVar()
+ 4 APPPATH/Controllers/Students.php(123): CodeIgniter\HTTP\IncomingRequest->getVar()
+ 5 SYSTEMPATH/CodeIgniter.php(942): App\Controllers\Students->update()
+ 6 SYSTEMPATH/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController()
+ 7 SYSTEMPATH/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest()
+ 8 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH/Commands/Server/rewrite.php(47): require_once('/var/www/html/faculdade/Projetos/project-delta/public/index.php')
+CRITICAL - 2023-11-12 04:08:37 --> filter_var(): Unknown filter with ID 0
+in SYSTEMPATH/HTTP/IncomingRequest.php on line 633.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 SYSTEMPATH/HTTP/IncomingRequest.php(633): filter_var()
+ 3 SYSTEMPATH/HTTP/IncomingRequest.php(551): CodeIgniter\HTTP\IncomingRequest->getJsonVar()
+ 4 APPPATH/Controllers/Students.php(123): CodeIgniter\HTTP\IncomingRequest->getVar()
+ 5 SYSTEMPATH/CodeIgniter.php(942): App\Controllers\Students->update()
+ 6 SYSTEMPATH/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController()
+ 7 SYSTEMPATH/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest()
+ 8 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH/Commands/Server/rewrite.php(47): require_once('/var/www/html/faculdade/Projetos/project-delta/public/index.php')
+CRITICAL - 2023-11-12 04:09:07 --> filter_var(): Unknown filter with ID 0
+in SYSTEMPATH/HTTP/IncomingRequest.php on line 633.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 SYSTEMPATH/HTTP/IncomingRequest.php(633): filter_var()
+ 3 SYSTEMPATH/HTTP/IncomingRequest.php(551): CodeIgniter\HTTP\IncomingRequest->getJsonVar()
+ 4 APPPATH/Controllers/Students.php(123): CodeIgniter\HTTP\IncomingRequest->getVar()
+ 5 SYSTEMPATH/CodeIgniter.php(942): App\Controllers\Students->update()
+ 6 SYSTEMPATH/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController()
+ 7 SYSTEMPATH/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest()
+ 8 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH/Commands/Server/rewrite.php(47): require_once('/var/www/html/faculdade/Projetos/project-delta/public/index.php')
+CRITICAL - 2023-11-12 04:23:14 --> Undefined property: App\Controllers\Photos::$upload
+in APPPATH/Controllers/Photos.php on line 20.
+ 1 APPPATH/Controllers/Photos.php(20): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 SYSTEMPATH/CodeIgniter.php(942): App\Controllers\Photos->create()
+ 3 SYSTEMPATH/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController()
+ 4 SYSTEMPATH/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest()
+ 5 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH/Commands/Server/rewrite.php(47): require_once('/var/www/html/faculdade/Projetos/project-delta/public/index.php')
+CRITICAL - 2023-11-12 04:23:52 --> Undefined property: App\Controllers\Photos::$input
+in APPPATH/Controllers/Photos.php on line 20.
+ 1 APPPATH/Controllers/Photos.php(20): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 SYSTEMPATH/CodeIgniter.php(942): App\Controllers\Photos->create()
+ 3 SYSTEMPATH/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController()
+ 4 SYSTEMPATH/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest()
+ 5 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH/Commands/Server/rewrite.php(47): require_once('/var/www/html/faculdade/Projetos/project-delta/public/index.php')
+CRITICAL - 2023-11-12 04:27:37 --> Undefined array key "foto"
+in APPPATH/Controllers/Photos.php on line 20.
+ 1 APPPATH/Controllers/Photos.php(20): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 SYSTEMPATH/CodeIgniter.php(942): App\Controllers\Photos->create()
+ 3 SYSTEMPATH/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController()
+ 4 SYSTEMPATH/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest()
+ 5 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH/Commands/Server/rewrite.php(47): require_once('/var/www/html/faculdade/Projetos/project-delta/public/index.php')
+CRITICAL - 2023-11-12 04:54:29 --> Call to a member function getName() on array
+in APPPATH/Controllers/Photos.php on line 23.
+ 1 SYSTEMPATH/CodeIgniter.php(942): App\Controllers\Photos->create()
+ 2 SYSTEMPATH/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController()
+ 3 SYSTEMPATH/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest()
+ 4 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH/Commands/Server/rewrite.php(47): require_once('/var/www/html/faculdade/Projetos/project-delta/public/index.php')
+CRITICAL - 2023-11-12 04:54:56 --> Call to a member function getName() on array
+in APPPATH/Controllers/Photos.php on line 23.
+ 1 SYSTEMPATH/CodeIgniter.php(942): App\Controllers\Photos->create()
+ 2 SYSTEMPATH/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController()
+ 3 SYSTEMPATH/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest()
+ 4 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH/Commands/Server/rewrite.php(47): require_once('/var/www/html/faculdade/Projetos/project-delta/public/index.php')
+CRITICAL - 2023-11-12 05:12:13 --> unlink(/var/www/html/faculdade/Projetos/project-delta/writable/images/harry.jpg): No such file or directory
+in APPPATH/Controllers/Photos.php on line 29.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 APPPATH/Controllers/Photos.php(29): unlink()
+ 3 SYSTEMPATH/CodeIgniter.php(942): App\Controllers\Photos->create()
+ 4 SYSTEMPATH/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController()
+ 5 SYSTEMPATH/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest()
+ 6 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+ 7 SYSTEMPATH/Commands/Server/rewrite.php(47): require_once('/var/www/html/faculdade/Projetos/project-delta/public/index.php')
+CRITICAL - 2023-11-12 05:15:09 --> unlink(/var/www/html/faculdade/Projetos/project-delta/writable/images/harry.jpg): No such file or directory
+in APPPATH/Controllers/Photos.php on line 35.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 APPPATH/Controllers/Photos.php(35): unlink()
+ 3 SYSTEMPATH/CodeIgniter.php(942): App\Controllers\Photos->create()
+ 4 SYSTEMPATH/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController()
+ 5 SYSTEMPATH/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest()
+ 6 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+ 7 SYSTEMPATH/Commands/Server/rewrite.php(47): require_once('/var/www/html/faculdade/Projetos/project-delta/public/index.php')
+CRITICAL - 2023-11-12 05:18:45 --> Could not move file "phpdff5M6" to "/var/www/html/faculdade/Projetos/project-delta/writable/uploads//var/www/html/faculdade/Projetos/project-delta/writable/images/". Reason: 
+in SYSTEMPATH/HTTP/Files/UploadedFile.php on line 158.
+ 1 SYSTEMPATH/HTTP/Files/UploadedFile.php(158): CodeIgniter\HTTP\Exceptions\HTTPException::forMoveFailed()
+ 2 SYSTEMPATH/HTTP/Files/UploadedFile.php(359): CodeIgniter\HTTP\Files\UploadedFile->move()
+ 3 APPPATH/Controllers/Photos.php(39): CodeIgniter\HTTP\Files\UploadedFile->store()
+ 4 SYSTEMPATH/CodeIgniter.php(942): App\Controllers\Photos->create()
+ 5 SYSTEMPATH/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController()
+ 6 SYSTEMPATH/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest()
+ 7 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH/Commands/Server/rewrite.php(47): require_once('/var/www/html/faculdade/Projetos/project-delta/public/index.php')
+CRITICAL - 2023-11-12 05:19:11 --> Could not move file "php8691o5" to "/var/www/html/faculdade/Projetos/project-delta/writable/uploads//var/www/html/faculdade/Projetos/project-delta/writable/images/". Reason: 
+in SYSTEMPATH/HTTP/Files/UploadedFile.php on line 158.
+ 1 SYSTEMPATH/HTTP/Files/UploadedFile.php(158): CodeIgniter\HTTP\Exceptions\HTTPException::forMoveFailed()
+ 2 SYSTEMPATH/HTTP/Files/UploadedFile.php(359): CodeIgniter\HTTP\Files\UploadedFile->move()
+ 3 APPPATH/Controllers/Photos.php(41): CodeIgniter\HTTP\Files\UploadedFile->store()
+ 4 SYSTEMPATH/CodeIgniter.php(942): App\Controllers\Photos->create()
+ 5 SYSTEMPATH/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController()
+ 6 SYSTEMPATH/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest()
+ 7 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH/Commands/Server/rewrite.php(47): require_once('/var/www/html/faculdade/Projetos/project-delta/public/index.php')
+CRITICAL - 2023-11-12 05:20:11 --> Could not move file "phpkeFSv4" to "/var/www/html/faculdade/Projetos/project-delta/writable/uploads//var/www/html/faculdade/Projetos/project-delta/writable/images/". Reason: 
+in SYSTEMPATH/HTTP/Files/UploadedFile.php on line 158.
+ 1 SYSTEMPATH/HTTP/Files/UploadedFile.php(158): CodeIgniter\HTTP\Exceptions\HTTPException::forMoveFailed()
+ 2 SYSTEMPATH/HTTP/Files/UploadedFile.php(359): CodeIgniter\HTTP\Files\UploadedFile->move()
+ 3 APPPATH/Controllers/Photos.php(39): CodeIgniter\HTTP\Files\UploadedFile->store()
+ 4 SYSTEMPATH/CodeIgniter.php(942): App\Controllers\Photos->create()
+ 5 SYSTEMPATH/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController()
+ 6 SYSTEMPATH/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest()
+ 7 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH/Commands/Server/rewrite.php(47): require_once('/var/www/html/faculdade/Projetos/project-delta/public/index.php')
+CRITICAL - 2023-11-12 05:20:22 --> Could not move file "phpIYDwc5" to "/var/www/html/faculdade/Projetos/project-delta/writable/uploads//var/www/html/faculdade/Projetos/project-delta/writable/images/". Reason: 
+in SYSTEMPATH/HTTP/Files/UploadedFile.php on line 158.
+ 1 SYSTEMPATH/HTTP/Files/UploadedFile.php(158): CodeIgniter\HTTP\Exceptions\HTTPException::forMoveFailed()
+ 2 SYSTEMPATH/HTTP/Files/UploadedFile.php(359): CodeIgniter\HTTP\Files\UploadedFile->move()
+ 3 APPPATH/Controllers/Photos.php(39): CodeIgniter\HTTP\Files\UploadedFile->store()
+ 4 SYSTEMPATH/CodeIgniter.php(942): App\Controllers\Photos->create()
+ 5 SYSTEMPATH/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController()
+ 6 SYSTEMPATH/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest()
+ 7 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH/Commands/Server/rewrite.php(47): require_once('/var/www/html/faculdade/Projetos/project-delta/public/index.php')
+CRITICAL - 2023-11-12 05:25:14 --> unlink(/var/www/html/faculdade/Projetos/project-delta/writable/images/student/harry.jpg): No such file or directory
+in APPPATH/Controllers/Photos.php on line 35.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 APPPATH/Controllers/Photos.php(35): unlink()
+ 3 SYSTEMPATH/CodeIgniter.php(942): App\Controllers\Photos->create()
+ 4 SYSTEMPATH/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController()
+ 5 SYSTEMPATH/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest()
+ 6 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+ 7 SYSTEMPATH/Commands/Server/rewrite.php(47): require_once('/var/www/html/faculdade/Projetos/project-delta/public/index.php')
+CRITICAL - 2023-11-12 05:25:32 --> unlink(/var/www/html/faculdade/Projetos/project-delta/writable/images/student/harry.jpg): No such file or directory
+in APPPATH/Controllers/Photos.php on line 35.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 APPPATH/Controllers/Photos.php(35): unlink()
+ 3 SYSTEMPATH/CodeIgniter.php(942): App\Controllers\Photos->create()
+ 4 SYSTEMPATH/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController()
+ 5 SYSTEMPATH/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest()
+ 6 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+ 7 SYSTEMPATH/Commands/Server/rewrite.php(47): require_once('/var/www/html/faculdade/Projetos/project-delta/public/index.php')
+CRITICAL - 2023-11-12 05:37:59 --> unlink(/var/www/html/faculdade/Projetos/project-delta/writable/images/student/harry.jpg): No such file or directory
+in APPPATH/Controllers/Photos.php on line 35.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 APPPATH/Controllers/Photos.php(35): unlink()
+ 3 SYSTEMPATH/CodeIgniter.php(942): App\Controllers\Photos->create()
+ 4 SYSTEMPATH/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController()
+ 5 SYSTEMPATH/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest()
+ 6 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+ 7 SYSTEMPATH/Commands/Server/rewrite.php(47): require_once('/var/www/html/faculdade/Projetos/project-delta/public/index.php')
+CRITICAL - 2023-11-12 05:44:16 --> unlink(/var/www/html/faculdade/Projetos/project-delta/writable/images/student/harry.jpg): No such file or directory
+in APPPATH/Controllers/Photos.php on line 37.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 APPPATH/Controllers/Photos.php(37): unlink()
+ 3 SYSTEMPATH/CodeIgniter.php(942): App\Controllers\Photos->create()
+ 4 SYSTEMPATH/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController()
+ 5 SYSTEMPATH/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest()
+ 6 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+ 7 SYSTEMPATH/Commands/Server/rewrite.php(47): require_once('/var/www/html/faculdade/Projetos/project-delta/public/index.php')
+CRITICAL - 2023-11-12 05:48:20 --> Undefined variable $student
+in APPPATH/Controllers/Photos.php on line 18.
+ 1 APPPATH/Controllers/Photos.php(18): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 SYSTEMPATH/CodeIgniter.php(942): App\Controllers\Photos->index()
+ 3 SYSTEMPATH/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController()
+ 4 SYSTEMPATH/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest()
+ 5 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH/Commands/Server/rewrite.php(47): require_once('/var/www/html/faculdade/Projetos/project-delta/public/index.php')
+CRITICAL - 2023-11-12 05:48:55 --> unlink(/var/www/html/faculdade/Projetos/project-delta/writable/images/student/harry.png): No such file or directory
+in APPPATH/Controllers/Photos.php on line 18.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 APPPATH/Controllers/Photos.php(18): unlink()
+ 3 SYSTEMPATH/CodeIgniter.php(942): App\Controllers\Photos->index()
+ 4 SYSTEMPATH/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController()
+ 5 SYSTEMPATH/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest()
+ 6 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+ 7 SYSTEMPATH/Commands/Server/rewrite.php(47): require_once('/var/www/html/faculdade/Projetos/project-delta/public/index.php')
+CRITICAL - 2023-11-12 05:52:55 --> unlink(/var/www/html/faculdade/Projetos/project-delta/writable/images/student/harry.jpg): No such file or directory
+in APPPATH/Controllers/Photos.php on line 42.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 APPPATH/Controllers/Photos.php(42): unlink()
+ 3 SYSTEMPATH/CodeIgniter.php(942): App\Controllers\Photos->create()
+ 4 SYSTEMPATH/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController()
+ 5 SYSTEMPATH/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest()
+ 6 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+ 7 SYSTEMPATH/Commands/Server/rewrite.php(47): require_once('/var/www/html/faculdade/Projetos/project-delta/public/index.php')
+CRITICAL - 2023-11-12 06:01:42 --> Undefined constant "App\Controllers\WRITTABLE"
+in APPPATH/Controllers/Photos.php on line 18.
+ 1 SYSTEMPATH/CodeIgniter.php(942): App\Controllers\Photos->index()
+ 2 SYSTEMPATH/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController()
+ 3 SYSTEMPATH/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest()
+ 4 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH/Commands/Server/rewrite.php(47): require_once('/var/www/html/faculdade/Projetos/project-delta/public/index.php')
+CRITICAL - 2023-11-12 06:02:15 --> Undefined constant "App\Controllers\WRITABLE"
+in APPPATH/Controllers/Photos.php on line 18.
+ 1 SYSTEMPATH/CodeIgniter.php(942): App\Controllers\Photos->index()
+ 2 SYSTEMPATH/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController()
+ 3 SYSTEMPATH/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest()
+ 4 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH/Commands/Server/rewrite.php(47): require_once('/var/www/html/faculdade/Projetos/project-delta/public/index.php')
+CRITICAL - 2023-11-12 06:02:38 --> Undefined constant "App\Controllers\WRITABLE"
+in APPPATH/Controllers/Photos.php on line 18.
+ 1 SYSTEMPATH/CodeIgniter.php(942): App\Controllers\Photos->index()
+ 2 SYSTEMPATH/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController()
+ 3 SYSTEMPATH/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest()
+ 4 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH/Commands/Server/rewrite.php(47): require_once('/var/www/html/faculdade/Projetos/project-delta/public/index.php')
+CRITICAL - 2023-11-12 06:02:40 --> Undefined constant "App\Controllers\WRITABLE"
+in APPPATH/Controllers/Photos.php on line 18.
+ 1 SYSTEMPATH/CodeIgniter.php(942): App\Controllers\Photos->index()
+ 2 SYSTEMPATH/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController()
+ 3 SYSTEMPATH/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest()
+ 4 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH/Commands/Server/rewrite.php(47): require_once('/var/www/html/faculdade/Projetos/project-delta/public/index.php')
+CRITICAL - 2023-11-12 06:02:45 --> Undefined constant "App\Controllers\WRITABLE"
+in APPPATH/Controllers/Photos.php on line 18.
+ 1 SYSTEMPATH/CodeIgniter.php(942): App\Controllers\Photos->index()
+ 2 SYSTEMPATH/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController()
+ 3 SYSTEMPATH/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest()
+ 4 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH/Commands/Server/rewrite.php(47): require_once('/var/www/html/faculdade/Projetos/project-delta/public/index.php')
+CRITICAL - 2023-11-12 06:03:08 --> Undefined constant "App\Controllers\WRITABLE"
+in APPPATH/Controllers/Photos.php on line 18.
+ 1 SYSTEMPATH/CodeIgniter.php(942): App\Controllers\Photos->index()
+ 2 SYSTEMPATH/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController()
+ 3 SYSTEMPATH/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest()
+ 4 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH/Commands/Server/rewrite.php(47): require_once('/var/www/html/faculdade/Projetos/project-delta/public/index.php')
+CRITICAL - 2023-11-12 06:05:07 --> Call to undefined function App\Controllers\Wbase_url()
+in APPPATH/Controllers/Photos.php on line 42.
+ 1 SYSTEMPATH/CodeIgniter.php(942): App\Controllers\Photos->create()
+ 2 SYSTEMPATH/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController()
+ 3 SYSTEMPATH/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest()
+ 4 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH/Commands/Server/rewrite.php(47): require_once('/var/www/html/faculdade/Projetos/project-delta/public/index.php')
+CRITICAL - 2023-11-12 06:05:20 --> unlink(): http does not allow unlinking
+in APPPATH/Controllers/Photos.php on line 42.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 APPPATH/Controllers/Photos.php(42): unlink()
+ 3 SYSTEMPATH/CodeIgniter.php(942): App\Controllers\Photos->create()
+ 4 SYSTEMPATH/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController()
+ 5 SYSTEMPATH/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest()
+ 6 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+ 7 SYSTEMPATH/Commands/Server/rewrite.php(47): require_once('/var/www/html/faculdade/Projetos/project-delta/public/index.php')
+CRITICAL - 2023-11-12 06:07:12 --> unlink(): http does not allow unlinking
+in APPPATH/Controllers/Photos.php on line 42.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 APPPATH/Controllers/Photos.php(42): unlink()
+ 3 SYSTEMPATH/CodeIgniter.php(942): App\Controllers\Photos->create()
+ 4 SYSTEMPATH/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController()
+ 5 SYSTEMPATH/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest()
+ 6 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+ 7 SYSTEMPATH/Commands/Server/rewrite.php(47): require_once('/var/www/html/faculdade/Projetos/project-delta/public/index.php')
+CRITICAL - 2023-11-12 06:10:26 --> syntax error, unexpected single-quoted string "images/student/", expecting ")"
+in APPPATH/Controllers/Photos.php on line 45.
+ 1 SYSTEMPATH/Autoloader/Autoloader.php(291): CodeIgniter\Autoloader\Autoloader->includeFile()
+ 2 SYSTEMPATH/Autoloader/Autoloader.php(269): CodeIgniter\Autoloader\Autoloader->loadInNamespace()
+ 3 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass()
+ 4 SYSTEMPATH/CodeIgniter.php(900): class_exists()
+ 5 SYSTEMPATH/CodeIgniter.php(489): CodeIgniter\CodeIgniter->startController()
+ 6 SYSTEMPATH/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest()
+ 7 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH/Commands/Server/rewrite.php(47): require_once('/var/www/html/faculdade/Projetos/project-delta/public/index.php')
+CRITICAL - 2023-11-12 06:10:50 --> syntax error, unexpected single-quoted string "images/student/", expecting ")"
+in APPPATH/Controllers/Photos.php on line 45.
+ 1 SYSTEMPATH/Autoloader/Autoloader.php(291): CodeIgniter\Autoloader\Autoloader->includeFile()
+ 2 SYSTEMPATH/Autoloader/Autoloader.php(269): CodeIgniter\Autoloader\Autoloader->loadInNamespace()
+ 3 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass()
+ 4 SYSTEMPATH/CodeIgniter.php(900): class_exists()
+ 5 SYSTEMPATH/CodeIgniter.php(489): CodeIgniter\CodeIgniter->startController()
+ 6 SYSTEMPATH/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest()
+ 7 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH/Commands/Server/rewrite.php(47): require_once('/var/www/html/faculdade/Projetos/project-delta/public/index.php')
+CRITICAL - 2023-11-12 06:13:19 --> syntax error, unexpected token "return"
+in APPPATH/Controllers/Photos.php on line 19.
+ 1 SYSTEMPATH/Autoloader/Autoloader.php(291): CodeIgniter\Autoloader\Autoloader->includeFile()
+ 2 SYSTEMPATH/Autoloader/Autoloader.php(269): CodeIgniter\Autoloader\Autoloader->loadInNamespace()
+ 3 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass()
+ 4 SYSTEMPATH/CodeIgniter.php(900): class_exists()
+ 5 SYSTEMPATH/CodeIgniter.php(489): CodeIgniter\CodeIgniter->startController()
+ 6 SYSTEMPATH/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest()
+ 7 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH/Commands/Server/rewrite.php(47): require_once('/var/www/html/faculdade/Projetos/project-delta/public/index.php')
+CRITICAL - 2023-11-12 06:13:50 --> syntax error, unexpected token ";", expecting ")"
+in APPPATH/Controllers/Photos.php on line 18.
+ 1 SYSTEMPATH/Autoloader/Autoloader.php(291): CodeIgniter\Autoloader\Autoloader->includeFile()
+ 2 SYSTEMPATH/Autoloader/Autoloader.php(269): CodeIgniter\Autoloader\Autoloader->loadInNamespace()
+ 3 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass()
+ 4 SYSTEMPATH/CodeIgniter.php(900): class_exists()
+ 5 SYSTEMPATH/CodeIgniter.php(489): CodeIgniter\CodeIgniter->startController()
+ 6 SYSTEMPATH/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest()
+ 7 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH/Commands/Server/rewrite.php(47): require_once('/var/www/html/faculdade/Projetos/project-delta/public/index.php')
+CRITICAL - 2023-11-12 06:15:07 --> unlink(): http does not allow unlinking
+in APPPATH/Controllers/Photos.php on line 44.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 APPPATH/Controllers/Photos.php(44): unlink()
+ 3 SYSTEMPATH/CodeIgniter.php(942): App\Controllers\Photos->create()
+ 4 SYSTEMPATH/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController()
+ 5 SYSTEMPATH/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest()
+ 6 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+ 7 SYSTEMPATH/Commands/Server/rewrite.php(47): require_once('/var/www/html/faculdade/Projetos/project-delta/public/index.php')
+CRITICAL - 2023-11-12 06:20:26 --> Could not move file "phpbFKrH6" to "/var/www/html/faculdade/Projetos/project-delta/writable/uploads//var/www/html/faculdade/Projetos/project-delta/writable/images/". Reason: 
+in SYSTEMPATH/HTTP/Files/UploadedFile.php on line 158.
+ 1 SYSTEMPATH/HTTP/Files/UploadedFile.php(158): CodeIgniter\HTTP\Exceptions\HTTPException::forMoveFailed()
+ 2 SYSTEMPATH/HTTP/Files/UploadedFile.php(359): CodeIgniter\HTTP\Files\UploadedFile->move()
+ 3 APPPATH/Controllers/Photos.php(54): CodeIgniter\HTTP\Files\UploadedFile->store()
+ 4 SYSTEMPATH/CodeIgniter.php(942): App\Controllers\Photos->create()
+ 5 SYSTEMPATH/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController()
+ 6 SYSTEMPATH/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest()
+ 7 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH/Commands/Server/rewrite.php(47): require_once('/var/www/html/faculdade/Projetos/project-delta/public/index.php')
+CRITICAL - 2023-11-12 06:21:11 --> Could not move file "phpNwBlx6" to "/var/www/html/faculdade/Projetos/project-delta/writable/uploads//var/www/html/faculdade/Projetos/project-delta/writable/images/". Reason: 
+in SYSTEMPATH/HTTP/Files/UploadedFile.php on line 158.
+ 1 SYSTEMPATH/HTTP/Files/UploadedFile.php(158): CodeIgniter\HTTP\Exceptions\HTTPException::forMoveFailed()
+ 2 SYSTEMPATH/HTTP/Files/UploadedFile.php(359): CodeIgniter\HTTP\Files\UploadedFile->move()
+ 3 APPPATH/Controllers/Photos.php(46): CodeIgniter\HTTP\Files\UploadedFile->store()
+ 4 SYSTEMPATH/CodeIgniter.php(942): App\Controllers\Photos->create()
+ 5 SYSTEMPATH/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController()
+ 6 SYSTEMPATH/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest()
+ 7 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH/Commands/Server/rewrite.php(47): require_once('/var/www/html/faculdade/Projetos/project-delta/public/index.php')
+CRITICAL - 2023-11-12 06:21:42 --> Could not move file "php7S9Me8" to "/var/www/html/faculdade/Projetos/project-delta/writable/uploads//var/www/html/faculdade/Projetos/project-delta/writable/images/". Reason: 
+in SYSTEMPATH/HTTP/Files/UploadedFile.php on line 158.
+ 1 SYSTEMPATH/HTTP/Files/UploadedFile.php(158): CodeIgniter\HTTP\Exceptions\HTTPException::forMoveFailed()
+ 2 SYSTEMPATH/HTTP/Files/UploadedFile.php(359): CodeIgniter\HTTP\Files\UploadedFile->move()
+ 3 APPPATH/Controllers/Photos.php(46): CodeIgniter\HTTP\Files\UploadedFile->store()
+ 4 SYSTEMPATH/CodeIgniter.php(942): App\Controllers\Photos->create()
+ 5 SYSTEMPATH/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController()
+ 6 SYSTEMPATH/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest()
+ 7 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH/Commands/Server/rewrite.php(47): require_once('/var/www/html/faculdade/Projetos/project-delta/public/index.php')
+CRITICAL - 2023-11-12 06:22:18 --> Undefined variable $message
+in APPPATH/Controllers/Photos.php on line 55.
+ 1 APPPATH/Controllers/Photos.php(55): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 SYSTEMPATH/CodeIgniter.php(942): App\Controllers\Photos->create()
+ 3 SYSTEMPATH/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController()
+ 4 SYSTEMPATH/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest()
+ 5 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH/Commands/Server/rewrite.php(47): require_once('/var/www/html/faculdade/Projetos/project-delta/public/index.php')
+CRITICAL - 2023-11-12 06:23:00 --> Cannot use try without catch or finally
+in APPPATH/Controllers/Photos.php on line 44.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+CRITICAL - 2023-11-12 06:23:33 --> unlink(public/images/harry.jpg): No such file or directory
+in APPPATH/Controllers/Photos.php on line 41.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 APPPATH/Controllers/Photos.php(41): unlink()
+ 3 SYSTEMPATH/CodeIgniter.php(942): App\Controllers\Photos->create()
+ 4 SYSTEMPATH/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController()
+ 5 SYSTEMPATH/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest()
+ 6 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+ 7 SYSTEMPATH/Commands/Server/rewrite.php(47): require_once('/var/www/html/faculdade/Projetos/project-delta/public/index.php')
+CRITICAL - 2023-11-12 06:24:28 --> unlink(public/images/harry.jpg): No such file or directory
+in APPPATH/Controllers/Photos.php on line 41.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 APPPATH/Controllers/Photos.php(41): unlink()
+ 3 SYSTEMPATH/CodeIgniter.php(942): App\Controllers\Photos->create()
+ 4 SYSTEMPATH/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController()
+ 5 SYSTEMPATH/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest()
+ 6 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+ 7 SYSTEMPATH/Commands/Server/rewrite.php(47): require_once('/var/www/html/faculdade/Projetos/project-delta/public/index.php')
+CRITICAL - 2023-11-12 06:24:58 --> unlink(public/images/harry.jpg): No such file or directory
+in APPPATH/Controllers/Photos.php on line 41.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 APPPATH/Controllers/Photos.php(41): unlink()
+ 3 SYSTEMPATH/CodeIgniter.php(942): App\Controllers\Photos->create()
+ 4 SYSTEMPATH/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController()
+ 5 SYSTEMPATH/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest()
+ 6 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+ 7 SYSTEMPATH/Commands/Server/rewrite.php(47): require_once('/var/www/html/faculdade/Projetos/project-delta/public/index.php')
+CRITICAL - 2023-11-12 06:44:33 --> Undefined property: App\Controllers\Photos::$upload
+in APPPATH/Controllers/Photos.php on line 50.
+ 1 APPPATH/Controllers/Photos.php(50): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 SYSTEMPATH/CodeIgniter.php(942): App\Controllers\Photos->create()
+ 3 SYSTEMPATH/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController()
+ 4 SYSTEMPATH/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest()
+ 5 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH/Commands/Server/rewrite.php(47): require_once('/var/www/html/faculdade/Projetos/project-delta/public/index.php')
+CRITICAL - 2023-11-12 11:52:30 --> syntax error, unexpected token "/"
+in APPPATH/Controllers/Photos.php on line 18.
+ 1 SYSTEMPATH/Autoloader/Autoloader.php(291): CodeIgniter\Autoloader\Autoloader->includeFile()
+ 2 SYSTEMPATH/Autoloader/Autoloader.php(269): CodeIgniter\Autoloader\Autoloader->loadInNamespace()
+ 3 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass()
+ 4 SYSTEMPATH/CodeIgniter.php(900): class_exists()
+ 5 SYSTEMPATH/CodeIgniter.php(489): CodeIgniter\CodeIgniter->startController()
+ 6 SYSTEMPATH/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest()
+ 7 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH/Commands/Server/rewrite.php(47): require_once('/var/www/html/faculdade/Projetos/project-delta/public/index.php')
+CRITICAL - 2023-11-12 12:12:02 --> unlink(): http does not allow unlinking
+in APPPATH/Controllers/Photos.php on line 45.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 APPPATH/Controllers/Photos.php(45): unlink()
+ 3 SYSTEMPATH/CodeIgniter.php(942): App\Controllers\Photos->create()
+ 4 SYSTEMPATH/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController()
+ 5 SYSTEMPATH/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest()
+ 6 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+ 7 SYSTEMPATH/Commands/Server/rewrite.php(47): require_once('/var/www/html/faculdade/Projetos/project-delta/public/index.php')
+CRITICAL - 2023-11-12 12:14:56 --> Call to undefined function App\Controllers\force_download()
+in APPPATH/Controllers/Photos.php on line 18.
+ 1 SYSTEMPATH/CodeIgniter.php(942): App\Controllers\Photos->index()
+ 2 SYSTEMPATH/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController()
+ 3 SYSTEMPATH/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest()
+ 4 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH/Commands/Server/rewrite.php(47): require_once('/var/www/html/faculdade/Projetos/project-delta/public/index.php')
+CRITICAL - 2023-11-12 12:15:19 --> Undefined property: App\Controllers\Photos::$load
+in APPPATH/Controllers/Photos.php on line 18.
+ 1 APPPATH/Controllers/Photos.php(18): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 SYSTEMPATH/CodeIgniter.php(942): App\Controllers\Photos->index()
+ 3 SYSTEMPATH/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController()
+ 4 SYSTEMPATH/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest()
+ 5 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH/Commands/Server/rewrite.php(47): require_once('/var/www/html/faculdade/Projetos/project-delta/public/index.php')
+CRITICAL - 2023-11-12 12:15:44 --> Undefined property: App\Controllers\Photos::$load
+in APPPATH/Controllers/Photos.php on line 18.
+ 1 APPPATH/Controllers/Photos.php(18): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 SYSTEMPATH/CodeIgniter.php(942): App\Controllers\Photos->index()
+ 3 SYSTEMPATH/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController()
+ 4 SYSTEMPATH/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest()
+ 5 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH/Commands/Server/rewrite.php(47): require_once('/var/www/html/faculdade/Projetos/project-delta/public/index.php')
+CRITICAL - 2023-11-12 12:15:54 --> Call to undefined function App\Controllers\force_download()
+in APPPATH/Controllers/Photos.php on line 20.
+ 1 SYSTEMPATH/CodeIgniter.php(942): App\Controllers\Photos->index()
+ 2 SYSTEMPATH/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController()
+ 3 SYSTEMPATH/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest()
+ 4 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH/Commands/Server/rewrite.php(47): require_once('/var/www/html/faculdade/Projetos/project-delta/public/index.php')
+CRITICAL - 2023-11-12 12:16:13 --> Call to undefined function App\Controllers\force_download()
+in APPPATH/Controllers/Photos.php on line 20.
+ 1 SYSTEMPATH/CodeIgniter.php(942): App\Controllers\Photos->index()
+ 2 SYSTEMPATH/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController()
+ 3 SYSTEMPATH/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest()
+ 4 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH/Commands/Server/rewrite.php(47): require_once('/var/www/html/faculdade/Projetos/project-delta/public/index.php')
+CRITICAL - 2023-11-12 12:23:08 --> Call to undefined function App\Controllers\img()
+in APPPATH/Controllers/Photos.php on line 19.
+ 1 SYSTEMPATH/CodeIgniter.php(942): App\Controllers\Photos->index()
+ 2 SYSTEMPATH/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController()
+ 3 SYSTEMPATH/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest()
+ 4 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH/Commands/Server/rewrite.php(47): require_once('/var/www/html/faculdade/Projetos/project-delta/public/index.php')
+CRITICAL - 2023-11-12 12:26:44 --> Call to undefined function App\Controllers\img()
+in APPPATH/Controllers/Photos.php on line 19.
+ 1 SYSTEMPATH/CodeIgniter.php(942): App\Controllers\Photos->index()
+ 2 SYSTEMPATH/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController()
+ 3 SYSTEMPATH/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest()
+ 4 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH/Commands/Server/rewrite.php(47): require_once('/var/www/html/faculdade/Projetos/project-delta/public/index.php')
+CRITICAL - 2023-11-12 12:26:52 --> Call to undefined function App\Controllers\img()
+in APPPATH/Controllers/Photos.php on line 19.
+ 1 SYSTEMPATH/CodeIgniter.php(942): App\Controllers\Photos->index()
+ 2 SYSTEMPATH/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController()
+ 3 SYSTEMPATH/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest()
+ 4 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH/Commands/Server/rewrite.php(47): require_once('/var/www/html/faculdade/Projetos/project-delta/public/index.php')
+CRITICAL - 2023-11-12 12:29:43 --> unlink(/var/www/html/faculdade/Projetos/project-delta/writable/uploads//var/www/html/faculdade/Projetos/project-delta/writable/images/harry.jpg): Is a directory
+in APPPATH/Controllers/Photos.php on line 47.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 APPPATH/Controllers/Photos.php(47): unlink()
+ 3 SYSTEMPATH/CodeIgniter.php(942): App\Controllers\Photos->create()
+ 4 SYSTEMPATH/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController()
+ 5 SYSTEMPATH/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest()
+ 6 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+ 7 SYSTEMPATH/Commands/Server/rewrite.php(47): require_once('/var/www/html/faculdade/Projetos/project-delta/public/index.php')
+CRITICAL - 2023-11-12 12:40:10 --> Call to undefined function App\Controllers\img()
+in APPPATH/Controllers/Photos.php on line 23.
+ 1 SYSTEMPATH/CodeIgniter.php(942): App\Controllers\Photos->show()
+ 2 SYSTEMPATH/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController()
+ 3 SYSTEMPATH/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest()
+ 4 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH/Commands/Server/rewrite.php(47): require_once('/var/www/html/faculdade/Projetos/project-delta/public/index.php')
+CRITICAL - 2023-11-12 12:42:06 --> syntax error, unexpected token "try"
+in APPPATH/Controllers/Photos.php on line 19.
+ 1 SYSTEMPATH/Autoloader/Autoloader.php(291): CodeIgniter\Autoloader\Autoloader->includeFile()
+ 2 SYSTEMPATH/Autoloader/Autoloader.php(269): CodeIgniter\Autoloader\Autoloader->loadInNamespace()
+ 3 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass()
+ 4 SYSTEMPATH/CodeIgniter.php(900): class_exists()
+ 5 SYSTEMPATH/CodeIgniter.php(489): CodeIgniter\CodeIgniter->startController()
+ 6 SYSTEMPATH/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest()
+ 7 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH/Commands/Server/rewrite.php(47): require_once('/var/www/html/faculdade/Projetos/project-delta/public/index.php')
+CRITICAL - 2023-11-12 12:43:21 --> file_get_contents(/var/www/html/faculdade/Projetos/project-delta/writable/uploads/images/harry2.jpg): Failed to open stream: No such file or directory
+in APPPATH/Controllers/Photos.php on line 29.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 APPPATH/Controllers/Photos.php(29): file_get_contents()
+ 3 SYSTEMPATH/CodeIgniter.php(942): App\Controllers\Photos->show()
+ 4 SYSTEMPATH/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController()
+ 5 SYSTEMPATH/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest()
+ 6 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+ 7 SYSTEMPATH/Commands/Server/rewrite.php(47): require_once('/var/www/html/faculdade/Projetos/project-delta/public/index.php')
+CRITICAL - 2023-11-12 12:43:55 --> file_get_contents(/var/www/html/faculdade/Projetos/project-delta/writable/uploads/images/{}): Failed to open stream: No such file or directory
+in APPPATH/Controllers/Photos.php on line 29.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 APPPATH/Controllers/Photos.php(29): file_get_contents()
+ 3 SYSTEMPATH/CodeIgniter.php(942): App\Controllers\Photos->show()
+ 4 SYSTEMPATH/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController()
+ 5 SYSTEMPATH/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest()
+ 6 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+ 7 SYSTEMPATH/Commands/Server/rewrite.php(47): require_once('/var/www/html/faculdade/Projetos/project-delta/public/index.php')
