@@ -1,6 +1,6 @@
 
 # Instalação
-Após baixar ou clonar repositório é necessário seguir algumas para funcionamento da School API:<br><br>
+Após baixar ou clonar repositório é necessário seguir alguns passos para o funcionamento da School API:<br><br>
 
 1º Passo: Rodar o comando <b>composer install --no-dev</b>.<br>
 2º Passo: Rodar o comando <b>composer update</b>.<br>
